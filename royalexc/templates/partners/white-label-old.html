@@ -1,0 +1,59 @@
+{% extends 'about-us/base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}White Label{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Partners{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}White Label{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-50">
+            <div class="col-md-12">
+                <p>{% blocktrans %}Create your own business with zero risk! Promote our company under your own brand and receive our full technical and marketing support for both yourself and your clients. As a White Label partner of {{ COMPANY_NAME }} you will have the chance to use our full turnkey solution as a forex broker, leaving you with the task of marketing your website. No financial or operational skills needed – simply place your own brand over {{ COMPANY_NAME }} and start driving traffic to your website.{% endblocktrans %}</p>
+
+            </div>
+        </div>
+        <div class="row margin-50">
+            <div class="col-md-4 col-sm-12">
+                <h2>{% blocktrans %}Take advantage of your client base and convert your portfolio into {{ COMPANY_NAME }} clients{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Using a simple and efficient affiliate program with an extensive list of marketing tools and robust technologies, you are able to boost your client acquisition in no time. Benefit from having a personal partners manager who can support and assist you with any queries you may have.{% endblocktrans %}</p>
+            </div>
+            <div class="col-md-4">
+                <h2>{% blocktrans %}Client Services{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Our multilingual support team is fully dedicated to provide all the necessary assistance you may require for your clients, including detailed sales reporting and market analysis reports.{% endblocktrans %}</p>
+            </div>
+            <div class="col-md-4">
+                <h2>{% blocktrans %}Affiliate Services{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Our collection of affiliate tools and services allows you to improve your website traffic, increase your leads conversions and reach your estimated targets. You are also able to collaborate with your own personal affiliate manager who is fully devoted to be in contact with you via email, chat or phone on a regular daily basis.{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row margin-bottom-70">
+            <h2>{% blocktrans %}Get started today by registering for a White Label solution{% endblocktrans %}</h2>
+            <button>{% blocktrans %}Get Started{% endblocktrans %}</button>
+        </div>
+    </div>
+    {% endblock %}
+</body>

@@ -1,0 +1,2774 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-18 13:29+0200\n"
+"PO-Revision-Date: 2017-05-31 18:08+0200\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: royalexc/templates/about-us/aboutcompany.html:12
+#: royalexc/templates/about-us/aboutcompany.html:25 royalexc/templates/about-us/faq.html:12
+#: royalexc/templates/about-us/faq.html:25 royalexc/templates/head.html:135
+#: royalexc/templates/head.html:303
+msgid "About Company"
+msgstr "Giới thiệu về Công ty"
+
+#: royalexc/templates/about-us/aboutcompany.html:23 royalexc/templates/about-us/advantages.html:23
+#: royalexc/templates/about-us/careers.html:23 royalexc/templates/about-us/contactus.html:23
+#: royalexc/templates/about-us/documents.html:23 royalexc/templates/about-us/faq.html:23
+#: royalexc/templates/about-us/funds.html:23 royalexc/templates/about-us/regulations.html:23
+#: royalexc/templates/accounts/compare-accounts.html:22
+#: royalexc/templates/accounts/demo-account.html:23
+#: royalexc/templates/accounts/funding-options.html:23
+#: royalexc/templates/accounts/islamic-account.html:23
+#: royalexc/templates/accounts/live-trading-account.html:23 royalexc/templates/index.html:23
+#: royalexc/templates/partners/introducing-brokers.html:23
+#: royalexc/templates/partners/marketing-tools.html:23
+#: royalexc/templates/partners/white-label-new.html:23
+#: royalexc/templates/partners/white-label-old.html:23
+#: royalexc/templates/platforms/metatrader-4-android.html:23
+#: royalexc/templates/platforms/metatrader-4-desktop.html:23
+#: royalexc/templates/platforms/metatrader-4-iphone.html:23
+#: royalexc/templates/platforms/metatrader-4-overview.html:23
+#: royalexc/templates/platforms/webtrader.html:23
+#: royalexc/templates/tools-education/academy.html:23
+#: royalexc/templates/tools-education/economic-calendar.html:23
+#: royalexc/templates/tools-education/holiday-calendar.html:23
+#: royalexc/templates/tools-education/market-hours.html:23
+#: royalexc/templates/tools-education/rollover.html:23
+#: royalexc/templates/tools-education/trading-central.html:23
+#: royalexc/templates/trading/cfds-on-bonds.html:23
+#: royalexc/templates/trading/cfds-on-shares.html:23
+#: royalexc/templates/trading/commodities-trading.html:23
+#: royalexc/templates/trading/equity-indices.html:23
+#: royalexc/templates/trading/forex-currencies.html:23
+msgid "Home"
+msgstr "Trang chủ"
+
+#: royalexc/templates/about-us/aboutcompany.html:24 royalexc/templates/about-us/advantages.html:24
+#: royalexc/templates/about-us/careers.html:24 royalexc/templates/about-us/contactus.html:24
+#: royalexc/templates/about-us/documents.html:24 royalexc/templates/about-us/faq.html:24
+#: royalexc/templates/about-us/funds.html:24 royalexc/templates/about-us/regulations.html:24
+msgid "About Us"
+msgstr "Giới thiệu về chúng tôi"
+
+#: royalexc/templates/about-us/aboutcompany.html:35
+msgid "About"
+msgstr "Giới thiệu"
+
+#: royalexc/templates/about-us/aboutcompany.html:40
+#, python-format
+msgid "%(COMPANY_NAME)s is a Fully Regulated Forex Broker"
+msgstr "%(COMPANY_NAME)s là một nhà môi giới ngoại hối được quản lý hoàn toàn"
+
+#: royalexc/templates/about-us/aboutcompany.html:41
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is an international broker providing online forex trading to clients in 100+ "
+"countries around the world."
+msgstr ""
+"%(COMPANY_NAME)s là một nhà môi giới quốc tế, cung cấp giao dịch ngoại hối trực tuyến cho khách "
+"hàng tại hơn 100 quốc gia trên khắp thế giới."
+
+#: royalexc/templates/about-us/aboutcompany.html:42
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is a fully licensed and regulated broker offering unrivalled trading "
+"conditions for advanced and novice traders. From its headquarters in Belize, %(COMPANY_NAME)s "
+"has pioneered a trading network which boasts secure trading technology, prestigious "
+"partnerships and transparent support. All of these factors make %(COMPANY_NAME)s the broker of "
+"choice for traders around the world."
+msgstr ""
+"%(COMPANY_NAME)s là một nhà môi giới được cấp phép và quản lý hoàn toàn, cung cấp các điều kiện "
+"giao dịch không có đối thủ cạnh tranh cho người giao dịch cao cấp và cả những người chưa có "
+"kinh nghiệm. Từ trụ sở tại Belize, %(COMPANY_NAME)s đã đi tiên phong như một mạng giao dịch "
+"thúc đẩy công nghệ giao dịch bảo mật, quan hệ đối tác uy tín và hỗ trợ minh bạch. Tất cả những "
+"yếu tố này khiến %(COMPANY_NAME)s trở thành lựa chọn phù hợp dành cho người giao dịch trên khắp "
+"thế giới."
+
+#: royalexc/templates/about-us/aboutcompany.html:43
+msgid "Mission & Vision"
+msgstr "Tầm nhìn & sứ mệnh"
+
+#: royalexc/templates/about-us/aboutcompany.html:44
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is managed by the industry's top professionals who possess many combined years "
+"of experience in the financial sector. These individuals understand that exceptional trading "
+"conditions combined with fast execution and unrivalled customer service are the characteristics "
+"of a winning and trust-worthy broker. %(COMPANY_NAME)s continually strives to improve its "
+"services, increase its trading offering and satisfy even more international traders."
+msgstr ""
+"%(COMPANY_NAME)s hoạt động dưới sự quản lý của các chuyên gia hàng đầu trong ngành, là những "
+"người có nhiều năm kinh nghiệm trong lĩnh vực tài chính. Những cá nhân này hiểu được rằng các "
+"điều kiện giao dịch đặc biệt tốt kết hợp với việc triển khai nhanh và dịch vụ khách hàng tốt "
+"nhất là đặc điểm của một nhà môi giới thành công và đáng tin cậy. %(COMPANY_NAME)s không ngừng "
+"nỗ lực cải thiện các dịch vụ, tăng cường dịch vụ giao dịch và thỏa mãn ngày càng nhiều người "
+"giao dịch quốc tế."
+
+#: royalexc/templates/about-us/aboutcompany.html:45
+#, python-format
+msgid "About %(COMPANY_NAME)s"
+msgstr "Giới thiệu về %(COMPANY_NAME)s"
+
+#: royalexc/templates/about-us/aboutcompany.html:46
+#, python-format
+msgid "Learn more about the services offered by %(COMPANY_NAME)s to its international traders."
+msgstr "Tìm hiểu thêm về các dịch vụ %(COMPANY_NAME)s cung cấp cho người giao dịch quốc tế."
+
+#: royalexc/templates/about-us/aboutcompany.html:49
+msgid "FOREX REGULATION"
+msgstr "ĐIỀU TIẾT NGOẠI HỐI"
+
+#: royalexc/templates/about-us/aboutcompany.html:50
+msgid ""
+"Fully licensed and regulated by the International Financial Services Commission (IFSC) in "
+"Belize."
+msgstr "Được cấp phép và quản lý đầy đủ bởi Ủy ban dịch vụ tài chính quốc tế (IFSC) tại Belize."
+
+#: royalexc/templates/about-us/aboutcompany.html:51
+msgid "FUND SAFETY"
+msgstr "AN TOÀN VỐN"
+
+#: royalexc/templates/about-us/aboutcompany.html:52
+msgid "We keep client funds in segregated bank accounts to ensure maximum protection."
+msgstr ""
+"Chúng tôi giữ tiền của khách hàng trong những tài khoản ngân hàng khác nhau để đảm bảo mức độ "
+"bảo vệ tối đa."
+
+#: royalexc/templates/about-us/aboutcompany.html:53
+msgid "ADVANTAGES"
+msgstr "LỢI THẾ"
+
+#: royalexc/templates/about-us/aboutcompany.html:54
+#, python-format
+msgid "Discover why traders choose %(COMPANY_NAME)s for their online trading needs."
+msgstr ""
+"Tìm hiểu vì sao người giao dịch lại chọn %(COMPANY_NAME)s để đáp ứng các nhu cầu giao dịch trực "
+"tuyến của họ."
+
+#: royalexc/templates/about-us/advantages.html:12 royalexc/templates/about-us/advantages.html:25
+msgid "Advantages"
+msgstr "Lợi thế"
+
+#: royalexc/templates/about-us/advantages.html:35
+#, python-format
+msgid "Advantages of Trading Online With %(COMPANY_NAME)s"
+msgstr "Lợi thế khi giao dịch trực tuyến với %(COMPANY_NAME)s"
+
+#: royalexc/templates/about-us/advantages.html:36
+msgid ""
+"Exceptional trading conditions, high security and privacy with full transparency and real-time "
+"market quotes."
+msgstr ""
+"Các điều kiện giao dịch đặc biệt tốt, tính an ninh và riêng tư cao, hoàn toàn minh bạch và báo "
+"giá thị trường theo thời gian thực."
+
+#: royalexc/templates/about-us/advantages.html:41
+msgid "Safety"
+msgstr "An toàn"
+
+#: royalexc/templates/about-us/advantages.html:42
+#, python-format
+msgid ""
+"As a regulated broker, %(COMPANY_NAME)s is careful to provide fully monitored trading that "
+"eliminates the risk of frauduelent activity. %(COMPANY_NAME)s also takes preventative measures "
+"to ensure the safety and security of client funds."
+msgstr ""
+"Là nhà môi giới được quản lý, %(COMPANY_NAME)s rất thận trọng trong việc cung cấp giao dịch "
+"được giám sát toàn bộ, loại bỏ rủi ro có hoạt động gian lận. %(COMPANY_NAME)s cũng tiến hành "
+"các biện pháp phòng ngừa để đảm bảo sự an toàn và an ninh cho tiền của khách hàng."
+
+#: royalexc/templates/about-us/advantages.html:43
+msgid "Reliability"
+msgstr "Đáng tin cậy"
+
+#: royalexc/templates/about-us/advantages.html:44
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is managed by industry professionals who possess many combined years of "
+"experience in the financial sector."
+msgstr ""
+"%(COMPANY_NAME)s hoạt động dưới sự quản lý của các chuyên gia hàng đầu trong ngành, là những "
+"người có nhiều năm kinh nghiệm trong lĩnh vực tài chính."
+
+#: royalexc/templates/about-us/advantages.html:45
+msgid "Trading Conditions"
+msgstr "Điều kiện giao dịch"
+
+#: royalexc/templates/about-us/advantages.html:46
+#, python-format
+msgid ""
+"It is important that traders find the right account type to suit them. %(COMPANY_NAME)s offers "
+"a wide variety of trading accounts to suit all client needs."
+msgstr ""
+"Điều quan trọng là người giao dịch tìm được đúng loại tài khoản phù hợp với họ. "
+"%(COMPANY_NAME)s cung cấp một loạt các tài khoản giao dịch để phù hợp với mọi nhu cầu của khách "
+"hàng."
+
+#: royalexc/templates/about-us/advantages.html:49
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s provides superior trading conditions with added flexibility and services to "
+"ensure a positive trading experience for clients:"
+msgstr ""
+"%(COMPANY_NAME)s cung cấp các điều kiện giao dịch ưu việt một cách linh hoạt hơn và các dịch vụ "
+"gia tăng để đảm bảo khách hàng có trải nghiệm giao dịch tốt:"
+
+#: royalexc/templates/about-us/advantages.html:50
+msgid "0 Requotes, 0 Rejections"
+msgstr "0 Báo giá lại, 0 Từ chối"
+
+#: royalexc/templates/about-us/advantages.html:51
+msgid "Negative balance protection"
+msgstr "Bảo vệ số dư không bị âm"
+
+#: royalexc/templates/about-us/advantages.html:52
+msgid "1:500 flexible leverage"
+msgstr "Đòn bẩy tài chính linh hoạt 1:500"
+
+#: royalexc/templates/about-us/advantages.html:53
+msgid "Scalping, hedging and news trading allowed"
+msgstr "Giao dịch chớp nhoáng, tự bảo hiểm và được phép giao dịch theo tin tức"
+
+#: royalexc/templates/about-us/careers.html:12 royalexc/templates/about-us/careers.html:25
+#: royalexc/templates/head.html:146 royalexc/templates/head.html:308
+msgid "Careers"
+msgstr "Việc làm"
+
+#: royalexc/templates/about-us/careers.html:35
+#, python-format
+msgid "%(COMPANY_NAME)s CAREERS"
+msgstr "VIỆC LÀM TẠI %(COMPANY_NAME)s"
+
+#: royalexc/templates/about-us/careers.html:36
+msgid "Start or continue your Forex career with us!"
+msgstr "Hãy bắt đầu hoặc tiếp tục phát triển sự nghiệp giao dịch ngoại hối của bạn với chúng tôi!"
+
+#: royalexc/templates/about-us/careers.html:37
+#, python-format
+msgid ""
+"If none of the current vacancies fit your experience, we’d be more than happy to receive your "
+"CV / resume. Simply email it to %(COMPANY_EMAIL)s along with a cover letter, letting us know "
+"why we should consider your application."
+msgstr ""
+"Nếu hiện tại không có vị trí trống nào phù hợp với kinh nghiệm của bạn, chúng tôi vẫn rất hân "
+"hạnh khi nhận được CV/lý lịch nghề nghiệp của bạn. Chỉ cần gửi qua email tới %(COMPANY_EMAIL)s "
+"kèm theo thư xin việc, hãy cho chúng tôi biết lý do vì sao chúng tôi nên cân nhắc hồ sơ của bạn."
+
+#: royalexc/templates/about-us/contactus.html:12
+msgid "Contact us"
+msgstr "Liên hệ với chúng tôi"
+
+#: royalexc/templates/about-us/contactus.html:25 royalexc/templates/head.html:147
+#: royalexc/templates/head.html:309
+msgid "Contact Us"
+msgstr "Liên hệ với chúng tôi"
+
+#: royalexc/templates/about-us/contactus.html:37
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s we work around the clock to make sure our clients are happy. Our offices "
+"and help desks are open 24/5 to assist you with any questions you may have. "
+msgstr ""
+"Tại %(COMPANY_NAME)s, chúng tôi làm việc cả ngày để đảm bảo khách hàng hài lòng. Văn phòng và "
+"bộ phận hỗ trợ của chúng tôi mở cửa 24 giờ/ngày, 5 ngày/tuần để hỗ trợ nếu quý vị có bất kỳ câu "
+"hỏi nào."
+
+#: royalexc/templates/about-us/contactus.html:38
+msgid ""
+"Did you check our FAQ section? If your question is not there, please send us an email and allow "
+"24 hours for a response. If your question is urgent, please speak directly with one of our "
+"advisors."
+msgstr ""
+"Quý vị đã xem mục Câu hỏi thường gặp (FAQ) của chúng tôi chưa? Nếu câu hỏi của quý vị chưa được "
+"giải đáp tại đó, hãy gửi email cho chúng tôi, chúng tôi sẽ trả lời trong vòng 24 giờ. Nếu quý "
+"vị có câu hỏi gấp, vui lòng trao đổi trực tiếp với một trong các cố vấn của chúng tôi."
+
+#: royalexc/templates/about-us/contactus.html:77
+msgid "The Office"
+msgstr "Văn phòng"
+
+#: royalexc/templates/about-us/contactus.html:87
+msgid "Working Hours"
+msgstr "Giờ làm việc"
+
+#: royalexc/templates/about-us/contactus.html:89
+msgid "Monday-Friday:"
+msgstr "Thứ 2 - thứ 6:"
+
+#: royalexc/templates/about-us/contactus.html:89
+msgid "07:00-16:00 GMT"
+msgstr "07:00-16:00 GMT"
+
+#: royalexc/templates/about-us/contactus.html:90
+msgid "Saturday:"
+msgstr "Thứ 7:"
+
+#: royalexc/templates/about-us/contactus.html:90 royalexc/templates/about-us/contactus.html:91
+msgid "Closed"
+msgstr "Nghỉ"
+
+#: royalexc/templates/about-us/contactus.html:91
+msgid "Sunday:"
+msgstr "Chủ nhật:"
+
+#: royalexc/templates/about-us/documents.html:12 royalexc/templates/about-us/documents.html:25
+#: royalexc/templates/about-us/documents.html:35 royalexc/templates/head.html:142
+#: royalexc/templates/head.html:307
+msgid "Legal Documents"
+msgstr "Tài liệu pháp lý"
+
+#: royalexc/templates/about-us/documents.html:39
+msgid "Terms & Conditions of Use"
+msgstr "Điều khoản & điều kiện sử dụng"
+
+#: royalexc/templates/about-us/documents.html:43
+msgid "Privacy Policy"
+msgstr "Chính sách bảo mật"
+
+#: royalexc/templates/about-us/documents.html:47
+msgid "Conflicts of Interest Policy"
+msgstr "Chính sách về xung đột lợi ích"
+
+#: royalexc/templates/about-us/documents.html:53
+msgid "Order Execution Policy"
+msgstr "Chính sách thực hiện lệnh"
+
+#: royalexc/templates/about-us/documents.html:59
+msgid "Risk Disclaimer"
+msgstr "Khước từ trách nhiệm đối với rủi ro"
+
+#: royalexc/templates/about-us/faq.html:35
+msgid "Question: How do I know my funds are safe?"
+msgstr "Câu hỏi: Làm thế nào để tôi biết tiền của mình được an toàn?"
+
+#: royalexc/templates/about-us/faq.html:37
+msgid "Please refer to the section regarding Fund Safety"
+msgstr "Vui lòng xem mục về An toàn vốn"
+
+#: royalexc/templates/about-us/faq.html:39
+msgid "What is Forex?"
+msgstr "Forex là gì?"
+
+#: royalexc/templates/about-us/faq.html:41
+#, python-format
+msgid ""
+"Forex or FX is an abbreviation of Foreign Exchange. It describes the process of exchanging one "
+"currency for another and includes hundreds of global currencies. The purpose of forex trading "
+"is to make gains and offset risks in order to profit from the  movement of certain currency "
+"pairs. With %(COMPANY_NAME)s, forex trading can take place via your desktop, mobile or tablet. "
+"The Forex (FX) market is a global over the counter (OTC) market. This means that virtually "
+"anyone can participate if they have an internet connection and an electronic device.  The forex "
+"market has become the largest financial market with a daily turnover in excess of $5 trillion! "
+"In addition to currencies, participants can choose to trade metals, commodities, indices, "
+"stocks and bonds."
+msgstr ""
+"Forex hay FX là từ viết tắt của Ngoại hối. Forex trình bày quy trình trao đổi một đồng tiền với "
+"đồng tiền khác và có thể áp dụng cho hàng trăm loại tiền tệ khác nhau trên toàn cầu. Mục đích "
+"của giao dịch ngoại hối là kiếm lời và bù trừ rủi ro để hưởng lợi do biến động của một số cặp "
+"tiền tệ. Với %(COMPANY_NAME)s, có thể tiến hành giao dịch ngoại hối qua máy tính để bàn, di "
+"động hay máy tính bảng của quý vị. Thị trường Forex (FX) là một thị trường phi tập trung (OTC) "
+"toàn cầu. Điều này có nghĩa là gần như bất kỳ ai cũng có thể tham gia nếu có kết nối internet "
+"và thiết bị điện tử. Thị trường ngoại hối đã trở thành thị trường tài chính lớn nhất với doanh "
+"thu mỗi ngày trên 5 nghìn tỷ đô la. Ngoài tiền tệ, những người tham gia có thể chọn giao dịch "
+"kim loại, hàng hóa, chỉ số, cổ phiếu và trái phiếu."
+
+#: royalexc/templates/about-us/faq.html:43
+#, python-format
+msgid "What does %(COMPANY_NAME)s provide?"
+msgstr "%(COMPANY_NAME)s cung cấp những dịch vụ nào?"
+
+#: royalexc/templates/about-us/faq.html:45
+#, python-format
+msgid ""
+"With %(COMPANY_NAME)s, clients can access the financial markets by using the Metatrader (MT4) "
+"platform. On the MT4 platform, traders can choose from a variety of assets including CFD's, "
+"Stock Indices, Metals and many more."
+msgstr ""
+"Với %(COMPANY_NAME)s, khách hàng có thể truy cập các thị trường tài chính bằng cách sử dụng sàn "
+"giao dịch Metatrader (MT4). Trên sàn giao dịch MT4, người giao dịch có thể chọn từ một loạt các "
+"tài sản bao gồm CFD, Chỉ số cổ phiếu, Kim loại và nhiều tài sản khác."
+
+#: royalexc/templates/about-us/faq.html:47
+#, python-format
+msgid "When Can I Trade Forex with %(COMPANY_NAME)s"
+msgstr "Tôi có thể giao dịch ngoại hối với %(COMPANY_NAME)s vào thời điểm nào?"
+
+#: royalexc/templates/about-us/faq.html:49
+msgid ""
+"You can trade forex from 21:00 GMT on Sunday until 22:00 GMT on Friday. These times take you "
+"from the Sydney open to the New York close. For a full list of trading hours, please visit our "
+"Market Hours page."
+msgstr ""
+"Quý vị có thể giao dịch ngoại hối từ 21:00 GMT chủ nhật cho đến 22:00 GMT thứ 6. Đây là thời "
+"điểm từ khi mở cửa tại Sydney và đóng cửa tại New York. Để xem danh sách giờ giao dịch, vui "
+"lòng truy cập trang Giờ thị trường hoạt động của chúng tôi."
+
+#: royalexc/templates/about-us/faq.html:51
+#, python-format
+msgid "Where is %(COMPANY_NAME)s licensed and registered?"
+msgstr "%(COMPANY_NAME)s được cấp phép và đăng ký ở đâu?"
+
+#: royalexc/templates/about-us/faq.html:53
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is licensed and registered by the International Financial Services Commission "
+"(IFSC) in Belize with license number IFSC/60/260/TS/17. License and Registration page."
+msgstr ""
+"%(COMPANY_NAME)s được cấp phép và đăng ký bởi Ủy ban dịch vụ tài chính quốc tế (IFSC) tại "
+"Belize, với số giấy phép là IFSC/60/260/TS/17. Trang Cấp phép và đăng ký."
+
+#: royalexc/templates/about-us/faq.html:55
+#, python-format
+msgid "How do I open an account with %(COMPANY_NAME)s?"
+msgstr "Làm thế nào để tôi mở tài khoản tại %(COMPANY_NAME)s?"
+
+#: royalexc/templates/about-us/faq.html:57
+#, python-format
+msgid ""
+"To open an account with %(COMPANY_NAME)s, simply click here to complete a few brief forms. You "
+"will become a valued member of the %(COMPANY_NAME)s family in minutes!"
+msgstr ""
+"Để mở tài khoản tại %(COMPANY_NAME)s, chỉ cần nhấp vào đây để điền một số biểu mẫu ngắn. Quý vị "
+"sẽ trở thành một thành viên đáng quý của gia đình %(COMPANY_NAME)s trong vòng vài phút!"
+
+#: royalexc/templates/about-us/faq.html:59
+msgid "Which documents should I provide?"
+msgstr "Tôi nên cung cấp những tài liệu nào?"
+
+#: royalexc/templates/about-us/faq.html:61
+#, python-format
+msgid ""
+"As part of our regulatory requirements and in an effort to protect clients, %(COMPANY_NAME)s "
+"requires you to submit two documents. These are your proof of ID and your proof of residency (e."
+"g a passport and utility bill). In accordance with regulatory requirements, %(COMPANY_NAME)s "
+"may from time to time request further documentation however clients can be assured of a high "
+"level of data protection at all times."
+msgstr ""
+"Nằm trong các yêu cầu quản lý của chúng tôi và để nỗ lực bảo vệ khách hàng, %(COMPANY_NAME)s "
+"yêu cầu quý vị gửi hai tài liệu. Đó là bằng chứng chứng minh nhân thân và tình trạng cư trú của "
+"quý vị (ví dụ: hộ chiếu và hóa đơn điện, nước...). Theo các yêu cầu quản lý, tùy từng thời điểm "
+"%(COMPANY_NAME)s có thể yêu cầu thêm tài liệu. Tuy nhiên, khách hàng có thể yên tâm vì dữ liệu "
+"luôn được bảo vệ cao độ."
+
+#: royalexc/templates/about-us/faq.html:63
+#, python-format
+msgid "Does %(COMPANY_NAME)s provide any assistance with my trading?"
+msgstr "%(COMPANY_NAME)s có hỗ trợ tôi giao dịch không?"
+
+#: royalexc/templates/about-us/faq.html:65
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s we assist our traders wherever possible by providing useful tools such as "
+"an economic calendar. Our support team is also available 24/5 for help and assistance. We do "
+"not, however, provide investment advice to clients or execute trades on their behalf."
+msgstr ""
+"Tại %(COMPANY_NAME)s, chúng tôi hỗ trợ người giao dịch bất cứ khi nào có thể bằng cách cung cấp "
+"các công cụ hữu ích, ví dụ như lịch kinh tế. Nhóm hỗ trợ của chúng tôi cũng sẵn sàng giúp đỡ và "
+"hỗ trợ 24 giờ/ngày, 5 ngày/tuần. Tuy nhiên, chúng tôi không tư vấn đầu tư cho khách hàng hoặc "
+"thay mặt họ thực hiện giao dịch."
+
+#: royalexc/templates/about-us/faq.html:67
+#, python-format
+msgid "What Leverage am I allowed at %(COMPANY_NAME)s?"
+msgstr "Tôi được phép sử dụng đòn bẩy tài chính nào tại %(COMPANY_NAME)s?"
+
+#: royalexc/templates/about-us/faq.html:69
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s traders are granted up to 1:500 leverage based on the account type they "
+"have selected. Flexible leverage is granted to larger accounts receiving bespoke solutions. "
+"Please check your eligibility with your Account Manager."
+msgstr ""
+"Tại %(COMPANY_NAME)s, người giao dịch được phép sử dụng đòn bẩy tài chính tối đa 1:500, trên cơ "
+"sở loại tài khoản họ đã chọn. Đòn bẩy linh hoạt được cấp cho các tài khoản lớn hơn, nhận được "
+"các giải pháp đặt riêng. Vui lòng kiểm tra điều kiện của quý vị với Nhân viên quản lý tài khoản "
+"của quý vị."
+
+#: royalexc/templates/about-us/faq.html:71
+#, python-format
+msgid "How can I deposit/withdraw funds to my %(COMPANY_NAME)s Account?"
+msgstr "Làm thế nào để tôi gửi tiền vào/rút tiền ra Tài khoản %(COMPANY_NAME)s của mình?"
+
+#: royalexc/templates/about-us/faq.html:73
+msgid "See a full list of deposit and withdrawal methods  here"
+msgstr "Xem danh sách đầy đủ các phương thức gửi và rút tiền tại đây"
+
+#: royalexc/templates/about-us/faq.html:75
+#, python-format
+msgid "Which currencies can I use to deposit to my %(COMPANY_NAME)s account?"
+msgstr "Tôi có thể sử dụng đồng tiền nào để gửi tiền vào tài khoản %(COMPANY_NAME)s của mình?"
+
+#: royalexc/templates/about-us/faq.html:77
+#, python-format
+msgid "%(COMPANY_NAME)s accepts the following base currencies: GBP, USD, EUR, JPY"
+msgstr "%(COMPANY_NAME)s chấp nhận các đồng tiền cơ bản sau đây: GBP, USD, EUR, JPY"
+
+#: royalexc/templates/about-us/faq.html:79
+msgid "How long does the deposit process take?"
+msgstr "Quy trình gửi tiền kéo dài bao lâu?"
+
+#: royalexc/templates/about-us/faq.html:81
+msgid "Please click here"
+msgstr "Vui lòng nhấp vào đây"
+
+#: royalexc/templates/about-us/faq.html:83
+msgid "What is a spread?"
+msgstr "Chênh lệch giữa giá mua và giá bán là gì?"
+
+#: royalexc/templates/about-us/faq.html:85
+msgid ""
+"A spread is the difference between the Bid and Ask price in forex trading. It represents the "
+"price of an asset that you, as a client, can Sell and Buy for."
+msgstr ""
+"Chênh lệch giữa giá mua và giá bán là chênh lệch giữa giá Mua và giá Bán trong giao dịch ngoại "
+"hối. Chênh lệch này thể hiện giá của tài sản mà quý vị, với tư cách là khách hàng, có thể Bán "
+"và Mua."
+
+#: royalexc/templates/about-us/faq.html:87
+msgid "What is a short/long position?"
+msgstr "Vị thế ngắn/dài là gì?"
+
+#: royalexc/templates/about-us/faq.html:89
+msgid ""
+"When you sell a currency pair you have taken a short position on that pair. When you buy a "
+"currency pair you have taken a long position on that pair."
+msgstr ""
+"Khi quý vị bán một cặp tiền tệ thì quý vị có vị thế ngắn đối với cặp tiền tệ đó. Khi quý vị mua "
+"một cặp tiền tệ thì quý vị có vị thế dài đối với cặp tiền tệ đó."
+
+#: royalexc/templates/about-us/faq.html:91
+msgid "Can I open more than one live/demo account?"
+msgstr "Tôi có thể mở nhiều tài khoản demo/hoạt động không?"
+
+#: royalexc/templates/about-us/faq.html:93
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s you can open more than one live or demo trading account. In fact, you can "
+"open up to five live trading accounts."
+msgstr ""
+"Tại %(COMPANY_NAME)s, quý vị có thể mở nhiều tài khoản giao dịch hoạt động hoặc demo. Trên thực "
+"tế, quý vị có thể mở tối đa năm tài khoản giao dịch hoạt động."
+
+#: royalexc/templates/about-us/faq.html:95
+msgid "Can I keep my account open with no balance?"
+msgstr "Tôi có thể duy trì tài khoản mà không có số dư không?"
+
+#: royalexc/templates/about-us/faq.html:97
+#, python-format
+msgid "Yes. At %(COMPANY_NAME)s you can maintain a balance of zero for as long as you require."
+msgstr "Có thể. Tại %(COMPANY_NAME)s, quý vị có thể duy trì số dư bằng không theo ý mình."
+
+#: royalexc/templates/about-us/faq.html:99
+#, python-format
+msgid "What account types are offered by %(COMPANY_NAME)s?"
+msgstr "%(COMPANY_NAME)s cung cấp những loại tài khoản nào?"
+
+#: royalexc/templates/about-us/faq.html:101
+msgid "To see a full list of our account types, please click here"
+msgstr "Để xem danh sách đầy đủ các loại tài khoản của chúng tôi, vui lòng nhấp vào đây"
+
+#: royalexc/templates/about-us/funds.html:12 royalexc/templates/about-us/funds.html:25
+msgid "Funds"
+msgstr "Quỹ tiền tệ"
+
+#: royalexc/templates/about-us/funds.html:35
+#, python-format
+msgid "%(COMPANY_NAME)s ensures maximum security of your funds!"
+msgstr "%(COMPANY_NAME)s đảm bảo an ninh tối đa cho quỹ tiền của quý vị!"
+
+#: royalexc/templates/about-us/funds.html:36
+#, python-format
+msgid ""
+"As a financial institution %(COMPANY_NAME)s takes every preventative measure to ensure client "
+"investments are highly secure and safe under all circumstances. This level of security is "
+"achieved through the following:"
+msgstr ""
+"Là một tổ chức tài chính, %(COMPANY_NAME)s tiến hành mọi biện pháp phòng ngừa để đảm bảo các "
+"khoản đầu tư của khách hàng được bảo đảm và an toàn cao độ trong mọi tình huống. Mức độ bảo đảm "
+"này được dựa trên:"
+
+#: royalexc/templates/about-us/funds.html:41
+msgid "Segregation of client funds"
+msgstr "Tách các khoản tiền của khách hàng"
+
+#: royalexc/templates/about-us/funds.html:42
+msgid ""
+"Client funds are held in separate accounts within secure banking institutions, thereby "
+"protecting their use for any other purpose. This segregation from the company’s own accounts "
+"ensures that traders’ funds cannot be used by the company under any circumstances."
+msgstr ""
+"Tiền của khách hàng được giữ trong các tài khoản riêng biệt tại các tổ chức ngân hàng an toàn, "
+"qua đó bảo vệ không sử dụng chúng cho bất kỳ mục đích nào khác. Việc tách khỏi các tài khoản "
+"của chính công ty đảm bảo công ty không thể sử dụng tiền của người giao dịch trong mọi trường "
+"hợp."
+
+#: royalexc/templates/about-us/funds.html:45
+msgid "Full Regulation"
+msgstr "Quản lý hoàn toàn"
+
+#: royalexc/templates/about-us/funds.html:46
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is licensed by the International Financial Services Commission (“IFSC”) in "
+"Belize which means the company is monitored and has to comply to governing rules and "
+"regulations."
+msgstr ""
+"%(COMPANY_NAME)s được Ủy ban dịch vụ tài chính quốc tế (“IFSC”) tại Belize cấp phép, có nghĩa "
+"là công ty được quản lý và phải tuân thủ các quy định, quy tắc điều chỉnh."
+
+#: royalexc/templates/about-us/funds.html:51
+msgid "SSL Security with 256 Bit Encryption"
+msgstr "An ninh nhờ SSL với mã hóa 256 bit"
+
+#: royalexc/templates/about-us/funds.html:52
+msgid ""
+"Clients financial transactions are all protected by the Secure Sockets Layer (SSL), which is a "
+"security technology for establishing an encrypted link between a web server and a web browser "
+"ensuring all data passed between the web server and browser remains private."
+msgstr ""
+"Các giao dịch tài chính của khách hàng đều được bảo vệ bằng giao thức Secure Sockets Layer "
+"(SSL), là một công nghệ an ninh để tạo liên kết mã hóa giữa máy chủ web và trình duyệt web, đảm "
+"bảo toàn bộ dữ liệu chuyển giữa máy chủ web và trình duyệt đều được bảo đảm riêng tư."
+
+#: royalexc/templates/about-us/regulations.html:12 royalexc/templates/about-us/regulations.html:25
+msgid "Licence and Regulations"
+msgstr "Cấp phép và quy định"
+
+#: royalexc/templates/about-us/regulations.html:34
+msgid "Trade with a Regulated Broker"
+msgstr "Giao dịch với nhà môi giới được quản lý"
+
+#: royalexc/templates/about-us/regulations.html:35
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s LIMITED is a limited liability company dully registered and existing under the "
+"laws of Belize with registration number 130266 and licensed by the International Financial "
+"Services Commission (“IFSC”) in Belize with license number IFSC/60/260/TS/17."
+msgstr ""
+"%(COMPANY_NAME)s LIMITED là một công ty TNHH, được đăng ký và hoạt động hợp pháp theo luật "
+"Belize với số đăng ký 130266, được Ủy ban dịch vụ tài chính quốc tế (“IFSC”) cấp phép tại "
+"Belize với số giấy phép IFSC/60/260/TS/17."
+
+#: royalexc/templates/accounts/compare-accounts.html:11
+#: royalexc/templates/accounts/compare-accounts.html:24
+msgid "Compare Accounts"
+msgstr "So sánh tài khoản"
+
+#: royalexc/templates/accounts/compare-accounts.html:23
+#: royalexc/templates/accounts/demo-account.html:24
+#: royalexc/templates/accounts/islamic-account.html:24
+#: royalexc/templates/accounts/live-trading-account.html:24
+msgid "Accounts"
+msgstr "Tài khoản"
+
+#: royalexc/templates/accounts/compare-accounts.html:34
+msgid "Select the account that suits your trading!"
+msgstr "Chọn tài khoản phù hợp với giao dịch của quý vị!"
+
+#: royalexc/templates/accounts/compare-accounts.html:35
+#, python-format
+msgid ""
+"To give you the best trading experience, %(COMPANY_NAME)s offers flexible account types to "
+"match your trading needs."
+msgstr ""
+"Để đem lại cho quý vị trải nghiệm giao dịch tốt nhất, %(COMPANY_NAME)s cung cấp các loại tài "
+"khoản linh hoạt để khớp với nhu cầu giao dịch của quý vị."
+
+#: royalexc/templates/accounts/compare-accounts.html:42
+msgid "Standard"
+msgstr "Chênh lệch giữa giá mua và giá bán"
+
+#: royalexc/templates/accounts/compare-accounts.html:43
+#: royalexc/templates/accounts/compare-accounts.html:118
+#: royalexc/templates/accounts/compare-accounts.html:191
+msgid "Spreads"
+msgstr "tiêu chuẩn"
+
+#: royalexc/templates/accounts/compare-accounts.html:44 royalexc/templates/index.html:146
+msgid "from 2.3 pips"
+msgstr "từ 2,3 pip"
+
+#: royalexc/templates/accounts/compare-accounts.html:47
+#: royalexc/templates/accounts/compare-accounts.html:122
+#: royalexc/templates/accounts/compare-accounts.html:195
+msgid "Minimum Deposit"
+msgstr "Tiền gửi tối thiểu"
+
+#: royalexc/templates/accounts/compare-accounts.html:48
+msgid "50 USD *"
+msgstr "50 USD *"
+
+#: royalexc/templates/accounts/compare-accounts.html:51
+#: royalexc/templates/accounts/compare-accounts.html:126
+#: royalexc/templates/accounts/compare-accounts.html:199
+msgid "Leverage"
+msgstr "Đòn bẩy tài chính"
+
+#: royalexc/templates/accounts/compare-accounts.html:52
+#: royalexc/templates/accounts/compare-accounts.html:127
+#: royalexc/templates/accounts/compare-accounts.html:200
+msgid "1:1-1:500"
+msgstr "1:1-1:500"
+
+#: royalexc/templates/accounts/compare-accounts.html:55
+#: royalexc/templates/accounts/compare-accounts.html:130
+#: royalexc/templates/accounts/compare-accounts.html:203
+msgid "Order Execution"
+msgstr "Thực hiện lệnh"
+
+#: royalexc/templates/accounts/compare-accounts.html:56
+#: royalexc/templates/accounts/compare-accounts.html:131
+#: royalexc/templates/accounts/compare-accounts.html:204 royalexc/templates/index.html:148
+#: royalexc/templates/index.html:171 royalexc/templates/index.html:194
+msgid "Market Execution"
+msgstr "Thực hiện lệnh thị trường"
+
+#: royalexc/templates/accounts/compare-accounts.html:59
+#: royalexc/templates/tools-education/rollover.html:40
+msgid "Instrument"
+msgstr "Công cụ"
+
+#: royalexc/templates/accounts/compare-accounts.html:60
+#: royalexc/templates/accounts/compare-accounts.html:135
+#: royalexc/templates/accounts/compare-accounts.html:208
+msgid "FX, Commodities, Equity Indices"
+msgstr "FX, hàng hóa, chỉ số vốn chủ sở hữu"
+
+#: royalexc/templates/accounts/compare-accounts.html:63
+#: royalexc/templates/accounts/compare-accounts.html:138
+#: royalexc/templates/accounts/compare-accounts.html:211
+msgid "Deposit Currencies"
+msgstr "Tiền gửi"
+
+#: royalexc/templates/accounts/compare-accounts.html:67
+#: royalexc/templates/accounts/compare-accounts.html:142
+#: royalexc/templates/accounts/compare-accounts.html:215
+msgid "Swap Type"
+msgstr "Loại hoán đổi"
+
+#: royalexc/templates/accounts/compare-accounts.html:68
+#: royalexc/templates/accounts/compare-accounts.html:143
+#: royalexc/templates/accounts/compare-accounts.html:216
+msgid "Points ***"
+msgstr "Điểm ***"
+
+#: royalexc/templates/accounts/compare-accounts.html:71
+#: royalexc/templates/accounts/compare-accounts.html:146
+#: royalexc/templates/accounts/compare-accounts.html:219
+msgid "Minimum Order Size"
+msgstr "Giá trị tối thiểu/lệnh"
+
+#: royalexc/templates/accounts/compare-accounts.html:72
+#: royalexc/templates/accounts/compare-accounts.html:147
+#: royalexc/templates/accounts/compare-accounts.html:220
+msgid "0.01 ****"
+msgstr "0,01 ****"
+
+#: royalexc/templates/accounts/compare-accounts.html:75
+#: royalexc/templates/accounts/compare-accounts.html:150
+#: royalexc/templates/accounts/compare-accounts.html:223
+msgid "Maximum Order Size"
+msgstr "Giá trị tối đa/lệnh"
+
+#: royalexc/templates/accounts/compare-accounts.html:76
+#: royalexc/templates/accounts/compare-accounts.html:151
+#: royalexc/templates/accounts/compare-accounts.html:224
+msgid "20"
+msgstr "20"
+
+#: royalexc/templates/accounts/compare-accounts.html:79
+#: royalexc/templates/accounts/compare-accounts.html:154
+#: royalexc/templates/accounts/compare-accounts.html:227
+msgid "Stop Out"
+msgstr "Ngưng tất toán"
+
+#: royalexc/templates/accounts/compare-accounts.html:80
+#: royalexc/templates/accounts/compare-accounts.html:155
+#: royalexc/templates/accounts/compare-accounts.html:228
+#, python-format
+msgid "50%%"
+msgstr "50%%"
+
+#: royalexc/templates/accounts/compare-accounts.html:83
+#: royalexc/templates/accounts/compare-accounts.html:158
+#: royalexc/templates/accounts/compare-accounts.html:231
+msgid "Margin Call"
+msgstr "Yêu cầu bảo chứng"
+
+#: royalexc/templates/accounts/compare-accounts.html:84
+#: royalexc/templates/accounts/compare-accounts.html:159
+#: royalexc/templates/accounts/compare-accounts.html:232
+#, python-format
+msgid "100%%"
+msgstr "100%%"
+
+#: royalexc/templates/accounts/compare-accounts.html:87
+#: royalexc/templates/accounts/compare-accounts.html:162
+#: royalexc/templates/accounts/compare-accounts.html:235
+msgid "Trading Platform"
+msgstr "Sàn giao dịch"
+
+#: royalexc/templates/accounts/compare-accounts.html:88
+#: royalexc/templates/accounts/compare-accounts.html:163
+#: royalexc/templates/accounts/compare-accounts.html:236 royalexc/templates/head.html:200
+#: royalexc/templates/head.html:345 royalexc/templates/index.html:151
+#: royalexc/templates/index.html:174 royalexc/templates/index.html:197
+msgid "MetaTrader 4"
+msgstr "MetaTrader 4"
+
+#: royalexc/templates/accounts/compare-accounts.html:91
+#: royalexc/templates/accounts/compare-accounts.html:166
+#: royalexc/templates/accounts/compare-accounts.html:239 royalexc/templates/index.html:152
+msgid "Mobile Trading"
+msgstr "Giao dịch qua điện thoại di động"
+
+#: royalexc/templates/accounts/compare-accounts.html:95
+#: royalexc/templates/accounts/compare-accounts.html:170
+#: royalexc/templates/accounts/compare-accounts.html:243 royalexc/templates/index.html:175
+#: royalexc/templates/index.html:198
+msgid "Telephone Trading"
+msgstr "Giao dịch qua điện thoại"
+
+#: royalexc/templates/accounts/compare-accounts.html:99
+#: royalexc/templates/accounts/compare-accounts.html:174
+#: royalexc/templates/accounts/compare-accounts.html:247
+msgid "Fifth Decimal"
+msgstr "Số thập phân thứ năm"
+
+#: royalexc/templates/accounts/compare-accounts.html:103
+msgid "24/5 Dealing Support"
+msgstr "Hỗ trợ giao dịch 24 giờ/ngày, 5 ngày/tuần"
+
+#: royalexc/templates/accounts/compare-accounts.html:107
+#: royalexc/templates/accounts/compare-accounts.html:182
+#: royalexc/templates/accounts/compare-accounts.html:255
+msgid "Commission"
+msgstr "Hoa hồng"
+
+#: royalexc/templates/accounts/compare-accounts.html:117
+msgid "Platinum"
+msgstr "Bạch kim"
+
+#: royalexc/templates/accounts/compare-accounts.html:119 royalexc/templates/index.html:192
+msgid "from 0 pips"
+msgstr "từ 0 pip"
+
+#: royalexc/templates/accounts/compare-accounts.html:123
+msgid "20,000 USD *"
+msgstr "20.000 USD *"
+
+#: royalexc/templates/accounts/compare-accounts.html:134
+#: royalexc/templates/accounts/compare-accounts.html:207
+msgid "Instruments"
+msgstr "Công cụ"
+
+#: royalexc/templates/accounts/compare-accounts.html:139
+#: royalexc/templates/accounts/compare-accounts.html:212
+msgid "USD, EUR, GBP, JPY, RUB, PLN CZK"
+msgstr "USD, EUR, GBP, JPY, RUB, PLN CZK"
+
+#: royalexc/templates/accounts/compare-accounts.html:178
+#: royalexc/templates/accounts/compare-accounts.html:251
+msgid "24h Dealing Support"
+msgstr "Hỗ trợ giao dịch 24 giờ/ngày"
+
+#: royalexc/templates/accounts/compare-accounts.html:190
+msgid "VIP"
+msgstr "VIP"
+
+#: royalexc/templates/accounts/compare-accounts.html:192 royalexc/templates/index.html:169
+msgid "from 1.9 pips"
+msgstr "từ 1,9 pip"
+
+#: royalexc/templates/accounts/compare-accounts.html:196
+msgid "5,000 USD *"
+msgstr "5.000 USD *"
+
+#: royalexc/templates/accounts/compare-accounts.html:263
+msgid ""
+"* Minimum deposits based on USD. Deposits in other currencies must be deposited based on the "
+"equivalent US dollar amounts based on the exchange rate."
+msgstr ""
+"* Tiền gửi tối thiểu trên cơ sở USD. Tiền gửi bằng các đồng tiền khác phải được gửi trên cơ sở "
+"số tiền bằng đô la Mỹ tương đương theo tỷ giá hối đoái."
+
+#: royalexc/templates/accounts/compare-accounts.html:264
+msgid ""
+"**Account balances over USD 10,000 have a maximum leverage of 1:200. Account balances over USD "
+"100,000 maximum leverate at 1:100."
+msgstr ""
+"Số dư tài khoản trên 10.000 USD có đòn bẩy tài chính tối đa là 1:200. Số dư tài khoản trên "
+"100.000 USD có đòn bẩy tài chính tối đa là 1:100."
+
+#: royalexc/templates/accounts/compare-accounts.html:265
+msgid ""
+"***Swaps are calculated in points and subject to change, based on the difference in interest "
+"rate differential of the the overnight rate, of the two currencies."
+msgstr ""
+"***Các giao dịch hoán đổi được tính bằng điểm và có thể thay đổi, trên cơ sở chênh lệch lãi "
+"suất giữa lãi suất qua đêm của hai đồng tiền."
+
+#: royalexc/templates/accounts/compare-accounts.html:266
+msgid ""
+"****Only valid for forex pairs. For commodities and stock indices minimum order sizes please "
+"visit the trading instruments pages."
+msgstr ""
+"****Chỉ có giá trị đối với các cặp ngoại hối. Đối với giá trị tối thiểu/lệnh của hàng hóa và "
+"chỉ số cổ phiếu, vui lòng truy cập trang công cụ giao dịch."
+
+#: royalexc/templates/accounts/demo-account.html:12
+#: royalexc/templates/accounts/demo-account.html:25
+msgid "Demo Account"
+msgstr "Tài khoản Demo"
+
+#: royalexc/templates/accounts/funding-options.html:12
+#: royalexc/templates/accounts/funding-options.html:25 royalexc/templates/head.html:161
+#: royalexc/templates/head.html:318
+msgid "Funding Options"
+msgstr "Tùy chọn cấp vốn"
+
+#: royalexc/templates/accounts/funding-options.html:24
+msgid "Accoutns"
+msgstr "Tài khoản"
+
+#: royalexc/templates/accounts/funding-options.html:35
+msgid "About Funding Methods"
+msgstr "Giới thiệu về các phương thức cấp vốn"
+
+#: royalexc/templates/accounts/funding-options.html:36
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s clients can deposit through credit card from any country around the world."
+msgstr ""
+"Khách hàng của %(COMPANY_NAME)s có thể gửi tiền thông qua thẻ tín dụng từ mọi quốc gia trên "
+"toàn thế giới."
+
+#: royalexc/templates/accounts/funding-options.html:37
+msgid "Deposit with your credit card from anywhere in the world."
+msgstr "Gửi tiền bằng thẻ tín dụng từ bất kỳ nơi nào trên thế giới."
+
+#: royalexc/templates/accounts/funding-options.html:38
+msgid ""
+"Don't see a funding method that suits you? Just ask and we will see if we can accommodate your "
+"request."
+msgstr ""
+"Nếu quý vị không tìm được phương thức cấp vốn phù hợp, hãy hỏi và chúng tôi sẽ xem liệu có thể "
+"đáp ứng yêu cầu của quý vị hay không."
+
+#: royalexc/templates/accounts/funding-options.html:39
+msgid "Email us at info@royalexc.com"
+msgstr "Gửi email cho chúng tôi tới địa chỉ info@royalexc.com"
+
+#: royalexc/templates/accounts/funding-options.html:40
+msgid "DEPOSITS"
+msgstr "KÝ GỬI"
+
+#: royalexc/templates/accounts/funding-options.html:40
+msgid "Deposit of Funds"
+msgstr "Gửi tiền"
+
+#: royalexc/templates/accounts/funding-options.html:41
+msgid ""
+"To deposit please log into your Members Area and go to 'deposit' in the menu. Select your "
+"payment method and you will get step-by-step instructions. As a verified client your deposits "
+"are immediately available for trading (excluding bank transfers which may take a few more days)."
+msgstr ""
+"Để ký gửi, vui lòng đăng nhập Khu vực thành viên và chuyển đến phần 'ký gửi' trong menu. Chọn "
+"phương thức thanh toán và quý vị sẽ được hướng dẫn từng bước. Là khách hàng được xác minh, "
+"khoản ký gửi của quý vị sẽ sẵn sàng giao dịch ngay lập tức (không bao gồm các khoản chuyển "
+"khoản ngân hàng có thể mất thêm vài ngày để thực hiện)."
+
+#: royalexc/templates/accounts/funding-options.html:42
+#: royalexc/templates/accounts/funding-options.html:58
+msgid "Terms"
+msgstr "Điều khoản"
+
+#: royalexc/templates/accounts/funding-options.html:43
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s does not accept deposits from 3rd parties. Deposits must be made from bank "
+"accounts or credit cards from the same name as your trading account."
+msgstr ""
+"%(COMPANY_NAME)s không chấp nhận các khoản ký gửi từ bên thứ ba. Các khoản ký gửi phải được gửi "
+"từ tài khoản ngân hàng hoặc thẻ tín dụng có cùng tên với tài khoản giao dịch của quý vị."
+
+#: royalexc/templates/accounts/funding-options.html:44
+msgid "How to Deposit"
+msgstr "Cách ký gửi"
+
+#: royalexc/templates/accounts/funding-options.html:45
+msgid "* Log into your Members Area and select Deposit Funds."
+msgstr "* Đăng nhập vào Khu vực thành viên và chọn Gửi tiền."
+
+#: royalexc/templates/accounts/funding-options.html:46
+msgid "* Choose your payment method."
+msgstr "* Chọn phương thức thanh toán của quý vị."
+
+#: royalexc/templates/accounts/funding-options.html:47
+msgid "* Enter the amount to deposit and click Continue"
+msgstr "* Nhập số tiền ký gửi và nhấp vào Tiếp tục"
+
+#: royalexc/templates/accounts/funding-options.html:48
+msgid "* Fill in your credit card details or your eWallet account details and click Continue."
+msgstr ""
+"* Điền thông tin chi tiết thẻ tín dụng hoặc tài khoản ví điện tử eWallet của quý vị và nhấp vào "
+"Tiếp tục."
+
+#: royalexc/templates/accounts/funding-options.html:49
+msgid "* A confirmation message will appear on your screen if your payment is successful."
+msgstr "* Thông báo xác nhận sẽ xuất hiện trên màn hình nếu thanh toán thành công."
+
+#: royalexc/templates/accounts/funding-options.html:50
+msgid "WITHDRAWAL"
+msgstr "RÚT TIỀN"
+
+#: royalexc/templates/accounts/funding-options.html:51
+msgid ""
+"To withdraw please ensure you've uploaded your required documents to verify your account. "
+"Upload your documents directly in the Members Area. Once your account is verified you may "
+"withdraw from your account."
+msgstr ""
+"Để rút tiền, vui lòng đảm bảo quý vị đã tải lên các tài liệu cần thiết để xác minh tài khoản. "
+"Tải lên tài liệu trực tiếp trong Khu vực thành viên. Sau khi tài khoản được xác minh, quý vị có "
+"thể rút tiền từ tài khoản của mình."
+
+#: royalexc/templates/accounts/funding-options.html:52
+msgid "How to withdraw"
+msgstr "Cách rút tiền"
+
+#: royalexc/templates/accounts/funding-options.html:53
+msgid "* Log into your Members Area and select Make Withdrawal."
+msgstr "* Đăng nhập vào Khu vực thành viên và chọn Rút tiền."
+
+#: royalexc/templates/accounts/funding-options.html:54
+msgid ""
+"* Choose the account to withdraw from, enter the amount and click Submit. You may only withdraw "
+"up to the free balance amount in your trading account at the time of request."
+msgstr ""
+"* Chọn tài khoản để rút tiền, nhập số tiền và nhấp vào Gửi. Quý vị chỉ có thể rút số tiền tối "
+"đa bằng số dư tự do trong tài khoản giao dịch của mình tại thời điểm yêu cầu."
+
+#: royalexc/templates/accounts/funding-options.html:55
+msgid "* Your request will be processed within one working day."
+msgstr "* Yêu cầu của quý vị sẽ được xử lý trong vòng một ngày làm việc."
+
+#: royalexc/templates/accounts/funding-options.html:56
+msgid "* The requested amount is withdrawn from your trading account."
+msgstr "* Số tiền được yêu cầu sẽ được rút từ tài khoản giao dịch của quý vị."
+
+#: royalexc/templates/accounts/funding-options.html:57
+msgid ""
+"* It may take up to 48 hours to process your withdrawal and the time needed for the funds to "
+"reach your bank account may vary depending on your preferred payment method. Read more in "
+"Payment Method Information."
+msgstr ""
+"* Có thể mất tới 48 giờ để xử lý giao dịch rút tiền của quý vị và thời gian cần thiết để chuyển "
+"số tiền đó vào tài khoản ngân hàng của quý vị có thể thay đổi, tùy thuộc vào phương thức thanh "
+"toán ưu tiên của quý vị. Đọc thêm trong phần Thông tin về phương thức thanh toán."
+
+#: royalexc/templates/accounts/funding-options.html:59
+msgid ""
+"As part of our regulatory obligation to minimise fraud and money laundering, we can only return "
+"funds back to the original source of your deposit."
+msgstr ""
+"Theo nghĩa vụ quản lý giảm thiểu gian lận và rửa tiền của chúng tôi, chúng tôi chỉ có thể trả "
+"lại tiền vào nguồn ký gửi ban đầu của quý vị."
+
+#: royalexc/templates/accounts/funding-options.html:60
+#, python-format
+msgid ""
+"Any funds withdrawn that exceede your initial deposit will be refunded to the same payment "
+"method if your provider allows. Otherwise your funds will be sent to an alternative method as "
+"approved by %(COMPANY_NAME)s.  In rare instances, %(COMPANY_NAME)s may return your funds via "
+"bank transfer."
+msgstr ""
+"Mọi khoản tiền được rút vượt quá khoản ký gửi ban đầu của quý vị sẽ được hoàn trả theo cùng "
+"phương thức thanh toán nếu nhà cung cấp của quý vị cho phép. Hoặc số tiền của quý vị sẽ được "
+"gửi theo phương thức khác được %(COMPANY_NAME)s chấp thuận. Trong một số trường hợp hãn hữu, "
+"%(COMPANY_NAME)s có thể hoàn lại số tiền của quý vị qua chuyển khoản ngân hàng."
+
+#: royalexc/templates/accounts/funding-options.html:61
+#, python-format
+msgid ""
+"Your withdrawn funds will be returned in the same currency as your original deposit. If your "
+"account currency varies from the withdrawn currency, the transferred amount will be converted "
+"at the current %(COMPANY_NAME)s exchange rate."
+msgstr ""
+"Số tiền rút của quý vị sẽ được trả lại bằng đồng tiền ký gửi ban đầu. Nếu đồng tiền tài khoản "
+"của quý vị khác với đồng tiền rút thì số tiền chuyển khoản sẽ được quy đổi theo tỷ giá hối đoái "
+"hiện hành của %(COMPANY_NAME)s."
+
+#: royalexc/templates/accounts/funding-options.html:62
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s does not charge any commissions on your withdrawals. However your payment "
+"provider may do so. See table."
+msgstr ""
+"%(COMPANY_NAME)s không tính phí hoa hồng rút tiền. Tuy nhiên, nhà cung cấp dịch vụ thanh toán "
+"của quý vị có thể tính phí. Xem bảng."
+
+#: royalexc/templates/accounts/islamic-account.html:12
+#: royalexc/templates/accounts/islamic-account.html:25 royalexc/templates/head.html:166
+#: royalexc/templates/head.html:320
+msgid "Islamic Account"
+msgstr "Tài khoản Hồi giáo"
+
+#: royalexc/templates/accounts/islamic-account.html:35
+#, python-format
+msgid "%(COMPANY_NAME)s offers Swap-free Islamic Accounts"
+msgstr "%(COMPANY_NAME)s cung cấp Tài khoản Hồi giáo hoán đổi miễn phí"
+
+#: royalexc/templates/accounts/islamic-account.html:36
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s’s Islamic account allows swap free trading in compliance with the Sharia Law, "
+"which means traders can trade on an Islamic account without being charged overnight fees. "
+"%(COMPANY_NAME)s’s Islamic account is completely swap free for as long as the account is open "
+"and is only available for traders of the Muslim religion and should only be requested on the "
+"grounds of religious belief."
+msgstr ""
+"Tài khoản Hồi giáo của %(COMPANY_NAME)s cho phép giao dịch hoán đổi miễn phí theo Luật Sharia, "
+"có nghĩa là người giao dịch có thể giao dịch trên tài khoản Hồi giáo mà không bị tính phí qua "
+"đêm. Tài khoản Hồi giáo của %(COMPANY_NAME)s hoàn toàn miễn phí hoán đổi miễn là tài khoản được "
+"mở và chỉ dành cho người giao dịch của Hồi giáo và chỉ được yêu cầu trên cơ sở tín ngưỡng tôn "
+"giáo."
+
+#: royalexc/templates/accounts/islamic-account.html:40
+msgid ""
+"To open a Muslim account please open a real account and send the Islamic Account Request Form to"
+msgstr ""
+"Để mở tài khoản Hồi giáo, vui lòng mở một tài khoản thực và gửi Mẫu yêu cầu tài khoản Hồi giáo "
+"tới"
+
+#: royalexc/templates/accounts/islamic-account.html:41
+msgid ""
+"Note: In the event that we detect any form of abuse, fraud, manipulation, cash-back arbitrage, "
+"carry trades, or other forms of deceitful or fraudulent activity in regard to any Swap-free "
+"Account of any client, we reserve the right, at any time, to revoke the Swap-free status from "
+"any and all real trading Accounts of such client that have been converted to a Swap-free "
+"trading Account; (b) to correct and recover any unaccrued Swaps and any related un-accrued "
+"interest expenses and or costs pertaining to any and all of such client’s Swap-free trading "
+"Accounts during the period for which such Accounts were converted into Swap-free trading "
+"Accounts; and/or (c), with immediate effect, to close all trading Accounts of such client with "
+"us, nullify all trades carried out in such client’s trading Accounts with us and cancel and all "
+"profits or losses garnered in such client’s trading Accounts with us."
+msgstr ""
+"Lưu ý: Trong trường hợp phát hiện bất kỳ hình thức lạm dụng, gian lận, thao túng, chuyển giá "
+"liên quan đến tiền thưởng, kinh doanh chênh lệch lãi suất hay các hình thức khác của hoạt động "
+"lừa đảo hoặc lừa gạt liên quan đến bất kỳ Tài khoản hoán đổi miễn phí của bất kỳ khách hàng "
+"nào, chúng tôi có quyền, tại bất kỳ thời điểm nào, thu hồi tư cách hoán đổi miễn phí từ bất kỳ "
+"và tất cả Tài khoản giao dịch thực của khách hàng đó đã được chuyển đổi sang Tài khoản giao "
+"dịch hoán đổi miễn phí; (b) sửa lỗi và thu hồi bất kỳ Giao dịch hoán đổi nào chưa phát sinh và "
+"bất kỳ chi phí lãi chưa phát sinh nào có liên quan và/hoặc chi phí liên quan đến bất kỳ và tất "
+"cả các Tài khoản giao dịch hoán đổi miễn phí của khách hàng đó trong suốt thời gian Tài khoản "
+"đó được chuyển đổi thành Tài khoản giao dịch hoán đổi miễn phí và/hoặc (c) có hiệu lực ngay lập "
+"tức, đóng tất cả các Tài khoản giao dịch của khách hàng đó với chúng tôi, vô hiệu hóa tất cả "
+"các giao dịch đã tiến hành trong Tài khoản giao dịch của khách hàng đó với chúng tôi, đồng thời "
+"hủy bỏ bất kỳ và tất cả lãi hay lỗ thu được trong Tài khoản giao dịch của khách hàng đó với "
+"chúng tôi."
+
+#: royalexc/templates/accounts/islamic-account.html:44
+msgid "Islamic Account Regulations"
+msgstr "Quy định về tài khoản Hồi giáo"
+
+#: royalexc/templates/accounts/islamic-account.html:45
+msgid ""
+"O Only Standard and VIP accounts can be used as Islamic accounts. Evidence of religion must be "
+"presented through the country of origin of the client through proof of identity."
+msgstr ""
+"O Chỉ có các tài khoản Tiêu chuẩn và VIP mới có thể được sử dụng như tài khoản Hồi giáo. Phải "
+"xuất trình bằng chứng tôn giáo thông qua quốc gia nguồn gốc của khách hàng dựa trên bằng chứng "
+"nhận diện."
+
+#: royalexc/templates/accounts/islamic-account.html:46
+msgid "O Islamic account holders cannot simultaneously open non-Islamic accounts."
+msgstr "O Người sở hữu tài khoản Hồi giáo không được mở đồng thời tài khoản phi Hồi giáo."
+
+#: royalexc/templates/accounts/islamic-account.html:47
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s maintains the right to limit trading if there is evidence of manipulation."
+msgstr "%(COMPANY_NAME)s có quyền giới hạn giao dịch nếu có bằng chứng về hành vi thao túng."
+
+#: royalexc/templates/accounts/live-trading-account.html:12
+#: royalexc/templates/accounts/live-trading-account.html:25
+msgid "Live Trading Account"
+msgstr "Tài khoản giao dịch hoạt động"
+
+#: royalexc/templates/fail_page.html:10
+msgid "Registration has failed"
+msgstr "Đăng ký không thành công"
+
+#: royalexc/templates/footer.html:15
+msgid ""
+"Forex products are leveraged products and trading forex therefore involves a high level of risk "
+"that may not be suitable for everyone."
+msgstr ""
+"Các sản phẩm ngoại hối là các sản phẩm đòn bẩy và do đó giao dịch ngoại hối có rủi ro cao, có "
+"thể không phù hợp với tất cả mọi người."
+
+#: royalexc/templates/footer.html:16
+#, python-format
+msgid ""
+"recommends that you ensure that you fully understand the risks involved before making any "
+"decision concerning %(COMPANY_NAME)s's products."
+msgstr ""
+"Quý vị nên chắc chắn là mình hoàn toàn hiểu về các rủi ro có liên quan trước khi đưa ra bất kỳ "
+"quyết định nào về sản phẩm của %(COMPANY_NAME)s."
+
+#: royalexc/templates/footer.html:17
+msgid "Independent advice should be sought if necessary"
+msgstr "Phải thuê tư vấn độc lập nếu cần thiết"
+
+#: royalexc/templates/footer.html:20
+#, python-format
+msgid ""
+"Limited is an International business company with registration number 130266 and is authorised "
+"and regulated by the International Financial Services Commission (IFSC) under License number "
+"IFSC/60/260/TS/17. %(COMPANY_NAME)s Limited has its registered office being located at No. 5 "
+"Cork Street, Belize City, Belize."
+msgstr ""
+"Limited là một công ty kinh doanh quốc tế, với số đăng ký 130266 và được Ủy ban dịch vụ tài "
+"chính quốc tế (IFSC) cấp phép và quản lý theo Giấy phép số IFSC/60/260/TS/17. %(COMPANY_NAME)s "
+"Limited có văn phòng đăng ký tại địa chỉ No. 5 Cork Street, Belize City, Belize."
+
+#: royalexc/templates/footer.html:21
+#, python-format
+msgid ""
+"Trading Forex and CFDs involves significant risk and can result in the loss of your invested "
+"capital. You should not invest more than you can afford to lose. Before trading, you should "
+"ensure that you fully understand the risks involved as trading leveraged products may not be "
+"suitable for all investors. Prior to trading, please take into account your level of "
+"experience, your investment objectives and seek independent financial advice if necessary. It "
+"is the responsibility of the Client to ascertain whether he/ she is permitted to use the "
+"services of %(COMPANY_NAME)s Limited based on the legal requirements in his/her country of "
+"residence."
+msgstr ""
+"Giao dịch Forex và CFD có rủi ro đáng kể và có thể dẫn đến hậu quả mất vốn đã đầu tư. Quý vị "
+"không nên đầu tư nhiều hơn khả năng có thể chịu tổn thất. Trước khi giao dịch, quý vị cần chắc "
+"chắn hoàn toàn hiểu được các rủi ro có liên quan vì giao dịch sản phẩm đòn bẩy có thể không phù "
+"hợp cho mọi nhà đầu tư. Trước khi giao dịch, hãy tính đến kinh nghiệm, mục đích đầu tư của quý "
+"vị và thuê dịch vụ tư vấn tài chính độc lập nếu cần. Khách hàng có trách nhiệm khẳng định liệu "
+"mình có được phép sử dụng các dịch vụ của %(COMPANY_NAME)s Limited hay không, dựa trên các yêu "
+"cầu pháp lý tại quốc gia nơi cư trú của mình."
+
+#: royalexc/templates/footer.html:22
+msgid "Limited does not provide services to residents of the USA, Belize, Japan and Canada."
+msgstr ""
+"Limited không cung cấp dịch vụ cho người sinh sống tại Hoa Kỳ, Belize, Nhật Bản và Canada."
+
+#: royalexc/templates/head.html:54
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: royalexc/templates/head.html:75
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: royalexc/templates/head.html:79
+msgid "Partnership"
+msgstr "Quan hệ đối tác"
+
+#: royalexc/templates/head.html:130 royalexc/templates/head.html:299
+msgid "HOME"
+msgstr "TRANG CHỦ"
+
+#: royalexc/templates/head.html:131 royalexc/templates/head.html:300
+msgid "ABOUT US"
+msgstr "GIỚI THIỆU VỀ CHÚNG TÔI"
+
+#: royalexc/templates/head.html:136 royalexc/templates/head.html:304
+msgid "Trading Advantages"
+msgstr "Lợi thế giao dịch"
+
+#: royalexc/templates/head.html:137 royalexc/templates/head.html:305
+msgid "Fund Security"
+msgstr "An ninh vốn"
+
+#: royalexc/templates/head.html:141 royalexc/templates/head.html:306
+msgid "Licences and Regulations"
+msgstr "Cấp phép và quy định"
+
+#: royalexc/templates/head.html:148
+msgid "Frequently Asked Questions"
+msgstr "Câu hỏi thường gặp"
+
+#: royalexc/templates/head.html:152 royalexc/templates/head.html:313
+msgid "ACCOUNTS"
+msgstr "TÀI KHOẢN"
+
+#: royalexc/templates/head.html:156 royalexc/templates/head.html:316
+msgid "Open Live Account"
+msgstr "Mở tài khoản hoạt động"
+
+#: royalexc/templates/head.html:157 royalexc/templates/head.html:317
+msgid "Open Demo Account"
+msgstr "Mở tài khoản demo"
+
+#: royalexc/templates/head.html:162 royalexc/templates/head.html:319
+msgid "Compare Account Types"
+msgstr "So sánh các loại tài khoản"
+
+#: royalexc/templates/head.html:170 royalexc/templates/head.html:324
+msgid "TRADING"
+msgstr "GIAO DỊCH"
+
+#: royalexc/templates/head.html:174 royalexc/templates/head.html:327
+#: royalexc/templates/trading/forex-currencies.html:12
+#: royalexc/templates/trading/forex-currencies.html:25
+msgid "Forex Currencies"
+msgstr "Đồng tiền ngoại hối"
+
+#: royalexc/templates/head.html:175 royalexc/templates/head.html:328
+#: royalexc/templates/trading/commodities-trading.html:12
+#: royalexc/templates/trading/commodities-trading.html:25
+msgid "Commodities Trading"
+msgstr "Giao dịch hàng hóa"
+
+#: royalexc/templates/head.html:181 royalexc/templates/head.html:331
+msgid "CDFs on Shares"
+msgstr "CDF trên cổ phần"
+
+#: royalexc/templates/head.html:182 royalexc/templates/head.html:332
+msgid "CDFs on Bonds"
+msgstr "CDF trên trái phiếu"
+
+#: royalexc/templates/head.html:189 royalexc/templates/head.html:335
+#: royalexc/templates/trading/equity-indices.html:12
+#: royalexc/templates/trading/equity-indices.html:25
+msgid "Equity Indices"
+msgstr "Chỉ số vốn chủ sở hữu"
+
+#: royalexc/templates/head.html:196 royalexc/templates/head.html:342
+msgid "PLATFORMS"
+msgstr "NỀN TẢNG"
+
+#: royalexc/templates/head.html:201 royalexc/templates/head.html:346
+#: royalexc/templates/platforms/metatrader-4-desktop.html:12
+#: royalexc/templates/platforms/metatrader-4-desktop.html:25
+msgid "MetaTrader 4 for Desktop"
+msgstr "MetaTrader 4 cho máy tính để bàn"
+
+#: royalexc/templates/head.html:207 royalexc/templates/head.html:349
+#: royalexc/templates/platforms/metatrader-4-iphone.html:12
+#: royalexc/templates/platforms/metatrader-4-iphone.html:25
+msgid "MetaTrader 4 for iPhone/iPad"
+msgstr "MetaTrader 4 cho iPhone/iPad"
+
+#: royalexc/templates/head.html:208 royalexc/templates/head.html:350
+msgid "MetaTrader 4 for Android"
+msgstr "MetaTrader 4 cho Android"
+
+#: royalexc/templates/head.html:215 royalexc/templates/head.html:354
+msgid "ROYALEXC MT4 WebTrader"
+msgstr "ROYALEXC MT4 WebTrader"
+
+#: royalexc/templates/head.html:222 royalexc/templates/head.html:361
+msgid "PARTNERS"
+msgstr "ĐỐI TÁC"
+
+#: royalexc/templates/head.html:226 royalexc/templates/head.html:364
+#: royalexc/templates/partners/introducing-brokers.html:12
+#: royalexc/templates/partners/introducing-brokers.html:25
+msgid "Introducing Brokers"
+msgstr "Giới thiệu về Nhà môi giới"
+
+#: royalexc/templates/head.html:232 royalexc/templates/head.html:366
+#: royalexc/templates/partners/marketing-tools.html:12
+#: royalexc/templates/partners/marketing-tools.html:25
+msgid "Marketing Tools"
+msgstr "Các công cụ tiếp thị"
+
+#: royalexc/templates/head.html:239 royalexc/templates/head.html:370
+#: royalexc/templates/partners/white-label-new.html:12
+#: royalexc/templates/partners/white-label-new.html:25
+#: royalexc/templates/partners/white-label-old.html:12
+#: royalexc/templates/partners/white-label-old.html:25
+msgid "White Label"
+msgstr "Nhãn trắng"
+
+#: royalexc/templates/head.html:246 royalexc/templates/head.html:377
+msgid "TOOLS-EDUCATIONS"
+msgstr "CÔNG CỤ-GIÁO DỤC"
+
+#: royalexc/templates/head.html:250 royalexc/templates/head.html:380
+#: royalexc/templates/tools-education/economic-calendar.html:12
+#: royalexc/templates/tools-education/economic-calendar.html:25
+msgid "Economic Calendar"
+msgstr "Lịch kinh tế"
+
+#: royalexc/templates/head.html:251 royalexc/templates/head.html:381
+#: royalexc/templates/tools-education/holiday-calendar.html:12
+#: royalexc/templates/tools-education/holiday-calendar.html:25
+msgid "Holiday Calendar"
+msgstr "Lịch ngày nghỉ"
+
+#: royalexc/templates/head.html:257 royalexc/templates/head.html:384
+#: royalexc/templates/tools-education/market-hours.html:12
+#: royalexc/templates/tools-education/market-hours.html:25
+msgid "Market Hours"
+msgstr "Giờ thị trường hoạt động"
+
+#: royalexc/templates/head.html:258 royalexc/templates/head.html:385
+#: royalexc/templates/tools-education/rollover.html:12
+#: royalexc/templates/tools-education/rollover.html:25
+msgid "Rollover"
+msgstr "Chuyển sang"
+
+#: royalexc/templates/head.html:264 royalexc/templates/head.html:388
+msgid "Academy"
+msgstr "Học viện"
+
+#: royalexc/templates/head.html:265 royalexc/templates/head.html:389
+#: royalexc/templates/tools-education/trading-central.html:12
+#: royalexc/templates/tools-education/trading-central.html:25
+msgid "Trading Central"
+msgstr "Trading Central"
+
+#: royalexc/templates/head.html:271
+msgid "REGISTER"
+msgstr "ĐĂNG KÝ"
+
+#: royalexc/templates/index.html:12
+msgid "About us"
+msgstr "Giới thiệu về chúng tôi"
+
+#: royalexc/templates/index.html:94 royalexc/templates/index.html:217
+msgid "DEMO ACCOUNT"
+msgstr "TÀI KHOẢN DEMO"
+
+#: royalexc/templates/index.html:95 royalexc/templates/index.html:218
+msgid "LIVE ACCOUNT"
+msgstr "TÀI KHOẢN HOẠT ĐỘNG"
+
+#: royalexc/templates/index.html:97
+msgid "Trading involves a high level of risk"
+msgstr "Giao dịch có rủi ro cao"
+
+#: royalexc/templates/index.html:103
+msgid "SUPERIOR TRADING CONDITIONS"
+msgstr "ĐIỀU KIỆN GIAO DỊCH ƯU VIỆT"
+
+#: royalexc/templates/index.html:104
+#, python-format
+msgid ""
+"As a global, fully licensed STP broker %(COMPANY_NAME)s offers unparalleled trading conditions "
+"designed to meet all realistic expectations of both professional and new traders."
+msgstr ""
+"Là nhà môi giới STP toàn cầu, được cấp phép đầy đủ, %(COMPANY_NAME)s đưa ra các điều kiện giao "
+"dịch tốt nhất, được thiết kế để đáp ứng mọi kỳ vọng thiết thực của cả các chuyên gia và người "
+"mới giao dịch."
+
+#: royalexc/templates/index.html:124
+msgid "Multiple trading platforms under one Trading Account"
+msgstr "Nhiều sàn giao dịch với cùng một Tài khoản giao dịch"
+
+#: royalexc/templates/index.html:125
+#, python-format
+msgid ""
+"provides its clients with the industry’s most reputable, award winning and sought after forex "
+"and CFDs platforms – Metatrader 4 (MT4). Access all the dynamic %(COMPANY_NAME)s trading "
+"instruments under the same account from multiple platforms."
+msgstr ""
+"cung cấp cho khách hàng sàn giao dịch ngoại hối và CFD uy tín nhất trong ngành, đã giành giải "
+"thưởng và được tìm kiếm, đó chính là Metatrader 4 (MT4). Truy cập tất cả các công cụ giao dịch "
+"năng động của %(COMPANY_NAME)s với cùng một tài khoản từ nhiều nền tảng."
+
+#: royalexc/templates/index.html:143
+msgid "STANDARD ACCOUNT"
+msgstr "TÀI KHOẢN TIÊU CHUẨN"
+
+#: royalexc/templates/index.html:144
+msgid "Start trading with just $50. No commissions charged!"
+msgstr "Bắt đầu giao dịch chỉ với 50$. Không bị tính phí hoa hồng!"
+
+#: royalexc/templates/index.html:147
+msgid "Min Deposit $50"
+msgstr "Tiền gửi tối thiểu là 50$"
+
+#: royalexc/templates/index.html:149 royalexc/templates/index.html:172
+#: royalexc/templates/index.html:195
+msgid "FX,Commodities, Equity Indices"
+msgstr "FX, hàng hóa, chỉ số vốn chủ sở hữu"
+
+#: royalexc/templates/index.html:150 royalexc/templates/index.html:173
+msgid "1:1 - 1:500 Leverage"
+msgstr "Đòn bẩy kinh tế 1:1 - 1:500"
+
+#: royalexc/templates/index.html:153
+msgid "No Comission"
+msgstr "Không hoa hồng"
+
+#: royalexc/templates/index.html:165
+msgid "VIP ACCOUNT"
+msgstr "TÀI KHOẢN VIP"
+
+#: royalexc/templates/index.html:166
+msgid "Dedicated 24 hour dealing support"
+msgstr "Hỗ trợ giao dịch 24 giờ/ngày"
+
+#: royalexc/templates/index.html:170
+msgid "Min Deposit $2,000"
+msgstr "Tiền gửi tối thiểu là 2.000 $"
+
+#: royalexc/templates/index.html:176 royalexc/templates/index.html:199
+msgid "24 Hours Dealing Support"
+msgstr "Hỗ trợ giao dịch 24 giờ/ngày"
+
+#: royalexc/templates/index.html:188
+msgid "PLATINUM ACCOUNT"
+msgstr "TÀI KHOẢN BẠCH KIM"
+
+#: royalexc/templates/index.html:189
+msgid "Go pro with a ZERO spread account"
+msgstr "Đổi sang chuyên nghiệp với tài khoản chênh lệch giá mua - giá bán bằng KHÔNG"
+
+#: royalexc/templates/index.html:193
+msgid "Min Deposit $5,000"
+msgstr "Tiền gửi tối thiểu là 5.000 $"
+
+#: royalexc/templates/index.html:196
+msgid "1:1 - 1:500 Leverag"
+msgstr "Đòn bẩy kinh tế 1:1 - 1:500"
+
+#: royalexc/templates/index.html:220
+msgid "Trading involves high level of risk"
+msgstr "Giao dịch có rủi ro cao"
+
+#: royalexc/templates/partners/introducing-brokers.html:24
+#: royalexc/templates/partners/marketing-tools.html:24
+#: royalexc/templates/partners/white-label-new.html:24
+#: royalexc/templates/partners/white-label-old.html:24
+msgid "Partners"
+msgstr "Đối tác"
+
+#: royalexc/templates/partners/introducing-brokers.html:35
+#, python-format
+msgid ""
+"The %(COMPANY_NAME)sIntroducing Broker (IB) partnership is for individuals or organizations "
+"wishing to make revenue through the promotion of %(COMPANY_NAME)s\n"
+"through any online/offline means. Our IB program is provided with the industry’s most "
+"competitive pip rebate rates and bespoke solutions are always available on demand to help you "
+"get the optimal return from your portfolio of clients."
+msgstr ""
+"Chương trình hợp tác Nhà môi giới giới thiệu (IB) của %(COMPANY_NAME)s dành cho các tổ chức hay "
+"cá nhân mong muốn kiếm tiền bằng cách quảng bá %(COMPANY_NAME)s\n"
+"thông qua bất kỳ phương tiện trực tuyến/ngoại tuyến nào. Chương trình IB của chúng tôi được "
+"trang bị các mức giảm giá pip cạnh tranh nhất trong ngành và luôn sẵn có các giải pháp đặt "
+"riêng theo yêu cầu để giúp bạn nhận được doanh thu tối ưu từ danh mục khách hàng."
+
+#: royalexc/templates/partners/introducing-brokers.html:42
+msgid "Get more from your Introducing Broker program："
+msgstr "Nhận được nhiều hơn từ chương trình Nhà môi giới giới thiệu："
+
+#: royalexc/templates/partners/introducing-brokers.html:43
+msgid "A convenient online application process"
+msgstr "Quy trình đăng ký trực tuyến thuận tiện"
+
+#: royalexc/templates/partners/introducing-brokers.html:44
+msgid "Comprehensive back-end administrative support"
+msgstr "Hỗ trợ hành chính toàn diện"
+
+#: royalexc/templates/partners/introducing-brokers.html:45
+msgid "A competitive, customized revenue sharing plan"
+msgstr "Kế hoạch chia sẻ doanh thu cạnh tranh, tùy chỉnh"
+
+#: royalexc/templates/partners/introducing-brokers.html:46
+msgid "Professional and personalized service from a leading FX broker"
+msgstr "Dịch vụ chuyên nghiệp và cá nhân hóa từ nhà môi giới FX hàng đầu"
+
+#: royalexc/templates/partners/introducing-brokers.html:47
+msgid "Join Our Partnership Program"
+msgstr "Tham gia chương trình hợp tác của chúng tôi"
+
+#: royalexc/templates/partners/introducing-brokers.html:52
+#, python-format
+msgid ""
+"As an IB you need to know that your forex trading partners can be relied upon. We provide fair "
+"commission rates, superior trading technology and, of course, exceptional client service. "
+"%(COMPANY_NAME)s's Introducing Broker program is designed to help partners build their client "
+"base whilst benefiting from a tailor-made commission strategy."
+msgstr ""
+"Là một IB, bạn cần biết rằng các đối tác giao dịch ngoại hối của bạn có thể tin cậy được. Chúng "
+"tôi đưa ra tỷ lệ hoa hồng hợp lý, công nghệ giao dịch ưu việt và tất nhiên là dịch vụ khách "
+"hàng đặc biệt tốt. Chương trình Nhà môi giới giới thiệu của %(COMPANY_NAME)s được thiết kế để "
+"giúp các đối tác xây dựng cơ sở khách hàng của họ đồng thời hưởng lợi từ chiến lược hoa hồng "
+"tùy chỉnh."
+
+#: royalexc/templates/partners/introducing-brokers.html:53
+#, python-format
+msgid ""
+"We’ll work with you to develop the right commission structure for your business, where you’re "
+"compensated every time your clients trade on %(COMPANY_NAME)s's MT4 trading platform."
+msgstr ""
+"Chúng tôi sẽ hợp tác với bạn để phát triển cơ cấu hoa hồng phù hợp cho hoạt động kinh doanh của "
+"bạn, trong đó bạn được trả thù lao mỗi lần khách hàng của bạn giao dịch trên sàn giao dịch MT4 "
+"của %(COMPANY_NAME)s."
+
+#: royalexc/templates/partners/introducing-brokers.html:54
+msgid ""
+"In addition to the most advanced MT4 technology, you’ll be assigned your own dedicated IB "
+"account manager, who is there to ensure the highest level of service so you can grow your "
+"venture with minimum hassle and maximum benefits."
+msgstr ""
+"Bên cạnh công nghệ MT4 tiên tiến nhất, bạn sẽ có nhân viên quản lý tài khoản IB riêng của mình, "
+"là người sẽ luôn sẵn sàng đảm bảo dịch vụ mức độ cao nhất để bạn có thể phát triển công việc "
+"kinh doanh của mình một cách suôn sẻ nhất với lợi ích tối đa."
+
+#: royalexc/templates/partners/marketing-tools.html:35
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s partners are granted access to marketing tools to help drive their promotional "
+"engine, expand clientele networks and reach more optimal and lucrative results. Below is the "
+"list of various creatives and marketing tools %(COMPANY_NAME)s offers affiliates to build a "
+"more successful and effective campaign."
+msgstr ""
+"Các đối tác của %(COMPANY_NAME)s được phép truy cập các công cụ tiếp thị để giúp thúc đẩy động "
+"cơ quảng bá của họ, mở rộng mạng lưới khách hàng và đạt được kết quả tối ưu và sinh lợi. Dưới "
+"đây là danh sách các ý tưởng sáng tạo và tiếp thị khác nhau mà %(COMPANY_NAME)s cung cấp cho "
+"các bên liên kết để xây dựng chiến dịch thành công và hiệu quả hơn."
+
+#: royalexc/templates/partners/marketing-tools.html:40
+msgid "Banners"
+msgstr "Băng quảng cáo"
+
+#: royalexc/templates/partners/marketing-tools.html:41
+msgid ""
+"We have comprised a vast variety of banners to accommodate all the interests within the forex "
+"industry. Partners can get banners to promote low spreads, forex bonuses, high leveraged "
+"products or any aspect of the company; we have them in a range of sizes and languages for more "
+"options as we are also flexible in providing you with tailored solutions."
+msgstr ""
+"Chúng tôi có một loạt các băng quảng cáo để đáp ứng mọi mối quan tâm trong ngành công nghiệp "
+"ngoại hối. Các đối tác có thể nhận băng quảng cáo để thúc đẩy chênh lệch giá mua - giá bán "
+"thấp, thưởng ngoại hối, sản phẩm đòn bẩy cao hay bất kỳ khía cạnh nào của công ty. Băng quảng "
+"cáo có nhiều kích cỡ và ngôn ngữ để đem lại nhiều lựa chọn hơn vì chúng tôi cũng linh hoạt "
+"trong việc cung cấp các giải pháp tùy chỉnh."
+
+#: royalexc/templates/partners/marketing-tools.html:44
+msgid "Landing Pages"
+msgstr "Trang đích"
+
+#: royalexc/templates/partners/marketing-tools.html:45
+msgid ""
+"Landing pages are pages onto which a potential client may arrive following a click on one of "
+"the banners we have provided. It is a single page that captivates a summary of what our company "
+"has to offer. We can provide a variety of appealing and customized landing pages, built with "
+"the aim of increasing introduced client’s conversion rates."
+msgstr ""
+"Trang đích là các trang mà khách hàng tiềm năng có thể truy cập sau khi nhấp vào một trong "
+"những băng quảng cáo do chúng tôi cung cấp. Đây là trang đơn, tóm tắt các sản phẩm/dịch vụ mà "
+"công ty chúng tôi cung cấp. Chúng tôi có thể cung cấp nhiều trang đơn hấp dẫn và tùy chỉnh khác "
+"nhau, được xây dựng nhằm mục đích tăng tỷ lệ chuyển đổi của khách hàng được giới thiệu."
+
+#: royalexc/templates/partners/marketing-tools.html:48
+msgid "Widgets"
+msgstr "Tiện ích"
+
+#: royalexc/templates/partners/marketing-tools.html:49
+#, python-format
+msgid ""
+"We have a variety of forex widgets, providing information on forex related products, such as "
+"the latest financial figures and the %(COMPANY_NAME)s market sentiment. It is of great benefit "
+"and value as it allows partners to add value to a site as well as be rewarded through high "
+"turnover."
+msgstr ""
+"Chúng tôi có nhiều tiện ích ngoại hối, cung cấp thông tin về các sản phẩm liên quan đến ngoại "
+"hối, ví dụ như các số liệu tài chính mới nhất và cảm nghĩ thị trường về %(COMPANY_NAME)s. Đây "
+"là lợi ích và giá trị đáng kể vì cho phép các đối tác tăng thêm giá trị cho trang web, cũng như "
+"được thưởng thông qua doanh thu cao."
+
+#: royalexc/templates/partners/marketing-tools.html:52
+msgid "Customized Requests"
+msgstr "Yêu cầu tùy chỉnh"
+
+#: royalexc/templates/partners/marketing-tools.html:53
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s we are always happy to receive requests from every individual partner and "
+"are open to discussing the possibility of making that request available in a mutually "
+"beneficial manner."
+msgstr ""
+"Tại %(COMPANY_NAME)s, chúng tôi luôn sẵn sàng nhận các yêu cầu từ mỗi đối tác cá nhân và luôn "
+"cởi mở để thảo luận về khả năng thực hiện yêu cầu đó sao cho đôi bên cùng có lợi."
+
+#: royalexc/templates/partners/white-label-new.html:35
+#, python-format
+msgid ""
+"With a white label solution from %(COMPANY_NAME)s, you can create your own business with zero "
+"risk. Promote our company under your own brand and receive full technical and marketing support "
+"for both yourself and your clients. As a White Label partner, you can enjoy a full turnkey "
+"solution which leaves you free to market your website and social media channels. There is no "
+"financial obligation or technical knowledge required - simply place your own brand over "
+"%(COMPANY_NAME)s and start promoting your website."
+msgstr ""
+"Với giải pháp nhãn trắng từ %(COMPANY_NAME)s, bạn có thể tự tạo hoạt động kinh doanh của mình "
+"mà không có rủi ro. Quảng cáo cho công ty chúng tôi với thương hiệu của chính bạn và được hỗ "
+"trợ kỹ thuật, tiếp thị đầy đủ cho bản thân và khách hàng của bạn. Là đối tác Nhãn trắng, bạn có "
+"thể tận hưởng giải pháp chìa khóa trao tay toàn bộ, để bạn tự do tiếp thị trang web của mình "
+"cùng các kênh mạng xã hội. Không có nghĩa vụ tài chính, cũng không cần kiến thức kỹ thuật - chỉ "
+"cần đặt thương hiệu của riêng bạn trên %(COMPANY_NAME)s và bắt đầu quảng cáo cho trang web của "
+"bạn."
+
+#: royalexc/templates/partners/white-label-new.html:40
+msgid "Turn your client portfolio into earnings with ROYALEXC"
+msgstr "Hãy tạo thu nhập từ danh sách khách hàng của bạn với ROYALEXC"
+
+#: royalexc/templates/partners/white-label-new.html:40
+msgid "clients"
+msgstr "khách hàng"
+
+#: royalexc/templates/partners/white-label-new.html:41
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s, our partner program features an impressive suite of marketing tools and "
+"dynamic technologies to boost your client acquisition. Our team of Account Managers will "
+"support and assist you every step of the way."
+msgstr ""
+"Tại %(COMPANY_NAME)s, chương trình đối tác của chúng tôi có đặc điểm là có một bộ công cụ tiếp "
+"thị và công nghệ động rất ấn tượng để thúc đẩy sự tiếp nhận của khách hàng. Đội ngũ Nhân viên "
+"quản lý tài khoản của chúng tôi sẽ hỗ trợ và giúp đỡ bạn trong mỗi bước của quy trình."
+
+#: royalexc/templates/partners/white-label-new.html:44
+#: royalexc/templates/partners/white-label-old.html:45
+msgid "Client Services"
+msgstr "Dịch vụ chăm sóc khách hàng"
+
+#: royalexc/templates/partners/white-label-new.html:45
+#, python-format
+msgid ""
+"Our multilingual team is dedicated to supporting you on your journey as a %(COMPANY_NAME)s "
+"partner. Your personal Account Manager will provide you with detailed sales reports, market "
+"analysis and full support whenever you need it. "
+msgstr ""
+"Đội ngũ đa ngôn ngữ của chúng tôi sẽ tận tụy hỗ trợ bạn trong chuyến hành trình với tư cách là "
+"đối tác của %(COMPANY_NAME)s. Nhân viên quản lý tài khoản của quý vị sẽ cung cấp cho quý vị báo "
+"cáo bán hàng, phân tích thị trường chi tiết và hỗ trợ đầy đủ bất kể khi nào quý vị cần."
+
+#: royalexc/templates/partners/white-label-new.html:48
+#: royalexc/templates/partners/white-label-old.html:49
+msgid "Affiliate Services"
+msgstr "Dịch vụ cho bên liên kết"
+
+#: royalexc/templates/partners/white-label-new.html:49
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s, we boast the best affiliate marketing tools in the business to enable you "
+"to increase your website traffic, improve your conversion and hit your targets. We are fully "
+"dedicated to your success and will always assist you via live chat, email or telephone. "
+msgstr ""
+"Tại %(COMPANY_NAME)s, chúng tôi phát triển các công cụ tiếp thị liên kết trong kinh doanh, cho "
+"phép bạn tăng lưu lượng trang web, cải thiện tỷ lệ chuyển đổi và đạt được mục tiêu của bạn. "
+"Chúng tôi hoàn toàn vì thành công của bạn và sẽ luôn hỗ trợ bạn qua trò chuyện trực tiếp, email "
+"hay điện thoại."
+
+#: royalexc/templates/partners/white-label-new.html:53
+msgid "Register For A White Label Solution And Get Started Now"
+msgstr "Đăng ký giải pháp nhãn trắng và bắt đầu ngay"
+
+#: royalexc/templates/partners/white-label-new.html:54
+#: royalexc/templates/partners/white-label-old.html:55
+msgid "Get Started"
+msgstr "Bắt đầu"
+
+#: royalexc/templates/partners/white-label-old.html:35
+#, python-format
+msgid ""
+"Create your own business with zero risk! Promote our company under your own brand and receive "
+"our full technical and marketing support for both yourself and your clients. As a White Label "
+"partner of %(COMPANY_NAME)s you will have the chance to use our full turnkey solution as a "
+"forex broker, leaving you with the task of marketing your website. No financial or operational "
+"skills needed – simply place your own brand over %(COMPANY_NAME)s and start driving traffic to "
+"your website."
+msgstr ""
+"Tạo hoạt động kinh doanh không có rủi ro! Quảng cáo cho công ty chúng tôi với thương hiệu của "
+"chính bạn và được hỗ trợ kỹ thuật, tiếp thị đầy đủ cho bản thân và khách hàng của bạn. Là đối "
+"tác Nhãn trắng của %(COMPANY_NAME)s, bạn sẽ có cơ hội sử dụng giải pháp chìa khóa trao tay toàn "
+"bộ của chúng tôi với tư cách là nhà môi giới ngoại hối, với nhiệm vụ tiếp thị trang web của "
+"bạn. Không cần kỹ năng tài chính hay hoạt động - chỉ cần đặt thương hiệu của bạn trên "
+"%(COMPANY_NAME)s và bắt đầu điều hướng lưu lượng đến trang web của bạn."
+
+#: royalexc/templates/partners/white-label-old.html:41
+#, python-format
+msgid ""
+"Take advantage of your client base and convert your portfolio into %(COMPANY_NAME)s clients"
+msgstr ""
+"Hãy tận dụng cơ sở khách hàng của bạn và chuyển danh mục của bạn thành khách hàng của "
+"%(COMPANY_NAME)s"
+
+#: royalexc/templates/partners/white-label-old.html:42
+msgid ""
+"Using a simple and efficient affiliate program with an extensive list of marketing tools and "
+"robust technologies, you are able to boost your client acquisition in no time. Benefit from "
+"having a personal partners manager who can support and assist you with any queries you may have."
+msgstr ""
+"Sử dụng chương trình liên kết đơn giản và hiệu quả, với danh sách mở rộng gồm các công cụ tiếp "
+"thị và công nghệ mạnh mẽ, bạn có thể quảng cáo cho khách hàng nhanh chóng. Hưởng lợi từ nhân "
+"viên quản lý đối tác riêng, là người có thể hỗ trợ và giúp đỡ bạn nếu có bất kỳ thắc mắc nào."
+
+#: royalexc/templates/partners/white-label-old.html:46
+msgid ""
+"Our multilingual support team is fully dedicated to provide all the necessary assistance you "
+"may require for your clients, including detailed sales reporting and market analysis reports."
+msgstr ""
+"Đội ngũ hỗ trợ đa ngôn ngữ của chúng tôi hoàn toàn chuyên tâm cung cấp mọi hỗ trợ cần thiết bạn "
+"có thể yêu cầu cho khách hàng của mình, bao gồm báo cáo bán hàng và báo cáo phân tích thị "
+"trường chi tiết."
+
+#: royalexc/templates/partners/white-label-old.html:50
+msgid ""
+"Our collection of affiliate tools and services allows you to improve your website traffic, "
+"increase your leads conversions and reach your estimated targets. You are also able to "
+"collaborate with your own personal affiliate manager who is fully devoted to be in contact with "
+"you via email, chat or phone on a regular daily basis."
+msgstr ""
+"Bộ sưu tập các công cụ và dịch vụ dành cho bên liên kết của chúng tôi cho phép bạn cải thiện "
+"lưu lượng trang web, tăng tỷ lệ chuyển đổi đầu mối kinh doanh và đạt mục tiêu dự tính của bạn. "
+"Bạn cũng có thể hợp tác với nhân viên quản lý bên liên kết riêng của mình, là người chuyên liên "
+"hệ với bạn qua email, trò chuyện hoặc điện thoại trên cơ sở hàng ngày."
+
+#: royalexc/templates/partners/white-label-old.html:54
+msgid "Get started today by registering for a White Label solution"
+msgstr "Hãy bắt đầu ngay hôm nay bằng cách đăng ký giải pháp Nhãn trắng"
+
+#: royalexc/templates/platforms/metatrader-4-android.html:12
+#: royalexc/templates/platforms/metatrader-4-android.html:25
+msgid "MetaTrader 4 App for Android"
+msgstr "Ứng dụng MetaTrader 4 cho Android"
+
+#: royalexc/templates/platforms/metatrader-4-android.html:24
+#: royalexc/templates/platforms/metatrader-4-desktop.html:24
+#: royalexc/templates/platforms/metatrader-4-iphone.html:24
+#: royalexc/templates/platforms/metatrader-4-overview.html:24
+#: royalexc/templates/platforms/webtrader.html:24
+msgid "Platforms"
+msgstr "Nền tảng"
+
+#: royalexc/templates/platforms/metatrader-4-android.html:36
+msgid "Forex trading available on Android OS."
+msgstr "Có thể giao dịch ngoại hối trên hệ điều hành (OS) Android."
+
+#: royalexc/templates/platforms/metatrader-4-android.html:37
+msgid "Trade on the Go with Android MetaTrader 4 App"
+msgstr "Giao dịch khi đang di chuyển với ứng dụng MetaTrader 4 cho Android"
+
+#: royalexc/templates/platforms/metatrader-4-android.html:38
+msgid ""
+"The MetaTrader 4 (MT4) Android application allows traders to download MT4 on Android "
+"smartphones and carry their trading everywhere. The application allows fully functional trading "
+"and full management of trading accounts in addition to the use of all the important technical "
+"analysis tools. The MT4 Android application is compatible with all Android devices."
+msgstr ""
+"Ứng dụng MetaTrader 4 (MT4) cho Android cho phép người giao dịch tải MT4 xuống điện thoại thông "
+"minh Android và tiến hành giao dịch mọi nơi. Ứng dụng cho phép tiến hành mọi chức năng giao "
+"dịch và quản lý toàn bộ các tài khoản giao dịch, bên cạnh việc sử dụng tất cả các công cụ phân "
+"tích kỹ thuật quan trọng. Ứng dụng MT4 cho Android tương thích với mọi thiết bị Android."
+
+#: royalexc/templates/platforms/metatrader-4-android.html:49
+msgid "Download Android OS App"
+msgstr "Tải xuống ứng dụng cho OS Android"
+
+#: royalexc/templates/platforms/metatrader-4-android.html:50
+msgid "Requirements: Requires Android 4.0 and above."
+msgstr "Yêu cầu: Yêu cầu Android 4.0 trở lên."
+
+#: royalexc/templates/platforms/metatrader-4-android.html:51
+#: royalexc/templates/platforms/metatrader-4-desktop.html:53
+msgid "Download"
+msgstr "Tải xuống"
+
+#: royalexc/templates/platforms/metatrader-4-android.html:56
+msgid "Trade on your Android devices"
+msgstr "Giao dịch trên thiết bị Android"
+
+#: royalexc/templates/platforms/metatrader-4-android.html:57
+#, python-format
+msgid ""
+"Access your %(COMPANY_NAME)s account through all your Android devices (mobiles, tablets) simply "
+"by downloading the MT4 application."
+msgstr ""
+"Truy cập tài khoản %(COMPANY_NAME)s của quý vị thông qua mọi thiết bị Android (di động, máy "
+"tính bảng) chỉ bằng cách tải xuống ứng dụng MT4."
+
+#: royalexc/templates/platforms/metatrader-4-android.html:59
+msgid "Full trading functions"
+msgstr "Đầy đủ chức năng giao dịch"
+
+#: royalexc/templates/platforms/metatrader-4-android.html:60
+msgid ""
+"Maintain full MT4 trading functionality through the application; open and close positions, "
+"monitor the market and conduct technical analysis from any place at any time."
+msgstr ""
+"Duy trì đầy đủ chức năng giao dịch của MT4 qua ứng dụng; mở và đóng vị thế, theo dõi thị trường "
+"và tiến hành phân tích kỹ thuật, mọi lúc mọi nơi."
+
+#: royalexc/templates/platforms/metatrader-4-android.html:63
+msgid "Enjoy flexible trading"
+msgstr "Giao dịch linh hoạt"
+
+#: royalexc/templates/platforms/metatrader-4-android.html:64
+msgid ""
+"Don’t limit your trading to your house or office. Trade on the go through your application "
+"without any limitations."
+msgstr ""
+"Đừng giới hạn giao dịch của mình trong phạm vi nhà riêng hay văn phòng. Giao dịch khi đang di "
+"chuyển không hạn chế thông qua ứng dụng."
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:36
+msgid "A fast, reliable and powerful trading platform"
+msgstr "Sàn giao dịch nhanh chóng, đáng tin cậy và hiệu quả"
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:37
+#, python-format
+msgid ""
+"The world’s leading trading platform, MetaTrader 4 (MT4), is available to all %(COMPANY_NAME)s "
+"clients"
+msgstr ""
+"Sàn giao dịch hàng đầu thế giới MetaTrader 4 (MT4) dành cho mọi khách hàng của %(COMPANY_NAME)s"
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:38
+msgid ""
+"MetaTrader 4 is a trading platform developed to provide traders with easy access to the most "
+"dynamic financial markets, a professional forex and CFDs trading platform that’s simple enough "
+"even for novice traders to get started with."
+msgstr ""
+"MetaTrader 4 là sàn giao dịch được phát triển để cho phép người giao dịch dễ dàng truy cập các "
+"thị trường tài chính năng động nhất, là sàn giao dịch ngoại hối và CFD chuyên nghiệp, đủ đơn "
+"giản cho những người mới giao dịch có thể bắt đầu."
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:39
+msgid ""
+"With MetaTrader 4 you can trade multiple asset classes, including currencies, commodities, "
+"indices and equities from a single screen. Trading with MT4 allows you to plan and execute your "
+"orders quickly and easily."
+msgstr ""
+"Với MetaTrader 4, bạn có thể giao dịch nhiều nhóm tài sản, bao gồm tiền tệ, hàng hóa, chỉ số và "
+"vốn chủ sở hữu từ một màn hình duy nhất. Giao dịch với MT4 cho phép quý vị lập kế hoạch và thực "
+"hiện các lệnh của mình một cách nhanh chóng và dễ dàng."
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:40
+msgid ""
+"MT4 allows flexible and customized trading through a user-friendly interface with a wide "
+"variety of dynamic trading and analysis tools at the traders’ disposal. With MT4 both manual "
+"and automated trading is possible"
+msgstr ""
+"MT4 cho phép giao dịch linh hoạt và tùy chính thông qua giao diện thân thiện với người dùng và "
+"nhiều công cụ giao dịch, phân tích động mà người giao dịch tùy ý chọn. Có thể giao dịch thủ "
+"công và tự động với MT4"
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:51
+msgid "Download MetaTrader 4 for Desktop"
+msgstr "Tải xuống MetaTrader 4 cho máy tính để bàn"
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:52
+msgid ""
+"Requirements: Windows 2000 / XP / Vista, 2.0 GHz or faster CPU, 512 MB RAM, screen resolution "
+"1024x768 or higher, modem/connection speed 36.6 Kbps or faster."
+msgstr ""
+"Yêu cầu: Windows 2000 / XP / Vista, CPU 2.0 GHz hoặc nhanh hơn, 512 MB RAM, màn hình có độ phân "
+"giải 1024x768 trở lên, tốc độ modem/kết nối 36,6 Kbp hoặc nhanh hơn."
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:58
+msgid "EAs enabled, Scalping & Hedging Allowed"
+msgstr "Kích hoạt EA, cho phép giao dịch chớp nhoáng & tự bảo hiểm"
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:59
+msgid ""
+"Enjoy superior trading conditions where scalping, hedging and news trading is allowed, and "
+"traders have the flexibility to add EAs."
+msgstr ""
+"Tận hưởng các điều kiện giao dịch ưu việt cho phép giao dịch chớp nhoáng, tự bảo hiểm và giao "
+"dịch theo tin tức, đồng thời người giao dịch có thể thêm EA một cách linh hoạt."
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:62
+msgid "Trade on Forex, Spot Metals & Equity Indices"
+msgstr "Giao dịch Ngoại hối, kim loại & chỉ số vốn chủ sở hữu giao ngay"
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:63
+msgid ""
+"Choose from over 100 trading instruments, including major and minor forex pairs, metals, oil, "
+"commodities, equity indices and shares of the world’s biggest companies."
+msgstr ""
+"Lựa chọn từ trên 100 công cụ giao dịch, bao gồm các cặp ngoại hối chính và phụ, kim loại, dầu, "
+"hàng hóa, chỉ số vốn chủ sở hữu và cổ phần từ các công ty lớn nhất thế giới."
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:36
+msgid "Fast, convenient mobile trading"
+msgstr "Giao dịch nhanh chóng, thuận tiện qua điện thoại di động"
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:37
+msgid "Open & close deals, manage your account, view the markets"
+msgstr "Mở & đóng giao dịch, quản lý tài khoản, xem xét thị trường"
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:38
+msgid ""
+"The world's most popular platform, MT4, now gives you access to a full range of financial "
+"markets on your mobile device. Trading currencies, commodities and indices is easy enough for "
+"first-time traders and sophisticated enough for the pros. "
+msgstr ""
+"Sàn giao dịch phổ biến nhất thế giới MT4 cho phép quý vị tiếp cận một loạt các thị trường tài "
+"chính trên thiết bị di động của quý vị. Giao dịch tiền tệ, hàng hóa và chỉ số vừa dễ dàng cho "
+"những người giao dịch lần đầu những cũng đủ tinh tế cho những người chuyên nghiệp."
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:49
+msgid "Download MetaTrader 4 App for iPhone/iPad"
+msgstr "Tải xuống ứng dụng MetaTrader 4 cho iPhone/iPad"
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:50
+msgid "Requirements: Requires iOS 5.1.1 or later."
+msgstr "Yêu cầu: Yêu cầu iOS 5.1.1 trở lên."
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:51
+msgid "Compatible with iPhone, iPad, and iPodtouch."
+msgstr "Tương thích với iPhone, iPad và iPodtouch."
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:52
+msgid "DOWNLOAD.EXE"
+msgstr "DOWNLOAD.EXE"
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:57
+msgid "Trade on your Apple device"
+msgstr "Giao dịch trên thiết bị Apple"
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:58
+#, python-format
+msgid "Download the MT4 app and trade your %(COMPANY_NAME)s account on your iPhone / iPad / iPod."
+msgstr ""
+"Tải xuống ứng dụng MT4 và giao dịch tài khoản %(COMPANY_NAME)s trên iPhone / iPad / iPod của "
+"quý vị."
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:61
+msgid "Take advantage of market action on the go"
+msgstr "Tận dụng tính năng giao dịch khi đang di chuyển"
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:62
+msgid "Convenient, instant access to FX, CFDs, Indices"
+msgstr "Truy cập FX, CFD và chỉ số thuận tiện, tức thì"
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:65
+msgid "All trading functions enabled"
+msgstr "Mọi chức năng giao dịch được kích hoạt"
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:66
+msgid "Open & close deals, check market news, conduct technical analysis and manage your account"
+msgstr ""
+"Mở & đóng giao dịch, kiểm tra tin tức thị trường, tiến hành phân tích kỹ thuật và quản lý tài "
+"khoản của quý vị"
+
+#: royalexc/templates/platforms/metatrader-4-overview.html:12
+#: royalexc/templates/platforms/metatrader-4-overview.html:25
+msgid "MetaTrader 4 Overview"
+msgstr "Tổng quan về MetaTrader 4"
+
+#: royalexc/templates/platforms/metatrader-4-overview.html:35
+#, python-format
+msgid ""
+"Access all the dynamic %(COMPANY_NAME)s trading instruments under the same account from "
+"multiple platforms."
+msgstr ""
+"Truy cập tất cả các công cụ giao dịch năng động của %(COMPANY_NAME)s với cùng một tài khoản từ "
+"nhiều nền tảng."
+
+#: royalexc/templates/platforms/metatrader-4-overview.html:36
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s provides you with the industry’s most reputable, award-winning and sought "
+"after forex and CFD platforms – MetaTrader 4 (MT4). The MT4 platform is provided through a "
+"variety of applications to suit your preferences. What’s great is that you can access the same "
+"account through MT4 applications, allowing you to be in full control of your trades at all "
+"times."
+msgstr ""
+"%(COMPANY_NAME)s cung cấp cho khách hàng sàn giao dịch ngoại hối và CFD uy tín nhất trong "
+"ngành, đã giành giải thưởng và được tìm kiếm, đó chính là Metatrader 4 (MT4). Sàn giao dịch MT4 "
+"được cung cấp qua một loạt các ứng dụng để phù hợp với sở thích của quý vị. Điều tuyệt vời là "
+"quý vị có thể truy cập cùng một tài khoản thông qua các ứng dụng MT4, cho phép quý vị luôn kiểm "
+"soát hoàn toàn các giao dịch của mình."
+
+#: royalexc/templates/platforms/webtrader.html:12 royalexc/templates/platforms/webtrader.html:25
+msgid "WebTrader"
+msgstr "WebTrader"
+
+#: royalexc/templates/platforms/webtrader.html:34
+msgid "Web-Based MT4 Platform"
+msgstr "Sàn giao dịch MT4 trên web"
+
+#: royalexc/templates/platforms/webtrader.html:35
+msgid "Start trading on MT4 in seconds with"
+msgstr "Bắt đầu giao dịch ngay trên MT4 với"
+
+#: royalexc/templates/platforms/webtrader.html:35
+msgid "WebTrader!"
+msgstr "WebTrader!"
+
+#: royalexc/templates/platforms/webtrader.html:41
+msgid ""
+"Access the world’s leading trading platform, MetaTrader 4 (MT4) on Chrome, Firefox, Microsoft "
+"Edge, Internet Explorer and Safari!"
+msgstr ""
+"Truy cập sàn giao dịch hàng đầu thế giới MetaTrader 4 (MT4) trên Chrome, Firefox, Microsoft "
+"Edge, Internet Explorer và Safari!"
+
+#: royalexc/templates/platforms/webtrader.html:42
+msgid "To get started with"
+msgstr "Để bắt đầu với"
+
+#: royalexc/templates/platforms/webtrader.html:42
+msgid "WebTrader, all you need is an internet connection and an"
+msgstr "WebTrader, tất cả những gì quý vị cần là kết nối internet và một"
+
+#: royalexc/templates/platforms/webtrader.html:42
+msgid "trading account! As"
+msgstr "tài khoản giao dịch! Do"
+
+#: royalexc/templates/platforms/webtrader.html:42
+msgid ""
+"WebTrader is a web-based trading platform, you don’t need to download any software either. "
+"Simply launch"
+msgstr ""
+"WebTrader là một sàn giao dịch trên web, quý vị không cần tải xuống bất kỳ phần mềm nào. Chỉ "
+"cần khởi chạy"
+
+#: royalexc/templates/platforms/webtrader.html:42
+msgid "WebTrader from here or register an account with us and get started. It’s that easy!"
+msgstr "WebTrader từ đây hoặc đăng ký tài khoản với chúng tôi và bắt đầu ngay. Thật dễ dàng!"
+
+#: royalexc/templates/platforms/webtrader.html:43
+msgid "WebTrader is supported by the following browsers:"
+msgstr "WebTrader được hỗ trợ bởi các trình duyệt sau:"
+
+#: royalexc/templates/platforms/webtrader.html:44
+msgid ""
+"Google Chrome 51* Microsoft Edge 12* Internet Explorer 11* Mozilla Firefox 34* Safari 8* Opera "
+"32*"
+msgstr ""
+"Google Chrome 51* Microsoft Edge 12* Internet Explorer 11* Mozilla Firefox 34* Safari 8* Opera "
+"32*"
+
+#: royalexc/templates/platforms/webtrader.html:45
+msgid "* and higher"
+msgstr "* hoặc mới hơn"
+
+#: royalexc/templates/platforms/webtrader.html:46
+msgid "Run WebTrader"
+msgstr "Chạy WebTrader"
+
+#: royalexc/templates/platforms/webtrader.html:51
+msgid "Key"
+msgstr "Chìa khóa"
+
+#: royalexc/templates/platforms/webtrader.html:51
+msgid "WebTrader Benefits"
+msgstr "Lợi ích của WebTrader"
+
+#: royalexc/templates/platforms/webtrader.html:52
+msgid ""
+"WebTrader requires no download. Use your existing MT4 credentials to login and trade from your "
+"browser."
+msgstr ""
+"WebTrader không yêu cầu tải xuống bất kỳ phần mềm nào. Sử dụng thông tin đăng nhập MT4 đã có để "
+"đăng nhập và giao dịch từ trình duyệt của quý vị."
+
+#: royalexc/templates/platforms/webtrader.html:53
+msgid ""
+"It works on any web browser and supports all operating systems, which makes it so much easier "
+"to get started!"
+msgstr ""
+"WebTrader chạy trên bất kỳ trình duyệt nào và hỗ trợ mọi hệ điều hành để khởi động dễ dàng hơn!"
+
+#: royalexc/templates/platforms/webtrader.html:54
+msgid "WebTrader’s user interface is super easy to use, plus it’s available in loads of languages"
+msgstr ""
+"Giao diện người dùng của WebTrader rất dễ sử dụng, đồng thời cũng có rất nhiều ngôn ngữ để chọn"
+
+#: royalexc/templates/platforms/webtrader.html:55
+msgid "Our “One-Click-Execution” allows you to place trades in a mouse click!"
+msgstr ""
+"Tính năng “Thực hiện chỉ bằng một cú nhấp” của chúng tôi cho phép quý vị thực hiện giao dịch "
+"chỉ trong một cú nhấp chuột!"
+
+#: royalexc/templates/platforms/webtrader.html:55
+msgid "WebTrader comes fully equipped with 9 chart time frames."
+msgstr "WebTrader được trang bị đầy đủ 9 khung thời gian biểu đồ."
+
+#: royalexc/templates/platforms/webtrader.html:56
+msgid ""
+"You can easily trade from charts and also monitor all your active orders directly on the chart."
+msgstr ""
+"Quý vị có thể dễ dàng giao dịch từ biểu đồ và đồng thời theo dõi mọi lệnh đang kích hoạt trực "
+"tiếp trên biểu đồ."
+
+#: royalexc/templates/platforms/webtrader.html:57
+msgid ""
+"WebTrader also has in-built advanced analysis tools, which are there to help you trade better."
+msgstr ""
+"WebTrader cũng có các công cụ phân tích nâng cao cài đặt sẵn để giúp quý vị giao dịch hiệu quả "
+"hơn."
+
+#: royalexc/templates/platforms/webtrader.html:58
+msgid "With"
+msgstr "Với"
+
+#: royalexc/templates/platforms/webtrader.html:58
+msgid "WebTrader, you can view your account history in just a couple of clicks."
+msgstr "WebTrader, quý vị có thể xem lịch sử tài khoản của quý vị chỉ trong một vài cú nhấp."
+
+#: royalexc/templates/success_page.html:10
+msgid ""
+"Thank You. Your Account Has Been Created. Backoffice Will Contact You To Finalize Your\n"
+"                Account."
+msgstr ""
+"Xin cảm ơn. Tài khoản của quý vị đã được tạo. Bộ phận hỗ trợ sẽ liên hệ với quý vị để hoàn tất\n"
+"tài khoản của quý vị."
+
+#: royalexc/templates/tools-education/academy.html:12
+#, python-format
+msgid "%(COMPANY_NAME)s Academy"
+msgstr "%(COMPANY_NAME)s Academy"
+
+#: royalexc/templates/tools-education/academy.html:24
+#: royalexc/templates/tools-education/economic-calendar.html:24
+#: royalexc/templates/tools-education/holiday-calendar.html:24
+#: royalexc/templates/tools-education/market-hours.html:24
+#: royalexc/templates/tools-education/rollover.html:24
+#: royalexc/templates/tools-education/trading-central.html:24
+msgid "Tools-Education"
+msgstr "Công cụ-giáo dục"
+
+#: royalexc/templates/tools-education/academy.html:25
+msgid "ROYALEXC Academy"
+msgstr "ROYALEXC Academy"
+
+#: royalexc/templates/tools-education/academy.html:34
+#: royalexc/templates/tools-education/academy.html:39
+msgid "Learn Forex"
+msgstr "Tìm hiểu về ngoại hối"
+
+#: royalexc/templates/tools-education/academy.html:35
+msgid ""
+"Learn to trade currencies, commodities, bonds and indices with our online forex trading tools."
+msgstr ""
+"Tìm hiểu cách giao dịch tiền tệ, hàng hóa, trái phiếu và chỉ số với các công cụ giao dịch ngoại "
+"hối trực tuyến của chúng tôi."
+
+#: royalexc/templates/tools-education/academy.html:40
+msgid "All the tools you need to learn currency trading. Start your free forex lessons now."
+msgstr ""
+"Tất cả các công cụ quý vị cần để tìm hiểu về giao dịch tiền tệ. Bắt đầu bài học miễn phí về "
+"ngoại hối ngay."
+
+#: royalexc/templates/tools-education/academy.html:42
+#: royalexc/templates/tools-education/academy.html:50
+#: royalexc/templates/tools-education/academy.html:58
+#: royalexc/templates/tools-education/academy.html:68
+#: royalexc/templates/tools-education/academy.html:76
+#: royalexc/templates/tools-education/academy.html:84
+msgid "Read More"
+msgstr "Đọc thêm"
+
+#: royalexc/templates/tools-education/academy.html:47
+msgid "Forex Insights"
+msgstr "Hiểu sâu về ngoại hối"
+
+#: royalexc/templates/tools-education/academy.html:48
+msgid "Get fx insights from our professional analysts to help you get ahead with your trading."
+msgstr ""
+"Tìm hiểu sâu về ngoại hối từ những nhà phân tích chuyên nghiệp của chúng tôi, để giúp quý vị "
+"luôn đi đầu trong giao dịch."
+
+#: royalexc/templates/tools-education/academy.html:55
+msgid "Forex Glossary"
+msgstr "Bảng thuật ngữ về ngoại hối"
+
+#: royalexc/templates/tools-education/academy.html:56
+msgid "Get to know the industry terms with our complete forex dictionary."
+msgstr "Tìm hiểu các thuật ngữ trong ngành với từ điển ngoại hối hoàn chỉnh của chúng tôi."
+
+#: royalexc/templates/tools-education/academy.html:65
+msgid "eBooks for Beginners"
+msgstr "Sách điện tử dành cho người mới bắt đầu"
+
+#: royalexc/templates/tools-education/academy.html:66
+msgid "New to trading? All you need to know to get you started."
+msgstr "Quý vị là người mới giao dịch? Tất cả những gì quý vị cần biết để bắt đầu giao dịch."
+
+#: royalexc/templates/tools-education/academy.html:73
+msgid "Improve Your Trading with Demo"
+msgstr "Cải thiện giao dịch của quý vị với tài khoản Demo"
+
+#: royalexc/templates/tools-education/academy.html:74
+msgid "Learn to trade without risking your own funds with a life-time, free demo account."
+msgstr ""
+"Tìm hiểu cách giao dịch không có rủi ro đối với số tiền của quý vị với tài khoản demo miễn phí "
+"và có giá trị vĩnh viễn."
+
+#: royalexc/templates/tools-education/academy.html:81
+msgid "MT4 Video Guides"
+msgstr "Video hướng dẫn cho MT4"
+
+#: royalexc/templates/tools-education/academy.html:82
+msgid "Get to know your way around the MT4 platform with these super easy video guides."
+msgstr "Tìm hiểu cách sử dụng sàn giao dịch MT4 qua các video hướng dẫn siêu dễ."
+
+#: royalexc/templates/tools-education/holiday-calendar.html:34
+msgid ""
+"Find out which holidays affect the forex markets for the month. If no dates are shown, then "
+"trading is as normal."
+msgstr ""
+"Tìm hiểu những ngày nghỉ lễ nào trong tháng sẽ ảnh hưởng đến thị trường ngoại hối. Nếu không có "
+"ngày nào được hiển thị thì giao dịch như bình thường."
+
+#: royalexc/templates/tools-education/market-hours.html:35
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s gives you access to trade 24 hours a day, 5 days a week when the global "
+"markets are open. Choose your favourite trading session and optimise your trading potential."
+msgstr ""
+"%(COMPANY_NAME)s cho phép quý vị tiếp cận 24 giờ/ngày, 5 ngày/tuần khi các thị trường trên toàn "
+"thế giới mở cửa. Chọn phiên giao dịch ưa thích và tối ưu hóa tiềm năng giao dịch của quý vị."
+
+#: royalexc/templates/tools-education/market-hours.html:36
+msgid ""
+"Note: EUR/RUB and USD/RUB pairs’ trading hours are Monday to Friday from 09:30 – 00:00 GMT+2."
+msgstr ""
+"Lưu ý: Giờ giao dịch của các cặp EUR/RUB và USD/RUB là từ 09:30 – 00:00 GMT+2, thứ 2 đến thứ 6."
+
+#: royalexc/templates/tools-education/market-hours.html:38
+msgid "Commodity Market Hours"
+msgstr "Giờ thị trường hàng hóa hoạt động"
+
+#: royalexc/templates/tools-education/market-hours.html:39
+msgid ""
+"Trading hours for gold, silver and oil vary from the currency market and should be noted ahead "
+"of trading."
+msgstr ""
+"Giờ giao dịch cho vàng, bạc và dầu khác với thị trường tiền tệ và phải lưu ý trước khi giao "
+"dịch."
+
+#: royalexc/templates/tools-education/market-hours.html:41
+msgid "Full Market Trading Hours:"
+msgstr "Giờ giao dịch đầy đủ của thị trường:"
+
+#: royalexc/templates/tools-education/market-hours.html:45
+msgid "SYMBOL"
+msgstr "KÝ HIỆU"
+
+#: royalexc/templates/tools-education/market-hours.html:47
+msgid "Market opens"
+msgstr "Thị trưởng mở"
+
+#: royalexc/templates/tools-education/market-hours.html:51
+msgid "Market closes"
+msgstr "Thị trường đóng"
+
+#: royalexc/templates/tools-education/market-hours.html:55
+msgid "Daily Break"
+msgstr "Giờ nghỉ hàng ngày"
+
+#: royalexc/templates/tools-education/market-hours.html:58
+msgid "Expiration"
+msgstr "Hết hạn"
+
+#: royalexc/templates/tools-education/market-hours.html:62
+#: royalexc/templates/tools-education/market-hours.html:69
+#: royalexc/templates/tools-education/market-hours.html:76
+#: royalexc/templates/tools-education/market-hours.html:83
+#: royalexc/templates/tools-education/market-hours.html:90
+#: royalexc/templates/tools-education/market-hours.html:97
+#: royalexc/templates/tools-education/market-hours.html:104
+#: royalexc/templates/tools-education/market-hours.html:111
+#: royalexc/templates/tools-education/market-hours.html:118
+#: royalexc/templates/tools-education/market-hours.html:125
+#: royalexc/templates/tools-education/market-hours.html:132
+#: royalexc/templates/tools-education/market-hours.html:139
+#: royalexc/templates/tools-education/market-hours.html:146
+msgid "Monday"
+msgstr "Thứ 2"
+
+#: royalexc/templates/tools-education/market-hours.html:63
+#: royalexc/templates/tools-education/market-hours.html:70
+#: royalexc/templates/tools-education/market-hours.html:77
+#: royalexc/templates/tools-education/market-hours.html:84
+#: royalexc/templates/tools-education/market-hours.html:91
+#: royalexc/templates/tools-education/market-hours.html:98
+#: royalexc/templates/tools-education/market-hours.html:105
+#: royalexc/templates/tools-education/market-hours.html:112
+#: royalexc/templates/tools-education/market-hours.html:119
+#: royalexc/templates/tools-education/market-hours.html:126
+#: royalexc/templates/tools-education/market-hours.html:133
+#: royalexc/templates/tools-education/market-hours.html:140
+#: royalexc/templates/tools-education/market-hours.html:147
+msgid "Friday"
+msgstr "Thứ 6"
+
+#: royalexc/templates/tools-education/market-hours.html:65
+#: royalexc/templates/tools-education/market-hours.html:72
+#: royalexc/templates/tools-education/market-hours.html:79
+#: royalexc/templates/tools-education/market-hours.html:86
+#: royalexc/templates/tools-education/market-hours.html:93
+#: royalexc/templates/tools-education/market-hours.html:100
+#: royalexc/templates/tools-education/market-hours.html:106
+#: royalexc/templates/tools-education/market-hours.html:107
+#: royalexc/templates/tools-education/market-hours.html:113
+#: royalexc/templates/tools-education/market-hours.html:114
+#: royalexc/templates/tools-education/market-hours.html:120
+#: royalexc/templates/tools-education/market-hours.html:121
+#: royalexc/templates/tools-education/market-hours.html:127
+#: royalexc/templates/tools-education/market-hours.html:128
+#: royalexc/templates/tools-education/market-hours.html:134
+#: royalexc/templates/tools-education/market-hours.html:135
+#: royalexc/templates/tools-education/market-hours.html:141
+#: royalexc/templates/tools-education/market-hours.html:142
+#: royalexc/templates/tools-education/market-hours.html:148
+#: royalexc/templates/tools-education/market-hours.html:149
+msgid "None"
+msgstr "Không có"
+
+#: royalexc/templates/tools-education/market-hours.html:96
+msgid "SOYBEAN"
+msgstr "SOYBEAN"
+
+#: royalexc/templates/tools-education/rollover.html:34
+msgid ""
+"When traders open positions they have expiry dates and when the positions close automatically "
+"the profit or loss is released. In trading, a rollover is the process of keeping a position "
+"opened even if it has expired."
+msgstr ""
+"Khi người giao dịch mở các vị thế thì họ có ngày hết hạn và khi vị thế đóng tự động sẽ cho biết "
+"lãi hoặc lỗ. Trong khi giao dịch, chuyển sang là quy trình giữ vị thế mở kể cả khi đã hết hạn."
+
+#: royalexc/templates/tools-education/rollover.html:35
+msgid ""
+"A rollover fee is charged when you keep a position open overnight. CFD instruments will be "
+"rolled over on the expiration dates as per the table below."
+msgstr ""
+"Phí chuyển sang được tính khi quý vị giữ vị thế mở qua đêm. Công cụ CFD sẽ được chuyển sang vào "
+"ngày hết hạn theo bảng dưới đây."
+
+#: royalexc/templates/tools-education/rollover.html:36
+msgid "Rollover Expiration Dates"
+msgstr "Ngày hết hạn chuyển sang"
+
+#: royalexc/templates/tools-education/rollover.html:41
+msgid "Rollover Date"
+msgstr "Ngày chuyển sang"
+
+#: royalexc/templates/tools-education/trading-central.html:34
+msgid ""
+"has teamed up with Trading Central, a leading provider of technical financial analysis. The "
+"company investigates and analyzes the Forex and other financial markets tools and provides the "
+"partner companies with forecasts and trading recommendations. Trading Central analysts combine "
+"the graphic analysis, the analysis of mathematical indicators and the candlestick analysis. "
+"Clients of the company are about one hundred financial institutions including leading Forex "
+"brokers."
+msgstr ""
+"đã hợp tác với Trading Central, một nhà cung cấp phân tích tài chính kỹ thuật hàng đầu. Công ty "
+"nghiên cứu và phân tích các thị trường, công cụ ngoại hối và tài chính khác, đồng thời cung cấp "
+"cho các công ty đối tác dự báo và khuyến nghị giao dịch. Các nhà phân tích của Trading Central "
+"kết hợp phân tích bằng đồ thị, phân tích các chỉ số toán học và phân tích biểu đồ nến. Khách "
+"hàng của công ty gần như 100% là các tổ chức tài chính, bao gồm cả các công ty môi giới Forex."
+
+#: royalexc/templates/tools-education/trading-central.html:35
+msgid "TRADING CENTRAL ANALYSIS OPINION INDICATOR"
+msgstr "CHỈ SỐ Ý KIẾN PHÂN TÍCH CỦA TRADING CENTRAL"
+
+#: royalexc/templates/tools-education/trading-central.html:41
+msgid "Coverage Following Assets:"
+msgstr "Bao hàm các tài sản sau đây:"
+
+#: royalexc/templates/tools-education/trading-central.html:42
+msgid "Forex:"
+msgstr "Ngoại hối:"
+
+#: royalexc/templates/tools-education/trading-central.html:45
+msgid "Commodities:"
+msgstr "Hàng hóa:"
+
+#: royalexc/templates/tools-education/trading-central.html:49
+msgid "Indices:"
+msgstr "Chỉ số:"
+
+#: royalexc/templates/tools-education/trading-central.html:51
+msgid "Shares:"
+msgstr "Cổ phần:"
+
+#: royalexc/templates/tools-education/trading-central.html:60
+msgid "FUNCTIONS OF THE TRADING CENTRAL ANALYSIS OPINION INDICATOR"
+msgstr "CÁC CHỨC NĂNG CỦA CHỈ SỐ Ý KIẾN PHÂN TÍCH CỦA TRADING CENTRAL"
+
+#: royalexc/templates/tools-education/trading-central.html:61
+msgid "Online Technical Analysis Research"
+msgstr "Nghiên cứu, phân tích kỹ thuật trực tuyến"
+
+#: royalexc/templates/tools-education/trading-central.html:62
+msgid "List of Assets covered per language: English, Polish and Vietnamese"
+msgstr "Danh sách tài sản được bao hàm theo ngôn ngữ: Tiếng Anh, tiếng Ba Lan và tiếng Việt"
+
+#: royalexc/templates/tools-education/trading-central.html:63
+msgid "Updated 24 hours a day in all markets"
+msgstr "Được cập nhật 24 giờ/ngày ở mọi thị trường"
+
+#: royalexc/templates/tools-education/trading-central.html:64
+msgid "Live Chart Indicators & Signals"
+msgstr "Chỉ số & tín hiệu biểu đồ trực tiếp"
+
+#: royalexc/templates/tools-education/trading-central.html:65
+msgid "Analyst Opinion Indicator"
+msgstr "Chỉ số ý kiến nhà phân tích"
+
+#: royalexc/templates/tools-education/trading-central.html:66
+msgid "Unlimited signals on every MT4 timeframe (1, 5, 15, 30 minutes etc.)"
+msgstr "Tín hiệu không giới hạn cho mỗi khung giờ MT4 (1, 5, 15, 30 phút, v.v.)"
+
+#: royalexc/templates/tools-education/trading-central.html:67
+msgid "Published in English, Polish and Vietnamese"
+msgstr "Được xuất bản bằng tiếng Anh, tiếng Ba Lan và tiếng Việt"
+
+#: royalexc/templates/tools-education/trading-central.html:68
+msgid "Download Installation"
+msgstr "Tải xuống cài đặt"
+
+#: royalexc/templates/tools-education/trading-central.html:68
+msgid "Download Instruction"
+msgstr "Tải xuống hướng dẫn"
+
+#: royalexc/templates/tools-education/trading-central.html:69
+msgid "*Available for VIP accounts only(or minimum $5,000 deposit)"
+msgstr "*Chỉ dành cho tài khoản VIP (hoặc ký gửi tối thiểu 5.000 $)"
+
+#: royalexc/templates/trading/cfds-on-bonds.html:12
+#: royalexc/templates/trading/cfds-on-bonds.html:25
+msgid "CFDs on Bonds"
+msgstr "CFD trên trái phiếu"
+
+#: royalexc/templates/trading/cfds-on-bonds.html:24
+#: royalexc/templates/trading/cfds-on-shares.html:24
+#: royalexc/templates/trading/commodities-trading.html:24
+#: royalexc/templates/trading/equity-indices.html:24
+#: royalexc/templates/trading/forex-currencies.html:24
+msgid "Trading"
+msgstr "Giao dịch"
+
+#: royalexc/templates/trading/cfds-on-bonds.html:35
+#, python-format
+msgid " Trade CFDs Bonds with %(COMPANY_NAME)s"
+msgstr "Giao dịch trái phiếu CFD với %(COMPANY_NAME)s"
+
+#: royalexc/templates/trading/cfds-on-bonds.html:36
+#, python-format
+msgid ""
+"As a %(COMPANY_NAME)s client you have exclusive access to the bond markets through contracts "
+"for difference"
+msgstr ""
+"Là khách hàng của  %(COMPANY_NAME)s, quý vị có quyền truy cập độc quyền thị trường trái phiếu "
+"thông qua các hợp đồng chênh lệch"
+
+#: royalexc/templates/trading/cfds-on-bonds.html:42
+#, python-format
+msgid "Trade on global bonds from your %(COMPANY_NAME)s Account"
+msgstr "Giao dịch trái phiếu toàn cầu từ Tài khoản %(COMPANY_NAME)s của mình."
+
+#: royalexc/templates/trading/cfds-on-bonds.html:43
+msgid "Low latency, super fast execution"
+msgstr "Độ trễ thấp, thực hiện siêu nhanh chóng"
+
+#: royalexc/templates/trading/cfds-on-bonds.html:46
+msgid "Full trading access, hedging and scalping welcome"
+msgstr "Truy cập giao dịch đầy đủ, cho phép tự bảo hiểm và giao dịch chớp nhoáng"
+
+#: royalexc/templates/trading/cfds-on-bonds.html:47
+#: royalexc/templates/trading/commodities-trading.html:42
+#: royalexc/templates/trading/equity-indices.html:45
+#: royalexc/templates/trading/forex-currencies.html:47
+msgid "Up to 1:500 leverage"
+msgstr "Đòn bẩy kinh tế lên đến 1:500"
+
+#: royalexc/templates/trading/cfds-on-bonds.html:54
+msgid "NOTE: All Spreads are variable and can change based on market volatility."
+msgstr ""
+"LƯU Ý: Mọi Chênh lệch giữa giá mua và giá bán đều khả biến và có thể thay đổi dựa trên tính "
+"biến động của thị trường."
+
+#: royalexc/templates/trading/cfds-on-shares.html:12
+#: royalexc/templates/trading/cfds-on-shares.html:25
+msgid "CFDs on Shares"
+msgstr "CFD trên cổ phần"
+
+#: royalexc/templates/trading/cfds-on-shares.html:35
+msgid "Access more than 70 shares from around the world"
+msgstr "Tiếp cận hơn 70 cổ phần từ khắp nơi trên thế giới"
+
+#: royalexc/templates/trading/cfds-on-shares.html:36
+#, python-format
+msgid "Trade CFDs shares and stocks with %(COMPANY_NAME)s"
+msgstr "Giao dịch cổ phần CFD với %(COMPANY_NAME)s"
+
+#: royalexc/templates/trading/cfds-on-shares.html:37
+msgid "Trade Commodities Online with"
+msgstr "Giao dịch hàng hóa trực tuyến với"
+
+#: royalexc/templates/trading/cfds-on-shares.html:42
+msgid "Access the global markets from a single account"
+msgstr "Tiếp cận các thị trường toàn cầu từ một tài khoản duy nhất"
+
+#: royalexc/templates/trading/cfds-on-shares.html:43
+msgid "Ultra fast execution on low latency environment"
+msgstr "Thực hiện siêu nhanh chóng trong môi trường có độ trễ thấp"
+
+#: royalexc/templates/trading/cfds-on-shares.html:44
+msgid "Leverage up to 1:500"
+msgstr "Đòn bẩy kinh tế lên đến 1:500"
+
+#: royalexc/templates/trading/cfds-on-shares.html:47
+msgid "Expand your trading with leveraged instruments"
+msgstr "Mở rộng giao dịch của quý vị với các công cụ đòn bẩy"
+
+#: royalexc/templates/trading/cfds-on-shares.html:48
+msgid "Wide range of global shares, no commissions"
+msgstr "Nhiều cổ phần trên toàn cầu, không hoa hồng"
+
+#: royalexc/templates/trading/cfds-on-shares.html:53
+msgid ""
+"Get access to the largest corporations around the globe with CFD share trading. CFDs allow you "
+"fast and easy access to the world's exchanges to take advantage of price movements of shares."
+msgstr ""
+"Tiếp cận các doanh nghiệp lớn nhất thế giới với giao dịch cổ phần CFD. CFD cho phép quý vị tiếp "
+"cận nhanh chóng và dễ dàng thị trường ngoại hối của thế giới để tận dụng biến động giá cổ phần."
+
+#: royalexc/templates/trading/cfds-on-shares.html:54
+msgid "Please note: Spreads are variable and may change due to market volatility."
+msgstr ""
+"Xin lưu ý: Mọi Chênh lệch giữa giá mua và giá bán đều khả biến và có thể thay đổi do tính biến "
+"động của thị trường."
+
+#: royalexc/templates/trading/cfds-on-shares.html:58
+msgid "For detailed information, view our CFD table:"
+msgstr "Để biết thông tin chi tiết, xem bảng CFD của chúng tôi:"
+
+#: royalexc/templates/trading/commodities-trading.html:35
+#, python-format
+msgid "Online Commodity Trading with %(COMPANY_NAME)s."
+msgstr "Giao dịch hàng hóa trực tuyến với %(COMPANY_NAME)s."
+
+#: royalexc/templates/trading/commodities-trading.html:36
+msgid "Diversify your portfolio and trade commodities."
+msgstr "Đa dạng hóa danh mục đầu tư của quý vị và giao dịch hàng hóa."
+
+#: royalexc/templates/trading/commodities-trading.html:37
+msgid "Why trade commodities?"
+msgstr "Lý do trao đổi hàng hóa"
+
+#: royalexc/templates/trading/commodities-trading.html:43
+msgid "A selection of trading platforms"
+msgstr "Một lựa chọn sàn giao dịch"
+
+#: royalexc/templates/trading/commodities-trading.html:46
+msgid "Excellent hedging potential"
+msgstr "Tiềm năng tự bảo hiểm xuất sắc"
+
+#: royalexc/templates/trading/commodities-trading.html:47
+msgid "Highly liquid assets"
+msgstr "Tài sản có tính thanh khoản cao"
+
+#: royalexc/templates/trading/commodities-trading.html:50
+msgid "Fully transparent, no hidden fees"
+msgstr "Hoàn toàn minh bạch, không có phí ẩn"
+
+#: royalexc/templates/trading/commodities-trading.html:54
+msgid ""
+"Trade a range of energy and agricultural commodities including oil, gold, natural gas and "
+"silver. See our table for full list of commodities available for trading."
+msgstr ""
+"Giao dịch nhiều loại hàng hóa năng lượng và nông nghiệp, bao gồm dầu, vàng, khí tự nhiên và "
+"bạc. Xem bảng của chúng tôi để biết danh sách đầy đủ các hàng hóa có thể giao dịch."
+
+#: royalexc/templates/trading/equity-indices.html:35
+#, python-format
+msgid "Trade Stock Indices with %(COMPANY_NAME)s"
+msgstr "Giao dịch chỉ số cổ phiếu với %(COMPANY_NAME)s"
+
+#: royalexc/templates/trading/equity-indices.html:36
+msgid "Access the global equities markets with indices."
+msgstr "Tiếp cận các thị trường vốn chủ sở hữu trên toàn cầu với chỉ số."
+
+#: royalexc/templates/trading/equity-indices.html:37
+#, python-format
+msgid "Advantages of trading with %(COMPANY_NAME)s"
+msgstr "Lợi thế khi giao dịch với %(COMPANY_NAME)s"
+
+#: royalexc/templates/trading/equity-indices.html:42
+#: royalexc/templates/trading/forex-currencies.html:42
+msgid "Round-the-clock trading and support"
+msgstr "Giao dịch và hỗ trợ cả ngày"
+
+#: royalexc/templates/trading/equity-indices.html:48
+msgid "Transparent pricing, no hidden costs"
+msgstr "Định giá minh bạch, không có chi phí ẩn"
+
+#: royalexc/templates/trading/equity-indices.html:53
+#, python-format
+msgid ""
+"Trading indices with %(COMPANY_NAME)s allows you to get access to a bundle of stocks, giving "
+"you the ability to spread your exposure and invest whether markets are rising or falling."
+msgstr ""
+"Giao dịch chỉ số với %(COMPANY_NAME)s cho phép quý vị tiếp cận một loạt các cổ phiếu, giúp quý "
+"vị có khả năng mở rộng phạm vi tiếp cận và đầu tư, cho dù thị trường đang lên hay xuống."
+
+#: royalexc/templates/trading/equity-indices.html:58
+msgid "For detailed information, view our indices table:"
+msgstr "Để biết thông tin chi tiết, xem bảng chỉ số của chúng tôi:"
+
+#: royalexc/templates/trading/forex-currencies.html:35
+msgid "Online Forex Currency Trading with"
+msgstr "Giao dịch ngoại hối trực tuyến với"
+
+#: royalexc/templates/trading/forex-currencies.html:36
+msgid "Trade the world's largest and most liquid market from wherever you are."
+msgstr "Giao dịch thị trường lớn nhất và thanh khoản nhất trên thế giới từ bất kỳ nơi nào."
+
+#: royalexc/templates/trading/forex-currencies.html:43
+msgid "Fully transparent, no hidden costs"
+msgstr "Hoàn toàn minh bạch, không có chi phí ẩn"
+
+#: royalexc/templates/trading/forex-currencies.html:44
+msgid "40+ FX pairs"
+msgstr "Hơn 40 cặp FX"
+
+#: royalexc/templates/trading/forex-currencies.html:48
+msgid "0 re-quote, 0 rejections"
+msgstr "0 báo giá lại, 0 từ chối"
+
+#: royalexc/templates/trading/forex-currencies.html:51
+msgid "Major, minor and exotic currencies available"
+msgstr "Có các đồng tiền chính, phụ và ngoại lai"
+
+#: royalexc/templates/trading/forex-currencies.html:52
+msgid "Reliable, instant execution"
+msgstr "Thực hiện tức thì, đáng tin cậy"
+
+#: royalexc/templates/trading/forex-currencies.html:57
+#, python-format
+msgid ""
+"With over $5 trillion traded daily, forex is the biggest financial market in the world today. "
+"Gain easy, online access to this exciting market with %(COMPANY_NAME)s and get precise quoting "
+"up to 1/10th of a pip."
+msgstr ""
+"Với hơn 5 nghìn tỷ đô la được giao dịch mỗi ngày, ngoại hối là thị trường tài chính lớn nhất "
+"trên thế giới hiện nay. Truy cập trực tuyến dễ dàng thị trường sôi động này với "
+"%(COMPANY_NAME)s và nhận báo giá chính xác lên đến 1/10 pip."
+
+msgid "ENG"
+msgstr "VI"

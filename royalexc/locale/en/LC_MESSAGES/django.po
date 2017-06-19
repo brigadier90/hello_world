@@ -1,0 +1,2556 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-18 13:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: royalexc/templates/about-us/aboutcompany.html:12
+#: royalexc/templates/about-us/aboutcompany.html:25
+#: royalexc/templates/about-us/faq.html:12
+#: royalexc/templates/about-us/faq.html:25 royalexc/templates/head.html:135
+#: royalexc/templates/head.html:303
+msgid "About Company"
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:23
+#: royalexc/templates/about-us/advantages.html:23
+#: royalexc/templates/about-us/careers.html:23
+#: royalexc/templates/about-us/contactus.html:23
+#: royalexc/templates/about-us/documents.html:23
+#: royalexc/templates/about-us/faq.html:23
+#: royalexc/templates/about-us/funds.html:23
+#: royalexc/templates/about-us/regulations.html:23
+#: royalexc/templates/accounts/compare-accounts.html:22
+#: royalexc/templates/accounts/demo-account.html:23
+#: royalexc/templates/accounts/funding-options.html:23
+#: royalexc/templates/accounts/islamic-account.html:23
+#: royalexc/templates/accounts/live-trading-account.html:23
+#: royalexc/templates/index.html:23
+#: royalexc/templates/partners/introducing-brokers.html:23
+#: royalexc/templates/partners/marketing-tools.html:23
+#: royalexc/templates/partners/white-label-new.html:23
+#: royalexc/templates/partners/white-label-old.html:23
+#: royalexc/templates/platforms/metatrader-4-android.html:23
+#: royalexc/templates/platforms/metatrader-4-desktop.html:23
+#: royalexc/templates/platforms/metatrader-4-iphone.html:23
+#: royalexc/templates/platforms/metatrader-4-overview.html:23
+#: royalexc/templates/platforms/webtrader.html:23
+#: royalexc/templates/tools-education/academy.html:23
+#: royalexc/templates/tools-education/economic-calendar.html:23
+#: royalexc/templates/tools-education/holiday-calendar.html:23
+#: royalexc/templates/tools-education/market-hours.html:23
+#: royalexc/templates/tools-education/rollover.html:23
+#: royalexc/templates/tools-education/trading-central.html:23
+#: royalexc/templates/trading/cfds-on-bonds.html:23
+#: royalexc/templates/trading/cfds-on-shares.html:23
+#: royalexc/templates/trading/commodities-trading.html:23
+#: royalexc/templates/trading/equity-indices.html:23
+#: royalexc/templates/trading/forex-currencies.html:23
+msgid "Home"
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:24
+#: royalexc/templates/about-us/advantages.html:24
+#: royalexc/templates/about-us/careers.html:24
+#: royalexc/templates/about-us/contactus.html:24
+#: royalexc/templates/about-us/documents.html:24
+#: royalexc/templates/about-us/faq.html:24
+#: royalexc/templates/about-us/funds.html:24
+#: royalexc/templates/about-us/regulations.html:24
+msgid "About Us"
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:35
+msgid "About"
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:40
+#, python-format
+msgid "%(COMPANY_NAME)s is a Fully Regulated Forex Broker"
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:41
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is an international broker providing online forex trading "
+"to clients in 100+ countries around the world."
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:42
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is a fully licensed and regulated broker offering "
+"unrivalled trading conditions for advanced and novice traders. From its "
+"headquarters in Belize, %(COMPANY_NAME)s has pioneered a trading network "
+"which boasts secure trading technology, prestigious partnerships and "
+"transparent support. All of these factors make %(COMPANY_NAME)s the broker "
+"of choice for traders around the world."
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:43
+msgid "Mission & Vision"
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:44
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is managed by the industry's top professionals who possess "
+"many combined years of experience in the financial sector. These individuals "
+"understand that exceptional trading conditions combined with fast execution "
+"and unrivalled customer service are the characteristics of a winning and "
+"trust-worthy broker. %(COMPANY_NAME)s continually strives to improve its "
+"services, increase its trading offering and satisfy even more international "
+"traders."
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:45
+#, python-format
+msgid "About %(COMPANY_NAME)s"
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:46
+#, python-format
+msgid ""
+"Learn more about the services offered by %(COMPANY_NAME)s to its "
+"international traders."
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:49
+msgid "FOREX REGULATION"
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:50
+msgid ""
+"Fully licensed and regulated by the International Financial Services "
+"Commission (IFSC) in Belize."
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:51
+msgid "FUND SAFETY"
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:52
+msgid ""
+"We keep client funds in segregated bank accounts to ensure maximum "
+"protection."
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:53
+msgid "ADVANTAGES"
+msgstr ""
+
+#: royalexc/templates/about-us/aboutcompany.html:54
+#, python-format
+msgid ""
+"Discover why traders choose %(COMPANY_NAME)s for their online trading needs."
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:12
+#: royalexc/templates/about-us/advantages.html:25
+msgid "Advantages"
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:35
+#, python-format
+msgid "Advantages of Trading Online With %(COMPANY_NAME)s"
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:36
+msgid ""
+"Exceptional trading conditions, high security and privacy with full "
+"transparency and real-time market quotes."
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:41
+msgid "Safety"
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:42
+#, python-format
+msgid ""
+"As a regulated broker, %(COMPANY_NAME)s is careful to provide fully "
+"monitored trading that eliminates the risk of frauduelent activity. "
+"%(COMPANY_NAME)s also takes preventative measures to ensure the safety and "
+"security of client funds."
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:43
+msgid "Reliability"
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:44
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is managed by industry professionals who possess many "
+"combined years of experience in the financial sector."
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:45
+msgid "Trading Conditions"
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:46
+#, python-format
+msgid ""
+"It is important that traders find the right account type to suit them. "
+"%(COMPANY_NAME)s offers a wide variety of trading accounts to suit all "
+"client needs."
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:49
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s provides superior trading conditions with added flexibility "
+"and services to ensure a positive trading experience for clients:"
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:50
+msgid "0 Requotes, 0 Rejections"
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:51
+msgid "Negative balance protection"
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:52
+msgid "1:500 flexible leverage"
+msgstr ""
+
+#: royalexc/templates/about-us/advantages.html:53
+msgid "Scalping, hedging and news trading allowed"
+msgstr ""
+
+#: royalexc/templates/about-us/careers.html:12
+#: royalexc/templates/about-us/careers.html:25 royalexc/templates/head.html:146
+#: royalexc/templates/head.html:308
+msgid "Careers"
+msgstr ""
+
+#: royalexc/templates/about-us/careers.html:35
+#, python-format
+msgid "%(COMPANY_NAME)s CAREERS"
+msgstr ""
+
+#: royalexc/templates/about-us/careers.html:36
+msgid "Start or continue your Forex career with us!"
+msgstr ""
+
+#: royalexc/templates/about-us/careers.html:37
+#, python-format
+msgid ""
+"If none of the current vacancies fit your experience, we’d be more than "
+"happy to receive your CV / resume. Simply email it to %(COMPANY_EMAIL)s "
+"along with a cover letter, letting us know why we should consider your "
+"application."
+msgstr ""
+
+#: royalexc/templates/about-us/contactus.html:12
+msgid "Contact us"
+msgstr ""
+
+#: royalexc/templates/about-us/contactus.html:25
+#: royalexc/templates/head.html:147 royalexc/templates/head.html:309
+msgid "Contact Us"
+msgstr ""
+
+#: royalexc/templates/about-us/contactus.html:37
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s we work around the clock to make sure our clients are "
+"happy. Our offices and help desks are open 24/5 to assist you with any "
+"questions you may have. "
+msgstr ""
+
+#: royalexc/templates/about-us/contactus.html:38
+msgid ""
+"Did you check our FAQ section? If your question is not there, please send us "
+"an email and allow 24 hours for a response. If your question is urgent, "
+"please speak directly with one of our advisors."
+msgstr ""
+
+#: royalexc/templates/about-us/contactus.html:77
+msgid "The Office"
+msgstr ""
+
+#: royalexc/templates/about-us/contactus.html:87
+msgid "Working Hours"
+msgstr ""
+
+#: royalexc/templates/about-us/contactus.html:89
+msgid "Monday-Friday:"
+msgstr ""
+
+#: royalexc/templates/about-us/contactus.html:89
+msgid "07:00-16:00 GMT"
+msgstr ""
+
+#: royalexc/templates/about-us/contactus.html:90
+msgid "Saturday:"
+msgstr ""
+
+#: royalexc/templates/about-us/contactus.html:90
+#: royalexc/templates/about-us/contactus.html:91
+msgid "Closed"
+msgstr ""
+
+#: royalexc/templates/about-us/contactus.html:91
+msgid "Sunday:"
+msgstr ""
+
+#: royalexc/templates/about-us/documents.html:12
+#: royalexc/templates/about-us/documents.html:25
+#: royalexc/templates/about-us/documents.html:35
+#: royalexc/templates/head.html:142 royalexc/templates/head.html:307
+msgid "Legal Documents"
+msgstr ""
+
+#: royalexc/templates/about-us/documents.html:39
+msgid "Terms & Conditions of Use"
+msgstr ""
+
+#: royalexc/templates/about-us/documents.html:43
+msgid "Privacy Policy"
+msgstr ""
+
+#: royalexc/templates/about-us/documents.html:47
+msgid "Conflicts of Interest Policy"
+msgstr ""
+
+#: royalexc/templates/about-us/documents.html:53
+msgid "Order Execution Policy"
+msgstr ""
+
+#: royalexc/templates/about-us/documents.html:59
+msgid "Risk Disclaimer"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:35
+msgid "Question: How do I know my funds are safe?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:37
+msgid "Please refer to the section regarding Fund Safety"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:39
+msgid "What is Forex?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:41
+#, python-format
+msgid ""
+"Forex or FX is an abbreviation of Foreign Exchange. It describes the process "
+"of exchanging one currency for another and includes hundreds of global "
+"currencies. The purpose of forex trading is to make gains and offset risks "
+"in order to profit from the  movement of certain currency pairs. With "
+"%(COMPANY_NAME)s, forex trading can take place via your desktop, mobile or "
+"tablet. The Forex (FX) market is a global over the counter (OTC) market. "
+"This means that virtually anyone can participate if they have an internet "
+"connection and an electronic device.  The forex market has become the "
+"largest financial market with a daily turnover in excess of $5 trillion! In "
+"addition to currencies, participants can choose to trade metals, "
+"commodities, indices, stocks and bonds."
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:43
+#, python-format
+msgid "What does %(COMPANY_NAME)s provide?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:45
+#, python-format
+msgid ""
+"With %(COMPANY_NAME)s, clients can access the financial markets by using the "
+"Metatrader (MT4) platform. On the MT4 platform, traders can choose from a "
+"variety of assets including CFD's, Stock Indices, Metals and many more."
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:47
+#, python-format
+msgid "When Can I Trade Forex with %(COMPANY_NAME)s"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:49
+msgid ""
+"You can trade forex from 21:00 GMT on Sunday until 22:00 GMT on Friday. "
+"These times take you from the Sydney open to the New York close. For a full "
+"list of trading hours, please visit our Market Hours page."
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:51
+#, python-format
+msgid "Where is %(COMPANY_NAME)s licensed and registered?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:53
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is licensed and registered by the International Financial "
+"Services Commission (IFSC) in Belize with license number IFSC/60/260/"
+"TS/17. License and Registration page."
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:55
+#, python-format
+msgid "How do I open an account with %(COMPANY_NAME)s?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:57
+#, python-format
+msgid ""
+"To open an account with %(COMPANY_NAME)s, simply click here to complete a "
+"few brief forms. You will become a valued member of the %(COMPANY_NAME)s "
+"family in minutes!"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:59
+msgid "Which documents should I provide?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:61
+#, python-format
+msgid ""
+"As part of our regulatory requirements and in an effort to protect clients, "
+"%(COMPANY_NAME)s requires you to submit two documents. These are your proof "
+"of ID and your proof of residency (e.g a passport and utility bill). In "
+"accordance with regulatory requirements, %(COMPANY_NAME)s may from time to "
+"time request further documentation however clients can be assured of a high "
+"level of data protection at all times."
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:63
+#, python-format
+msgid "Does %(COMPANY_NAME)s provide any assistance with my trading?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:65
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s we assist our traders wherever possible by providing "
+"useful tools such as an economic calendar. Our support team is also "
+"available 24/5 for help and assistance. We do not, however, provide "
+"investment advice to clients or execute trades on their behalf."
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:67
+#, python-format
+msgid "What Leverage am I allowed at %(COMPANY_NAME)s?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:69
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s traders are granted up to 1:500 leverage based on the "
+"account type they have selected. Flexible leverage is granted to larger "
+"accounts receiving bespoke solutions. Please check your eligibility with "
+"your Account Manager."
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:71
+#, python-format
+msgid "How can I deposit/withdraw funds to my %(COMPANY_NAME)s Account?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:73
+msgid "See a full list of deposit and withdrawal methods  here"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:75
+#, python-format
+msgid "Which currencies can I use to deposit to my %(COMPANY_NAME)s account?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:77
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s accepts the following base currencies: GBP, USD, EUR, JPY"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:79
+msgid "How long does the deposit process take?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:81
+msgid "Please click here"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:83
+msgid "What is a spread?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:85
+msgid ""
+"A spread is the difference between the Bid and Ask price in forex trading. "
+"It represents the price of an asset that you, as a client, can Sell and Buy "
+"for."
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:87
+msgid "What is a short/long position?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:89
+msgid ""
+"When you sell a currency pair you have taken a short position on that pair. "
+"When you buy a currency pair you have taken a long position on that pair."
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:91
+msgid "Can I open more than one live/demo account?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:93
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s you can open more than one live or demo trading account. "
+"In fact, you can open up to five live trading accounts."
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:95
+msgid "Can I keep my account open with no balance?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:97
+#, python-format
+msgid ""
+"Yes. At %(COMPANY_NAME)s you can maintain a balance of zero for as long as "
+"you require."
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:99
+#, python-format
+msgid "What account types are offered by %(COMPANY_NAME)s?"
+msgstr ""
+
+#: royalexc/templates/about-us/faq.html:101
+msgid "To see a full list of our account types, please click here"
+msgstr ""
+
+#: royalexc/templates/about-us/funds.html:12
+#: royalexc/templates/about-us/funds.html:25
+msgid "Funds"
+msgstr ""
+
+#: royalexc/templates/about-us/funds.html:35
+#, python-format
+msgid "%(COMPANY_NAME)s ensures maximum security of your funds!"
+msgstr ""
+
+#: royalexc/templates/about-us/funds.html:36
+#, python-format
+msgid ""
+"As a financial institution %(COMPANY_NAME)s takes every preventative measure "
+"to ensure client investments are highly secure and safe under all "
+"circumstances. This level of security is achieved through the following:"
+msgstr ""
+
+#: royalexc/templates/about-us/funds.html:41
+msgid "Segregation of client funds"
+msgstr ""
+
+#: royalexc/templates/about-us/funds.html:42
+msgid ""
+"Client funds are held in separate accounts within secure banking "
+"institutions, thereby protecting their use for any other purpose. This "
+"segregation from the company’s own accounts ensures that traders’ funds "
+"cannot be used by the company under any circumstances."
+msgstr ""
+
+#: royalexc/templates/about-us/funds.html:45
+msgid "Full Regulation"
+msgstr ""
+
+#: royalexc/templates/about-us/funds.html:46
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s is licensed by the International Financial Services "
+"Commission (“IFSC”) in Belize which means the company is monitored and has "
+"to comply to governing rules and regulations."
+msgstr ""
+
+#: royalexc/templates/about-us/funds.html:51
+msgid "SSL Security with 256 Bit Encryption"
+msgstr ""
+
+#: royalexc/templates/about-us/funds.html:52
+msgid ""
+"Clients financial transactions are all protected by the Secure Sockets Layer "
+"(SSL), which is a security technology for establishing an encrypted link "
+"between a web server and a web browser ensuring all data passed between the "
+"web server and browser remains private."
+msgstr ""
+
+#: royalexc/templates/about-us/regulations.html:12
+#: royalexc/templates/about-us/regulations.html:25
+msgid "Licence and Regulations"
+msgstr ""
+
+#: royalexc/templates/about-us/regulations.html:34
+msgid "Trade with a Regulated Broker"
+msgstr ""
+
+#: royalexc/templates/about-us/regulations.html:35
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s LIMITED is a limited liability company dully registered and "
+"existing under the laws of Belize with registration number 130266 and "
+"licensed by the International Financial Services Commission (“IFSC”) in "
+"Belize with license number IFSC/60/260/TS/17."
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:11
+#: royalexc/templates/accounts/compare-accounts.html:24
+msgid "Compare Accounts"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:23
+#: royalexc/templates/accounts/demo-account.html:24
+#: royalexc/templates/accounts/islamic-account.html:24
+#: royalexc/templates/accounts/live-trading-account.html:24
+msgid "Accounts"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:34
+msgid "Select the account that suits your trading!"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:35
+#, python-format
+msgid ""
+"To give you the best trading experience, %(COMPANY_NAME)s offers flexible "
+"account types to match your trading needs."
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:42
+msgid "Standard"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:43
+#: royalexc/templates/accounts/compare-accounts.html:118
+#: royalexc/templates/accounts/compare-accounts.html:191
+msgid "Spreads"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:44
+#: royalexc/templates/index.html:146
+msgid "from 2.3 pips"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:47
+#: royalexc/templates/accounts/compare-accounts.html:122
+#: royalexc/templates/accounts/compare-accounts.html:195
+msgid "Minimum Deposit"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:48
+msgid "50 USD *"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:51
+#: royalexc/templates/accounts/compare-accounts.html:126
+#: royalexc/templates/accounts/compare-accounts.html:199
+msgid "Leverage"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:52
+#: royalexc/templates/accounts/compare-accounts.html:127
+#: royalexc/templates/accounts/compare-accounts.html:200
+msgid "1:1-1:500"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:55
+#: royalexc/templates/accounts/compare-accounts.html:130
+#: royalexc/templates/accounts/compare-accounts.html:203
+msgid "Order Execution"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:56
+#: royalexc/templates/accounts/compare-accounts.html:131
+#: royalexc/templates/accounts/compare-accounts.html:204
+#: royalexc/templates/index.html:148 royalexc/templates/index.html:171
+#: royalexc/templates/index.html:194
+msgid "Market Execution"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:59
+#: royalexc/templates/tools-education/rollover.html:40
+msgid "Instrument"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:60
+#: royalexc/templates/accounts/compare-accounts.html:135
+#: royalexc/templates/accounts/compare-accounts.html:208
+msgid "FX, Commodities, Equity Indices"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:63
+#: royalexc/templates/accounts/compare-accounts.html:138
+#: royalexc/templates/accounts/compare-accounts.html:211
+msgid "Deposit Currencies"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:67
+#: royalexc/templates/accounts/compare-accounts.html:142
+#: royalexc/templates/accounts/compare-accounts.html:215
+msgid "Swap Type"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:68
+#: royalexc/templates/accounts/compare-accounts.html:143
+#: royalexc/templates/accounts/compare-accounts.html:216
+msgid "Points ***"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:71
+#: royalexc/templates/accounts/compare-accounts.html:146
+#: royalexc/templates/accounts/compare-accounts.html:219
+msgid "Minimum Order Size"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:72
+#: royalexc/templates/accounts/compare-accounts.html:147
+#: royalexc/templates/accounts/compare-accounts.html:220
+msgid "0.01 ****"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:75
+#: royalexc/templates/accounts/compare-accounts.html:150
+#: royalexc/templates/accounts/compare-accounts.html:223
+msgid "Maximum Order Size"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:76
+#: royalexc/templates/accounts/compare-accounts.html:151
+#: royalexc/templates/accounts/compare-accounts.html:224
+msgid "20"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:79
+#: royalexc/templates/accounts/compare-accounts.html:154
+#: royalexc/templates/accounts/compare-accounts.html:227
+msgid "Stop Out"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:80
+#: royalexc/templates/accounts/compare-accounts.html:155
+#: royalexc/templates/accounts/compare-accounts.html:228
+#, python-format
+msgid "50%%"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:83
+#: royalexc/templates/accounts/compare-accounts.html:158
+#: royalexc/templates/accounts/compare-accounts.html:231
+msgid "Margin Call"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:84
+#: royalexc/templates/accounts/compare-accounts.html:159
+#: royalexc/templates/accounts/compare-accounts.html:232
+#, python-format
+msgid "100%%"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:87
+#: royalexc/templates/accounts/compare-accounts.html:162
+#: royalexc/templates/accounts/compare-accounts.html:235
+msgid "Trading Platform"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:88
+#: royalexc/templates/accounts/compare-accounts.html:163
+#: royalexc/templates/accounts/compare-accounts.html:236
+#: royalexc/templates/head.html:200 royalexc/templates/head.html:345
+#: royalexc/templates/index.html:151 royalexc/templates/index.html:174
+#: royalexc/templates/index.html:197
+msgid "MetaTrader 4"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:91
+#: royalexc/templates/accounts/compare-accounts.html:166
+#: royalexc/templates/accounts/compare-accounts.html:239
+#: royalexc/templates/index.html:152
+msgid "Mobile Trading"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:95
+#: royalexc/templates/accounts/compare-accounts.html:170
+#: royalexc/templates/accounts/compare-accounts.html:243
+#: royalexc/templates/index.html:175 royalexc/templates/index.html:198
+msgid "Telephone Trading"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:99
+#: royalexc/templates/accounts/compare-accounts.html:174
+#: royalexc/templates/accounts/compare-accounts.html:247
+msgid "Fifth Decimal"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:103
+msgid "24/5 Dealing Support"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:107
+#: royalexc/templates/accounts/compare-accounts.html:182
+#: royalexc/templates/accounts/compare-accounts.html:255
+msgid "Commission"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:117
+msgid "Platinum"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:119
+#: royalexc/templates/index.html:192
+msgid "from 0 pips"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:123
+msgid "20,000 USD *"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:134
+#: royalexc/templates/accounts/compare-accounts.html:207
+msgid "Instruments"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:139
+#: royalexc/templates/accounts/compare-accounts.html:212
+msgid "USD, EUR, GBP, JPY, RUB, PLN CZK"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:178
+#: royalexc/templates/accounts/compare-accounts.html:251
+msgid "24h Dealing Support"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:190
+msgid "VIP"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:192
+#: royalexc/templates/index.html:169
+msgid "from 1.9 pips"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:196
+msgid "5,000 USD *"
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:263
+msgid ""
+"* Minimum deposits based on USD. Deposits in other currencies must be "
+"deposited based on the equivalent US dollar amounts based on the exchange "
+"rate."
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:264
+msgid ""
+"**Account balances over USD 10,000 have a maximum leverage of 1:200. Account "
+"balances over USD 100,000 maximum leverate at 1:100."
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:265
+msgid ""
+"***Swaps are calculated in points and subject to change, based on the "
+"difference in interest rate differential of the the overnight rate, of the "
+"two currencies."
+msgstr ""
+
+#: royalexc/templates/accounts/compare-accounts.html:266
+msgid ""
+"****Only valid for forex pairs. For commodities and stock indices minimum "
+"order sizes please visit the trading instruments pages."
+msgstr ""
+
+#: royalexc/templates/accounts/demo-account.html:12
+#: royalexc/templates/accounts/demo-account.html:25
+msgid "Demo Account"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:12
+#: royalexc/templates/accounts/funding-options.html:25
+#: royalexc/templates/head.html:161 royalexc/templates/head.html:318
+msgid "Funding Options"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:24
+msgid "Accoutns"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:35
+msgid "About Funding Methods"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:36
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s clients can deposit through credit card from any country "
+"around the world."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:37
+msgid "Deposit with your credit card from anywhere in the world."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:38
+msgid ""
+"Don't see a funding method that suits you? Just ask and we will see if we "
+"can accommodate your request."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:39
+msgid "Email us at info@royalexc.com"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:40
+msgid "DEPOSITS"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:40
+msgid "Deposit of Funds"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:41
+msgid ""
+"To deposit please log into your Members Area and go to 'deposit' in the "
+"menu. Select your payment method and you will get step-by-step instructions. "
+"As a verified client your deposits are immediately available for trading "
+"(excluding bank transfers which may take a few more days)."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:42
+#: royalexc/templates/accounts/funding-options.html:58
+msgid "Terms"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:43
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s does not accept deposits from 3rd parties. Deposits must be "
+"made from bank accounts or credit cards from the same name as your trading "
+"account."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:44
+msgid "How to Deposit"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:45
+msgid "* Log into your Members Area and select Deposit Funds."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:46
+msgid "* Choose your payment method."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:47
+msgid "* Enter the amount to deposit and click Continue"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:48
+msgid ""
+"* Fill in your credit card details or your eWallet account details and click "
+"Continue."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:49
+msgid ""
+"* A confirmation message will appear on your screen if your payment is "
+"successful."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:50
+msgid "WITHDRAWAL"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:51
+msgid ""
+"To withdraw please ensure you've uploaded your required documents to verify "
+"your account. Upload your documents directly in the Members Area. Once your "
+"account is verified you may withdraw from your account."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:52
+msgid "How to withdraw"
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:53
+msgid "* Log into your Members Area and select Make Withdrawal."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:54
+msgid ""
+"* Choose the account to withdraw from, enter the amount and click Submit. "
+"You may only withdraw up to the free balance amount in your trading account "
+"at the time of request."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:55
+msgid "* Your request will be processed within one working day."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:56
+msgid "* The requested amount is withdrawn from your trading account."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:57
+msgid ""
+"* It may take up to 48 hours to process your withdrawal and the time needed "
+"for the funds to reach your bank account may vary depending on your "
+"preferred payment method. Read more in Payment Method Information."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:59
+msgid ""
+"As part of our regulatory obligation to minimise fraud and money laundering, "
+"we can only return funds back to the original source of your deposit."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:60
+#, python-format
+msgid ""
+"Any funds withdrawn that exceede your initial deposit will be refunded to "
+"the same payment method if your provider allows. Otherwise your funds will "
+"be sent to an alternative method as approved by %(COMPANY_NAME)s.  In rare "
+"instances, %(COMPANY_NAME)s may return your funds via bank transfer."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:61
+#, python-format
+msgid ""
+"Your withdrawn funds will be returned in the same currency as your original "
+"deposit. If your account currency varies from the withdrawn currency, the "
+"transferred amount will be converted at the current %(COMPANY_NAME)s "
+"exchange rate."
+msgstr ""
+
+#: royalexc/templates/accounts/funding-options.html:62
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s does not charge any commissions on your withdrawals. "
+"However your payment provider may do so. See table."
+msgstr ""
+
+#: royalexc/templates/accounts/islamic-account.html:12
+#: royalexc/templates/accounts/islamic-account.html:25
+#: royalexc/templates/head.html:166 royalexc/templates/head.html:320
+msgid "Islamic Account"
+msgstr ""
+
+#: royalexc/templates/accounts/islamic-account.html:35
+#, python-format
+msgid "%(COMPANY_NAME)s offers Swap-free Islamic Accounts"
+msgstr ""
+
+#: royalexc/templates/accounts/islamic-account.html:36
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s’s Islamic account allows swap free trading in compliance "
+"with the Sharia Law, which means traders can trade on an Islamic account "
+"without being charged overnight fees. %(COMPANY_NAME)s’s Islamic account is "
+"completely swap free for as long as the account is open and is only "
+"available for traders of the Muslim religion and should only be requested on "
+"the grounds of religious belief."
+msgstr ""
+
+#: royalexc/templates/accounts/islamic-account.html:40
+msgid ""
+"To open a Muslim account please open a real account and send the Islamic "
+"Account Request Form to"
+msgstr ""
+
+#: royalexc/templates/accounts/islamic-account.html:41
+msgid ""
+"Note: In the event that we detect any form of abuse, fraud, manipulation, "
+"cash-back arbitrage, carry trades, or other forms of deceitful or fraudulent "
+"activity in regard to any Swap-free Account of any client, we reserve the "
+"right, at any time, to revoke the Swap-free status from any and all real "
+"trading Accounts of such client that have been converted to a Swap-free "
+"trading Account; (b) to correct and recover any unaccrued Swaps and any "
+"related un-accrued interest expenses and or costs pertaining to any and all "
+"of such client’s Swap-free trading Accounts during the period for which such "
+"Accounts were converted into Swap-free trading Accounts; and/or (c), with "
+"immediate effect, to close all trading Accounts of such client with us, "
+"nullify all trades carried out in such client’s trading Accounts with us and "
+"cancel and all profits or losses garnered in such client’s trading Accounts "
+"with us."
+msgstr ""
+
+#: royalexc/templates/accounts/islamic-account.html:44
+msgid "Islamic Account Regulations"
+msgstr ""
+
+#: royalexc/templates/accounts/islamic-account.html:45
+msgid ""
+"O Only Standard and VIP accounts can be used as Islamic accounts. Evidence "
+"of religion must be presented through the country of origin of the client "
+"through proof of identity."
+msgstr ""
+
+#: royalexc/templates/accounts/islamic-account.html:46
+msgid ""
+"O Islamic account holders cannot simultaneously open non-Islamic accounts."
+msgstr ""
+
+#: royalexc/templates/accounts/islamic-account.html:47
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s maintains the right to limit trading if there is evidence "
+"of manipulation."
+msgstr ""
+
+#: royalexc/templates/accounts/live-trading-account.html:12
+#: royalexc/templates/accounts/live-trading-account.html:25
+msgid "Live Trading Account"
+msgstr ""
+
+#: royalexc/templates/fail_page.html:10
+msgid "Registration has failed"
+msgstr ""
+
+#: royalexc/templates/footer.html:15
+msgid ""
+"Forex products are leveraged products and trading forex therefore involves a "
+"high level of risk that may not be suitable for everyone."
+msgstr ""
+
+#: royalexc/templates/footer.html:16
+#, python-format
+msgid ""
+"recommends that you ensure that you fully understand the risks involved "
+"before making any decision concerning %(COMPANY_NAME)s's products."
+msgstr ""
+
+#: royalexc/templates/footer.html:17
+msgid "Independent advice should be sought if necessary"
+msgstr ""
+
+#: royalexc/templates/footer.html:20
+#, python-format
+msgid ""
+"Limited is an International business company with registration number 130266 "
+"and is authorised and regulated by the International Financial Services "
+"Commission (IFSC) under License number IFSC/60/260/TS/17. %(COMPANY_NAME)s "
+"Limited has its registered office being located at No. 5 Cork Street, Belize "
+"City, Belize."
+msgstr ""
+
+#: royalexc/templates/footer.html:21
+#, python-format
+msgid ""
+"Trading Forex and CFDs involves significant risk and can result in the loss "
+"of your invested capital. You should not invest more than you can afford to "
+"lose. Before trading, you should ensure that you fully understand the risks "
+"involved as trading leveraged products may not be suitable for all "
+"investors. Prior to trading, please take into account your level of "
+"experience, your investment objectives and seek independent financial advice "
+"if necessary. It is the responsibility of the Client to ascertain whether "
+"he/ she is permitted to use the services of %(COMPANY_NAME)s Limited based "
+"on the legal requirements in his/her country of residence."
+msgstr ""
+
+#: royalexc/templates/footer.html:22
+msgid ""
+"Limited does not provide services to residents of the USA, Belize, Japan and "
+"Canada."
+msgstr ""
+
+#: royalexc/templates/head.html:54
+msgid "Contact"
+msgstr ""
+
+#: royalexc/templates/head.html:75
+msgid "Login"
+msgstr ""
+
+#: royalexc/templates/head.html:79
+msgid "Partnership"
+msgstr ""
+
+#: royalexc/templates/head.html:130 royalexc/templates/head.html:299
+msgid "HOME"
+msgstr ""
+
+#: royalexc/templates/head.html:131 royalexc/templates/head.html:300
+msgid "ABOUT US"
+msgstr ""
+
+#: royalexc/templates/head.html:136 royalexc/templates/head.html:304
+msgid "Trading Advantages"
+msgstr ""
+
+#: royalexc/templates/head.html:137 royalexc/templates/head.html:305
+msgid "Fund Security"
+msgstr ""
+
+#: royalexc/templates/head.html:141 royalexc/templates/head.html:306
+msgid "Licences and Regulations"
+msgstr ""
+
+#: royalexc/templates/head.html:148
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: royalexc/templates/head.html:152 royalexc/templates/head.html:313
+msgid "ACCOUNTS"
+msgstr ""
+
+#: royalexc/templates/head.html:156 royalexc/templates/head.html:316
+msgid "Open Live Account"
+msgstr ""
+
+#: royalexc/templates/head.html:157 royalexc/templates/head.html:317
+msgid "Open Demo Account"
+msgstr ""
+
+#: royalexc/templates/head.html:162 royalexc/templates/head.html:319
+msgid "Compare Account Types"
+msgstr ""
+
+#: royalexc/templates/head.html:170 royalexc/templates/head.html:324
+msgid "TRADING"
+msgstr ""
+
+#: royalexc/templates/head.html:174 royalexc/templates/head.html:327
+#: royalexc/templates/trading/forex-currencies.html:12
+#: royalexc/templates/trading/forex-currencies.html:25
+msgid "Forex Currencies"
+msgstr ""
+
+#: royalexc/templates/head.html:175 royalexc/templates/head.html:328
+#: royalexc/templates/trading/commodities-trading.html:12
+#: royalexc/templates/trading/commodities-trading.html:25
+msgid "Commodities Trading"
+msgstr ""
+
+#: royalexc/templates/head.html:181 royalexc/templates/head.html:331
+msgid "CDFs on Shares"
+msgstr ""
+
+#: royalexc/templates/head.html:182 royalexc/templates/head.html:332
+msgid "CDFs on Bonds"
+msgstr ""
+
+#: royalexc/templates/head.html:189 royalexc/templates/head.html:335
+#: royalexc/templates/trading/equity-indices.html:12
+#: royalexc/templates/trading/equity-indices.html:25
+msgid "Equity Indices"
+msgstr ""
+
+#: royalexc/templates/head.html:196 royalexc/templates/head.html:342
+msgid "PLATFORMS"
+msgstr ""
+
+#: royalexc/templates/head.html:201 royalexc/templates/head.html:346
+#: royalexc/templates/platforms/metatrader-4-desktop.html:12
+#: royalexc/templates/platforms/metatrader-4-desktop.html:25
+msgid "MetaTrader 4 for Desktop"
+msgstr ""
+
+#: royalexc/templates/head.html:207 royalexc/templates/head.html:349
+#: royalexc/templates/platforms/metatrader-4-iphone.html:12
+#: royalexc/templates/platforms/metatrader-4-iphone.html:25
+msgid "MetaTrader 4 for iPhone/iPad"
+msgstr ""
+
+#: royalexc/templates/head.html:208 royalexc/templates/head.html:350
+msgid "MetaTrader 4 for Android"
+msgstr ""
+
+#: royalexc/templates/head.html:215 royalexc/templates/head.html:354
+msgid "ROYALEXC MT4 WebTrader"
+msgstr ""
+
+#: royalexc/templates/head.html:222 royalexc/templates/head.html:361
+msgid "PARTNERS"
+msgstr ""
+
+#: royalexc/templates/head.html:226 royalexc/templates/head.html:364
+#: royalexc/templates/partners/introducing-brokers.html:12
+#: royalexc/templates/partners/introducing-brokers.html:25
+msgid "Introducing Brokers"
+msgstr ""
+
+#: royalexc/templates/head.html:232 royalexc/templates/head.html:366
+#: royalexc/templates/partners/marketing-tools.html:12
+#: royalexc/templates/partners/marketing-tools.html:25
+msgid "Marketing Tools"
+msgstr ""
+
+#: royalexc/templates/head.html:239 royalexc/templates/head.html:370
+#: royalexc/templates/partners/white-label-new.html:12
+#: royalexc/templates/partners/white-label-new.html:25
+#: royalexc/templates/partners/white-label-old.html:12
+#: royalexc/templates/partners/white-label-old.html:25
+msgid "White Label"
+msgstr ""
+
+#: royalexc/templates/head.html:246 royalexc/templates/head.html:377
+msgid "TOOLS-EDUCATIONS"
+msgstr ""
+
+#: royalexc/templates/head.html:250 royalexc/templates/head.html:380
+#: royalexc/templates/tools-education/economic-calendar.html:12
+#: royalexc/templates/tools-education/economic-calendar.html:25
+msgid "Economic Calendar"
+msgstr ""
+
+#: royalexc/templates/head.html:251 royalexc/templates/head.html:381
+#: royalexc/templates/tools-education/holiday-calendar.html:12
+#: royalexc/templates/tools-education/holiday-calendar.html:25
+msgid "Holiday Calendar"
+msgstr ""
+
+#: royalexc/templates/head.html:257 royalexc/templates/head.html:384
+#: royalexc/templates/tools-education/market-hours.html:12
+#: royalexc/templates/tools-education/market-hours.html:25
+msgid "Market Hours"
+msgstr ""
+
+#: royalexc/templates/head.html:258 royalexc/templates/head.html:385
+#: royalexc/templates/tools-education/rollover.html:12
+#: royalexc/templates/tools-education/rollover.html:25
+msgid "Rollover"
+msgstr ""
+
+#: royalexc/templates/head.html:264 royalexc/templates/head.html:388
+msgid "Academy"
+msgstr ""
+
+#: royalexc/templates/head.html:265 royalexc/templates/head.html:389
+#: royalexc/templates/tools-education/trading-central.html:12
+#: royalexc/templates/tools-education/trading-central.html:25
+msgid "Trading Central"
+msgstr ""
+
+#: royalexc/templates/head.html:271
+msgid "REGISTER"
+msgstr ""
+
+#: royalexc/templates/index.html:12
+msgid "About us"
+msgstr ""
+
+#: royalexc/templates/index.html:94 royalexc/templates/index.html:217
+msgid "DEMO ACCOUNT"
+msgstr ""
+
+#: royalexc/templates/index.html:95 royalexc/templates/index.html:218
+msgid "LIVE ACCOUNT"
+msgstr ""
+
+#: royalexc/templates/index.html:97
+msgid "Trading involves a high level of risk"
+msgstr ""
+
+#: royalexc/templates/index.html:103
+msgid "SUPERIOR TRADING CONDITIONS"
+msgstr ""
+
+#: royalexc/templates/index.html:104
+#, python-format
+msgid ""
+"As a global, fully licensed STP broker %(COMPANY_NAME)s offers unparalleled "
+"trading conditions designed to meet all realistic expectations of both "
+"professional and new traders."
+msgstr ""
+
+#: royalexc/templates/index.html:124
+msgid "Multiple trading platforms under one Trading Account"
+msgstr ""
+
+#: royalexc/templates/index.html:125
+#, python-format
+msgid ""
+"provides its clients with the industry’s most reputable, award winning and "
+"sought after forex and CFDs platforms – Metatrader 4 (MT4). Access all the "
+"dynamic %(COMPANY_NAME)s trading instruments under the same account from "
+"multiple platforms."
+msgstr ""
+
+#: royalexc/templates/index.html:143
+msgid "STANDARD ACCOUNT"
+msgstr ""
+
+#: royalexc/templates/index.html:144
+msgid "Start trading with just $50. No commissions charged!"
+msgstr ""
+
+#: royalexc/templates/index.html:147
+msgid "Min Deposit $50"
+msgstr ""
+
+#: royalexc/templates/index.html:149 royalexc/templates/index.html:172
+#: royalexc/templates/index.html:195
+msgid "FX,Commodities, Equity Indices"
+msgstr ""
+
+#: royalexc/templates/index.html:150 royalexc/templates/index.html:173
+msgid "1:1 - 1:500 Leverage"
+msgstr ""
+
+#: royalexc/templates/index.html:153
+msgid "No Comission"
+msgstr ""
+
+#: royalexc/templates/index.html:165
+msgid "VIP ACCOUNT"
+msgstr ""
+
+#: royalexc/templates/index.html:166
+msgid "Dedicated 24 hour dealing support"
+msgstr ""
+
+#: royalexc/templates/index.html:170
+msgid "Min Deposit $2,000"
+msgstr ""
+
+#: royalexc/templates/index.html:176 royalexc/templates/index.html:199
+msgid "24 Hours Dealing Support"
+msgstr ""
+
+#: royalexc/templates/index.html:188
+msgid "PLATINUM ACCOUNT"
+msgstr ""
+
+#: royalexc/templates/index.html:189
+msgid "Go pro with a ZERO spread account"
+msgstr ""
+
+#: royalexc/templates/index.html:193
+msgid "Min Deposit $5,000"
+msgstr ""
+
+#: royalexc/templates/index.html:196
+msgid "1:1 - 1:500 Leverag"
+msgstr ""
+
+#: royalexc/templates/index.html:220
+msgid "Trading involves high level of risk"
+msgstr ""
+
+#: royalexc/templates/partners/introducing-brokers.html:24
+#: royalexc/templates/partners/marketing-tools.html:24
+#: royalexc/templates/partners/white-label-new.html:24
+#: royalexc/templates/partners/white-label-old.html:24
+msgid "Partners"
+msgstr ""
+
+#: royalexc/templates/partners/introducing-brokers.html:35
+#, python-format
+msgid ""
+"The %(COMPANY_NAME)sIntroducing Broker (IB) partnership is for individuals "
+"or organizations wishing to make revenue through the promotion of "
+"%(COMPANY_NAME)s\n"
+"through any online/offline means. Our IB program is provided with the "
+"industry’s most competitive pip rebate rates and bespoke solutions are "
+"always available on demand to help you get the optimal return from your "
+"portfolio of clients."
+msgstr ""
+
+#: royalexc/templates/partners/introducing-brokers.html:42
+msgid "Get more from your Introducing Broker program："
+msgstr ""
+
+#: royalexc/templates/partners/introducing-brokers.html:43
+msgid "A convenient online application process"
+msgstr ""
+
+#: royalexc/templates/partners/introducing-brokers.html:44
+msgid "Comprehensive back-end administrative support"
+msgstr ""
+
+#: royalexc/templates/partners/introducing-brokers.html:45
+msgid "A competitive, customized revenue sharing plan"
+msgstr ""
+
+#: royalexc/templates/partners/introducing-brokers.html:46
+msgid "Professional and personalized service from a leading FX broker"
+msgstr ""
+
+#: royalexc/templates/partners/introducing-brokers.html:47
+msgid "Join Our Partnership Program"
+msgstr ""
+
+#: royalexc/templates/partners/introducing-brokers.html:52
+#, python-format
+msgid ""
+"As an IB you need to know that your forex trading partners can be relied "
+"upon. We provide fair commission rates, superior trading technology and, of "
+"course, exceptional client service. %(COMPANY_NAME)s's Introducing Broker "
+"program is designed to help partners build their client base whilst "
+"benefiting from a tailor-made commission strategy."
+msgstr ""
+
+#: royalexc/templates/partners/introducing-brokers.html:53
+#, python-format
+msgid ""
+"We’ll work with you to develop the right commission structure for your "
+"business, where you’re compensated every time your clients trade on "
+"%(COMPANY_NAME)s's MT4 trading platform."
+msgstr ""
+
+#: royalexc/templates/partners/introducing-brokers.html:54
+msgid ""
+"In addition to the most advanced MT4 technology, you’ll be assigned your own "
+"dedicated IB account manager, who is there to ensure the highest level of "
+"service so you can grow your venture with minimum hassle and maximum "
+"benefits."
+msgstr ""
+
+#: royalexc/templates/partners/marketing-tools.html:35
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s partners are granted access to marketing tools to help "
+"drive their promotional engine, expand clientele networks and reach more "
+"optimal and lucrative results. Below is the list of various creatives and "
+"marketing tools %(COMPANY_NAME)s offers affiliates to build a more "
+"successful and effective campaign."
+msgstr ""
+
+#: royalexc/templates/partners/marketing-tools.html:40
+msgid "Banners"
+msgstr ""
+
+#: royalexc/templates/partners/marketing-tools.html:41
+msgid ""
+"We have comprised a vast variety of banners to accommodate all the interests "
+"within the forex industry. Partners can get banners to promote low spreads, "
+"forex bonuses, high leveraged products or any aspect of the company; we have "
+"them in a range of sizes and languages for more options as we are also "
+"flexible in providing you with tailored solutions."
+msgstr ""
+
+#: royalexc/templates/partners/marketing-tools.html:44
+msgid "Landing Pages"
+msgstr ""
+
+#: royalexc/templates/partners/marketing-tools.html:45
+msgid ""
+"Landing pages are pages onto which a potential client may arrive following a "
+"click on one of the banners we have provided. It is a single page that "
+"captivates a summary of what our company has to offer. We can provide a "
+"variety of appealing and customized landing pages, built with the aim of "
+"increasing introduced client’s conversion rates."
+msgstr ""
+
+#: royalexc/templates/partners/marketing-tools.html:48
+msgid "Widgets"
+msgstr ""
+
+#: royalexc/templates/partners/marketing-tools.html:49
+#, python-format
+msgid ""
+"We have a variety of forex widgets, providing information on forex related "
+"products, such as the latest financial figures and the %(COMPANY_NAME)s "
+"market sentiment. It is of great benefit and value as it allows partners to "
+"add value to a site as well as be rewarded through high turnover."
+msgstr ""
+
+#: royalexc/templates/partners/marketing-tools.html:52
+msgid "Customized Requests"
+msgstr ""
+
+#: royalexc/templates/partners/marketing-tools.html:53
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s we are always happy to receive requests from every "
+"individual partner and are open to discussing the possibility of making that "
+"request available in a mutually beneficial manner."
+msgstr ""
+
+#: royalexc/templates/partners/white-label-new.html:35
+#, python-format
+msgid ""
+"With a white label solution from %(COMPANY_NAME)s, you can create your own "
+"business with zero risk. Promote our company under your own brand and "
+"receive full technical and marketing support for both yourself and your "
+"clients. As a White Label partner, you can enjoy a full turnkey solution "
+"which leaves you free to market your website and social media channels. "
+"There is no financial obligation or technical knowledge required - simply "
+"place your own brand over %(COMPANY_NAME)s and start promoting your website."
+msgstr ""
+
+#: royalexc/templates/partners/white-label-new.html:40
+msgid "Turn your client portfolio into earnings with ROYALEXC"
+msgstr ""
+
+#: royalexc/templates/partners/white-label-new.html:40
+msgid "clients"
+msgstr ""
+
+#: royalexc/templates/partners/white-label-new.html:41
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s, our partner program features an impressive suite of "
+"marketing tools and dynamic technologies to boost your client acquisition. "
+"Our team of Account Managers will support and assist you every step of the "
+"way."
+msgstr ""
+
+#: royalexc/templates/partners/white-label-new.html:44
+#: royalexc/templates/partners/white-label-old.html:45
+msgid "Client Services"
+msgstr ""
+
+#: royalexc/templates/partners/white-label-new.html:45
+#, python-format
+msgid ""
+"Our multilingual team is dedicated to supporting you on your journey as a "
+"%(COMPANY_NAME)s partner. Your personal Account Manager will provide you "
+"with detailed sales reports, market analysis and full support whenever you "
+"need it. "
+msgstr ""
+
+#: royalexc/templates/partners/white-label-new.html:48
+#: royalexc/templates/partners/white-label-old.html:49
+msgid "Affiliate Services"
+msgstr ""
+
+#: royalexc/templates/partners/white-label-new.html:49
+#, python-format
+msgid ""
+"At %(COMPANY_NAME)s, we boast the best affiliate marketing tools in the "
+"business to enable you to increase your website traffic, improve your "
+"conversion and hit your targets. We are fully dedicated to your success and "
+"will always assist you via live chat, email or telephone. "
+msgstr ""
+
+#: royalexc/templates/partners/white-label-new.html:53
+msgid "Register For A White Label Solution And Get Started Now"
+msgstr ""
+
+#: royalexc/templates/partners/white-label-new.html:54
+#: royalexc/templates/partners/white-label-old.html:55
+msgid "Get Started"
+msgstr ""
+
+#: royalexc/templates/partners/white-label-old.html:35
+#, python-format
+msgid ""
+"Create your own business with zero risk! Promote our company under your own "
+"brand and receive our full technical and marketing support for both yourself "
+"and your clients. As a White Label partner of %(COMPANY_NAME)s you will have "
+"the chance to use our full turnkey solution as a forex broker, leaving you "
+"with the task of marketing your website. No financial or operational skills "
+"needed – simply place your own brand over %(COMPANY_NAME)s and start driving "
+"traffic to your website."
+msgstr ""
+
+#: royalexc/templates/partners/white-label-old.html:41
+#, python-format
+msgid ""
+"Take advantage of your client base and convert your portfolio into "
+"%(COMPANY_NAME)s clients"
+msgstr ""
+
+#: royalexc/templates/partners/white-label-old.html:42
+msgid ""
+"Using a simple and efficient affiliate program with an extensive list of "
+"marketing tools and robust technologies, you are able to boost your client "
+"acquisition in no time. Benefit from having a personal partners manager who "
+"can support and assist you with any queries you may have."
+msgstr ""
+
+#: royalexc/templates/partners/white-label-old.html:46
+msgid ""
+"Our multilingual support team is fully dedicated to provide all the "
+"necessary assistance you may require for your clients, including detailed "
+"sales reporting and market analysis reports."
+msgstr ""
+
+#: royalexc/templates/partners/white-label-old.html:50
+msgid ""
+"Our collection of affiliate tools and services allows you to improve your "
+"website traffic, increase your leads conversions and reach your estimated "
+"targets. You are also able to collaborate with your own personal affiliate "
+"manager who is fully devoted to be in contact with you via email, chat or "
+"phone on a regular daily basis."
+msgstr ""
+
+#: royalexc/templates/partners/white-label-old.html:54
+msgid "Get started today by registering for a White Label solution"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:12
+#: royalexc/templates/platforms/metatrader-4-android.html:25
+msgid "MetaTrader 4 App for Android"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:24
+#: royalexc/templates/platforms/metatrader-4-desktop.html:24
+#: royalexc/templates/platforms/metatrader-4-iphone.html:24
+#: royalexc/templates/platforms/metatrader-4-overview.html:24
+#: royalexc/templates/platforms/webtrader.html:24
+msgid "Platforms"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:36
+msgid "Forex trading available on Android OS."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:37
+msgid "Trade on the Go with Android MetaTrader 4 App"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:38
+msgid ""
+"The MetaTrader 4 (MT4) Android application allows traders to download MT4 on "
+"Android smartphones and carry their trading everywhere. The application "
+"allows fully functional trading and full management of trading accounts in "
+"addition to the use of all the important technical analysis tools. The MT4 "
+"Android application is compatible with all Android devices."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:49
+msgid "Download Android OS App"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:50
+msgid "Requirements: Requires Android 4.0 and above."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:51
+#: royalexc/templates/platforms/metatrader-4-desktop.html:53
+msgid "Download"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:56
+msgid "Trade on your Android devices"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:57
+#, python-format
+msgid ""
+"Access your %(COMPANY_NAME)s account through all your Android devices "
+"(mobiles, tablets) simply by downloading the MT4 application."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:59
+msgid "Full trading functions"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:60
+msgid ""
+"Maintain full MT4 trading functionality through the application; open and "
+"close positions, monitor the market and conduct technical analysis from any "
+"place at any time."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:63
+msgid "Enjoy flexible trading"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-android.html:64
+msgid ""
+"Don’t limit your trading to your house or office. Trade on the go through "
+"your application without any limitations."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:36
+msgid "A fast, reliable and powerful trading platform"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:37
+#, python-format
+msgid ""
+"The world’s leading trading platform, MetaTrader 4 (MT4), is available to "
+"all %(COMPANY_NAME)s clients"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:38
+msgid ""
+"MetaTrader 4 is a trading platform developed to provide traders with easy "
+"access to the most dynamic financial markets, a professional forex and CFDs "
+"trading platform that’s simple enough even for novice traders to get started "
+"with."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:39
+msgid ""
+"With MetaTrader 4 you can trade multiple asset classes, including "
+"currencies, commodities, indices and equities from a single screen. Trading "
+"with MT4 allows you to plan and execute your orders quickly and easily."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:40
+msgid ""
+"MT4 allows flexible and customized trading through a user-friendly interface "
+"with a wide variety of dynamic trading and analysis tools at the traders’ "
+"disposal. With MT4 both manual and automated trading is possible"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:51
+msgid "Download MetaTrader 4 for Desktop"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:52
+msgid ""
+"Requirements: Windows 2000 / XP / Vista, 2.0 GHz or faster CPU, 512 MB RAM, "
+"screen resolution 1024x768 or higher, modem/connection speed 36.6 Kbps or "
+"faster."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:58
+msgid "EAs enabled, Scalping & Hedging Allowed"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:59
+msgid ""
+"Enjoy superior trading conditions where scalping, hedging and news trading "
+"is allowed, and traders have the flexibility to add EAs."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:62
+msgid "Trade on Forex, Spot Metals & Equity Indices"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-desktop.html:63
+msgid ""
+"Choose from over 100 trading instruments, including major and minor forex "
+"pairs, metals, oil, commodities, equity indices and shares of the world’s "
+"biggest companies."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:36
+msgid "Fast, convenient mobile trading"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:37
+msgid "Open & close deals, manage your account, view the markets"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:38
+msgid ""
+"The world's most popular platform, MT4, now gives you access to a full range "
+"of financial markets on your mobile device. Trading currencies, commodities "
+"and indices is easy enough for first-time traders and sophisticated enough "
+"for the pros. "
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:49
+msgid "Download MetaTrader 4 App for iPhone/iPad"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:50
+msgid "Requirements: Requires iOS 5.1.1 or later."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:51
+msgid "Compatible with iPhone, iPad, and iPodtouch."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:52
+msgid "DOWNLOAD.EXE"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:57
+msgid "Trade on your Apple device"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:58
+#, python-format
+msgid ""
+"Download the MT4 app and trade your %(COMPANY_NAME)s account on your "
+"iPhone / iPad / iPod."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:61
+msgid "Take advantage of market action on the go"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:62
+msgid "Convenient, instant access to FX, CFDs, Indices"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:65
+msgid "All trading functions enabled"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-iphone.html:66
+msgid ""
+"Open & close deals, check market news, conduct technical analysis and manage "
+"your account"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-overview.html:12
+#: royalexc/templates/platforms/metatrader-4-overview.html:25
+msgid "MetaTrader 4 Overview"
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-overview.html:35
+#, python-format
+msgid ""
+"Access all the dynamic %(COMPANY_NAME)s trading instruments under the same "
+"account from multiple platforms."
+msgstr ""
+
+#: royalexc/templates/platforms/metatrader-4-overview.html:36
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s provides you with the industry’s most reputable, award-"
+"winning and sought after forex and CFD platforms – MetaTrader 4 (MT4). The "
+"MT4 platform is provided through a variety of applications to suit your "
+"preferences. What’s great is that you can access the same account through "
+"MT4 applications, allowing you to be in full control of your trades at all "
+"times."
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:12
+#: royalexc/templates/platforms/webtrader.html:25
+msgid "WebTrader"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:34
+msgid "Web-Based MT4 Platform"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:35
+msgid "Start trading on MT4 in seconds with"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:35
+msgid "WebTrader!"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:41
+msgid ""
+"Access the world’s leading trading platform, MetaTrader 4 (MT4) on Chrome, "
+"Firefox, Microsoft Edge, Internet Explorer and Safari!"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:42
+msgid "To get started with"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:42
+msgid "WebTrader, all you need is an internet connection and an"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:42
+msgid "trading account! As"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:42
+msgid ""
+"WebTrader is a web-based trading platform, you don’t need to download any "
+"software either. Simply launch"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:42
+msgid ""
+"WebTrader from here or register an account with us and get started. It’s "
+"that easy!"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:43
+msgid "WebTrader is supported by the following browsers:"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:44
+msgid ""
+"Google Chrome 51* Microsoft Edge 12* Internet Explorer 11* Mozilla Firefox "
+"34* Safari 8* Opera 32*"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:45
+msgid "* and higher"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:46
+msgid "Run WebTrader"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:51
+msgid "Key"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:51
+msgid "WebTrader Benefits"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:52
+msgid ""
+"WebTrader requires no download. Use your existing MT4 credentials to login "
+"and trade from your browser."
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:53
+msgid ""
+"It works on any web browser and supports all operating systems, which makes "
+"it so much easier to get started!"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:54
+msgid ""
+"WebTrader’s user interface is super easy to use, plus it’s available in "
+"loads of languages"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:55
+msgid "Our “One-Click-Execution” allows you to place trades in a mouse click!"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:55
+msgid "WebTrader comes fully equipped with 9 chart time frames."
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:56
+msgid ""
+"You can easily trade from charts and also monitor all your active orders "
+"directly on the chart."
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:57
+msgid ""
+"WebTrader also has in-built advanced analysis tools, which are there to help "
+"you trade better."
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:58
+msgid "With"
+msgstr ""
+
+#: royalexc/templates/platforms/webtrader.html:58
+msgid ""
+"WebTrader, you can view your account history in just a couple of clicks."
+msgstr ""
+
+#: royalexc/templates/success_page.html:10
+msgid ""
+"Thank You. Your Account Has Been Created. Backoffice Will Contact You To "
+"Finalize Your\n"
+"                Account."
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:12
+#, python-format
+msgid "%(COMPANY_NAME)s Academy"
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:24
+#: royalexc/templates/tools-education/economic-calendar.html:24
+#: royalexc/templates/tools-education/holiday-calendar.html:24
+#: royalexc/templates/tools-education/market-hours.html:24
+#: royalexc/templates/tools-education/rollover.html:24
+#: royalexc/templates/tools-education/trading-central.html:24
+msgid "Tools-Education"
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:25
+msgid "ROYALEXC Academy"
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:34
+#: royalexc/templates/tools-education/academy.html:39
+msgid "Learn Forex"
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:35
+msgid ""
+"Learn to trade currencies, commodities, bonds and indices with our online "
+"forex trading tools."
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:40
+msgid ""
+"All the tools you need to learn currency trading. Start your free forex "
+"lessons now."
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:42
+#: royalexc/templates/tools-education/academy.html:50
+#: royalexc/templates/tools-education/academy.html:58
+#: royalexc/templates/tools-education/academy.html:68
+#: royalexc/templates/tools-education/academy.html:76
+#: royalexc/templates/tools-education/academy.html:84
+msgid "Read More"
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:47
+msgid "Forex Insights"
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:48
+msgid ""
+"Get fx insights from our professional analysts to help you get ahead with "
+"your trading."
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:55
+msgid "Forex Glossary"
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:56
+msgid "Get to know the industry terms with our complete forex dictionary."
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:65
+msgid "eBooks for Beginners"
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:66
+msgid "New to trading? All you need to know to get you started."
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:73
+msgid "Improve Your Trading with Demo"
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:74
+msgid ""
+"Learn to trade without risking your own funds with a life-time, free demo "
+"account."
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:81
+msgid "MT4 Video Guides"
+msgstr ""
+
+#: royalexc/templates/tools-education/academy.html:82
+msgid ""
+"Get to know your way around the MT4 platform with these super easy video "
+"guides."
+msgstr ""
+
+#: royalexc/templates/tools-education/holiday-calendar.html:34
+msgid ""
+"Find out which holidays affect the forex markets for the month. If no dates "
+"are shown, then trading is as normal."
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:35
+#, python-format
+msgid ""
+"%(COMPANY_NAME)s gives you access to trade 24 hours a day, 5 days a week "
+"when the global markets are open. Choose your favourite trading session and "
+"optimise your trading potential."
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:36
+msgid ""
+"Note: EUR/RUB and USD/RUB pairs’ trading hours are Monday to Friday from "
+"09:30 – 00:00 GMT+2."
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:38
+msgid "Commodity Market Hours"
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:39
+msgid ""
+"Trading hours for gold, silver and oil vary from the currency market and "
+"should be noted ahead of trading."
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:41
+msgid "Full Market Trading Hours:"
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:45
+msgid "SYMBOL"
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:47
+msgid "Market opens"
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:51
+msgid "Market closes"
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:55
+msgid "Daily Break"
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:58
+msgid "Expiration"
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:62
+#: royalexc/templates/tools-education/market-hours.html:69
+#: royalexc/templates/tools-education/market-hours.html:76
+#: royalexc/templates/tools-education/market-hours.html:83
+#: royalexc/templates/tools-education/market-hours.html:90
+#: royalexc/templates/tools-education/market-hours.html:97
+#: royalexc/templates/tools-education/market-hours.html:104
+#: royalexc/templates/tools-education/market-hours.html:111
+#: royalexc/templates/tools-education/market-hours.html:118
+#: royalexc/templates/tools-education/market-hours.html:125
+#: royalexc/templates/tools-education/market-hours.html:132
+#: royalexc/templates/tools-education/market-hours.html:139
+#: royalexc/templates/tools-education/market-hours.html:146
+msgid "Monday"
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:63
+#: royalexc/templates/tools-education/market-hours.html:70
+#: royalexc/templates/tools-education/market-hours.html:77
+#: royalexc/templates/tools-education/market-hours.html:84
+#: royalexc/templates/tools-education/market-hours.html:91
+#: royalexc/templates/tools-education/market-hours.html:98
+#: royalexc/templates/tools-education/market-hours.html:105
+#: royalexc/templates/tools-education/market-hours.html:112
+#: royalexc/templates/tools-education/market-hours.html:119
+#: royalexc/templates/tools-education/market-hours.html:126
+#: royalexc/templates/tools-education/market-hours.html:133
+#: royalexc/templates/tools-education/market-hours.html:140
+#: royalexc/templates/tools-education/market-hours.html:147
+msgid "Friday"
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:65
+#: royalexc/templates/tools-education/market-hours.html:72
+#: royalexc/templates/tools-education/market-hours.html:79
+#: royalexc/templates/tools-education/market-hours.html:86
+#: royalexc/templates/tools-education/market-hours.html:93
+#: royalexc/templates/tools-education/market-hours.html:100
+#: royalexc/templates/tools-education/market-hours.html:106
+#: royalexc/templates/tools-education/market-hours.html:107
+#: royalexc/templates/tools-education/market-hours.html:113
+#: royalexc/templates/tools-education/market-hours.html:114
+#: royalexc/templates/tools-education/market-hours.html:120
+#: royalexc/templates/tools-education/market-hours.html:121
+#: royalexc/templates/tools-education/market-hours.html:127
+#: royalexc/templates/tools-education/market-hours.html:128
+#: royalexc/templates/tools-education/market-hours.html:134
+#: royalexc/templates/tools-education/market-hours.html:135
+#: royalexc/templates/tools-education/market-hours.html:141
+#: royalexc/templates/tools-education/market-hours.html:142
+#: royalexc/templates/tools-education/market-hours.html:148
+#: royalexc/templates/tools-education/market-hours.html:149
+msgid "None"
+msgstr ""
+
+#: royalexc/templates/tools-education/market-hours.html:96
+msgid "SOYBEAN"
+msgstr ""
+
+#: royalexc/templates/tools-education/rollover.html:34
+msgid ""
+"When traders open positions they have expiry dates and when the positions "
+"close automatically the profit or loss is released. In trading, a rollover "
+"is the process of keeping a position opened even if it has expired."
+msgstr ""
+
+#: royalexc/templates/tools-education/rollover.html:35
+msgid ""
+"A rollover fee is charged when you keep a position open overnight. CFD "
+"instruments will be rolled over on the expiration dates as per the table "
+"below."
+msgstr ""
+
+#: royalexc/templates/tools-education/rollover.html:36
+msgid "Rollover Expiration Dates"
+msgstr ""
+
+#: royalexc/templates/tools-education/rollover.html:41
+msgid "Rollover Date"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:34
+msgid ""
+"has teamed up with Trading Central, a leading provider of technical "
+"financial analysis. The company investigates and analyzes the Forex and "
+"other financial markets tools and provides the partner companies with "
+"forecasts and trading recommendations. Trading Central analysts combine the "
+"graphic analysis, the analysis of mathematical indicators and the "
+"candlestick analysis. Clients of the company are about one hundred financial "
+"institutions including leading Forex brokers."
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:35
+msgid "TRADING CENTRAL ANALYSIS OPINION INDICATOR"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:41
+msgid "Coverage Following Assets:"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:42
+msgid "Forex:"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:45
+msgid "Commodities:"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:49
+msgid "Indices:"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:51
+msgid "Shares:"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:60
+msgid "FUNCTIONS OF THE TRADING CENTRAL ANALYSIS OPINION INDICATOR"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:61
+msgid "Online Technical Analysis Research"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:62
+msgid "List of Assets covered per language: English, Polish and Vietnamese"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:63
+msgid "Updated 24 hours a day in all markets"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:64
+msgid "Live Chart Indicators & Signals"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:65
+msgid "Analyst Opinion Indicator"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:66
+msgid "Unlimited signals on every MT4 timeframe (1, 5, 15, 30 minutes etc.)"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:67
+msgid "Published in English, Polish and Vietnamese"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:68
+msgid "Download Installation"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:68
+msgid "Download Instruction"
+msgstr ""
+
+#: royalexc/templates/tools-education/trading-central.html:69
+msgid "*Available for VIP accounts only(or minimum $5,000 deposit)"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-bonds.html:12
+#: royalexc/templates/trading/cfds-on-bonds.html:25
+msgid "CFDs on Bonds"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-bonds.html:24
+#: royalexc/templates/trading/cfds-on-shares.html:24
+#: royalexc/templates/trading/commodities-trading.html:24
+#: royalexc/templates/trading/equity-indices.html:24
+#: royalexc/templates/trading/forex-currencies.html:24
+msgid "Trading"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-bonds.html:35
+#, python-format
+msgid " Trade CFDs Bonds with %(COMPANY_NAME)s"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-bonds.html:36
+#, python-format
+msgid ""
+"As a %(COMPANY_NAME)s client you have exclusive access to the bond markets "
+"through contracts for difference"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-bonds.html:42
+#, python-format
+msgid "Trade on global bonds from your %(COMPANY_NAME)s Account"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-bonds.html:43
+msgid "Low latency, super fast execution"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-bonds.html:46
+msgid "Full trading access, hedging and scalping welcome"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-bonds.html:47
+#: royalexc/templates/trading/commodities-trading.html:42
+#: royalexc/templates/trading/equity-indices.html:45
+#: royalexc/templates/trading/forex-currencies.html:47
+msgid "Up to 1:500 leverage"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-bonds.html:54
+msgid ""
+"NOTE: All Spreads are variable and can change based on market volatility."
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:12
+#: royalexc/templates/trading/cfds-on-shares.html:25
+msgid "CFDs on Shares"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:35
+msgid "Access more than 70 shares from around the world"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:36
+#, python-format
+msgid "Trade CFDs shares and stocks with %(COMPANY_NAME)s"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:37
+msgid "Trade Commodities Online with"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:42
+msgid "Access the global markets from a single account"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:43
+msgid "Ultra fast execution on low latency environment"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:44
+msgid "Leverage up to 1:500"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:47
+msgid "Expand your trading with leveraged instruments"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:48
+msgid "Wide range of global shares, no commissions"
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:53
+msgid ""
+"Get access to the largest corporations around the globe with CFD share "
+"trading. CFDs allow you fast and easy access to the world's exchanges to "
+"take advantage of price movements of shares."
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:54
+msgid ""
+"Please note: Spreads are variable and may change due to market volatility."
+msgstr ""
+
+#: royalexc/templates/trading/cfds-on-shares.html:58
+msgid "For detailed information, view our CFD table:"
+msgstr ""
+
+#: royalexc/templates/trading/commodities-trading.html:35
+#, python-format
+msgid "Online Commodity Trading with %(COMPANY_NAME)s."
+msgstr ""
+
+#: royalexc/templates/trading/commodities-trading.html:36
+msgid "Diversify your portfolio and trade commodities."
+msgstr ""
+
+#: royalexc/templates/trading/commodities-trading.html:37
+msgid "Why trade commodities?"
+msgstr ""
+
+#: royalexc/templates/trading/commodities-trading.html:43
+msgid "A selection of trading platforms"
+msgstr ""
+
+#: royalexc/templates/trading/commodities-trading.html:46
+msgid "Excellent hedging potential"
+msgstr ""
+
+#: royalexc/templates/trading/commodities-trading.html:47
+msgid "Highly liquid assets"
+msgstr ""
+
+#: royalexc/templates/trading/commodities-trading.html:50
+msgid "Fully transparent, no hidden fees"
+msgstr ""
+
+#: royalexc/templates/trading/commodities-trading.html:54
+msgid ""
+"Trade a range of energy and agricultural commodities including oil, gold, "
+"natural gas and silver. See our table for full list of commodities available "
+"for trading."
+msgstr ""
+
+#: royalexc/templates/trading/equity-indices.html:35
+#, python-format
+msgid "Trade Stock Indices with %(COMPANY_NAME)s"
+msgstr ""
+
+#: royalexc/templates/trading/equity-indices.html:36
+msgid "Access the global equities markets with indices."
+msgstr ""
+
+#: royalexc/templates/trading/equity-indices.html:37
+#, python-format
+msgid "Advantages of trading with %(COMPANY_NAME)s"
+msgstr ""
+
+#: royalexc/templates/trading/equity-indices.html:42
+#: royalexc/templates/trading/forex-currencies.html:42
+msgid "Round-the-clock trading and support"
+msgstr ""
+
+#: royalexc/templates/trading/equity-indices.html:48
+msgid "Transparent pricing, no hidden costs"
+msgstr ""
+
+#: royalexc/templates/trading/equity-indices.html:53
+#, python-format
+msgid ""
+"Trading indices with %(COMPANY_NAME)s allows you to get access to a bundle "
+"of stocks, giving you the ability to spread your exposure and invest whether "
+"markets are rising or falling."
+msgstr ""
+
+#: royalexc/templates/trading/equity-indices.html:58
+msgid "For detailed information, view our indices table:"
+msgstr ""
+
+#: royalexc/templates/trading/forex-currencies.html:35
+msgid "Online Forex Currency Trading with"
+msgstr ""
+
+#: royalexc/templates/trading/forex-currencies.html:36
+msgid "Trade the world's largest and most liquid market from wherever you are."
+msgstr ""
+
+#: royalexc/templates/trading/forex-currencies.html:43
+msgid "Fully transparent, no hidden costs"
+msgstr ""
+
+#: royalexc/templates/trading/forex-currencies.html:44
+msgid "40+ FX pairs"
+msgstr ""
+
+#: royalexc/templates/trading/forex-currencies.html:48
+msgid "0 re-quote, 0 rejections"
+msgstr ""
+
+#: royalexc/templates/trading/forex-currencies.html:51
+msgid "Major, minor and exotic currencies available"
+msgstr ""
+
+#: royalexc/templates/trading/forex-currencies.html:52
+msgid "Reliable, instant execution"
+msgstr ""
+
+#: royalexc/templates/trading/forex-currencies.html:57
+#, python-format
+msgid ""
+"With over $5 trillion traded daily, forex is the biggest financial market in "
+"the world today. Gain easy, online access to this exciting market with "
+"%(COMPANY_NAME)s and get precise quoting up to 1/10th of a pip."
+msgstr ""
+
+msgid "ENG"
+msgstr "ENG"

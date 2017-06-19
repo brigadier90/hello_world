@@ -1,0 +1,38 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner h-day padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Holiday Calendar{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Tools-Education{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Holiday Calendar{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-50">
+            <p>{% blocktrans %}Find out which holidays affect the forex markets for the month. If no dates are shown, then trading is as normal.{% endblocktrans %}</p>
+        </div>
+    </div>
+    {% endblock %}
+</body>

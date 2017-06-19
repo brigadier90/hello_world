@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Legal Documents{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}About Us{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Legal Documents{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-page page margin-70 fix  legal">
+        <div class="container">
+            <div class="col-md-12 margin-50">
+                <h1 style="margin-bottom: 20px;" align="center">{% blocktrans %}Legal Documents{% endblocktrans %}</h1>
+            </div>
+                <div class="row">
+                    <div class="col-lg-4" align="center">
+                    <a href="terms_and_conditions">
+                        <img src="../../static/img/pdf-icon.png">
+                        <p>{% blocktrans %}Terms & Conditions of Use{% endblocktrans %}</p>
+                    </a>
+                    </div>
+                    <div class="col-lg-4" align="center">
+                    <a href="privacy_policy">
+                        <img src="../../static/img/pdf-icon.png">
+                        <p>{% blocktrans %}Privacy Policy{% endblocktrans %}</p>
+                    </a>
+                    </div>
+                    <div class="col-lg-4" align="center">
+                    <a href="conflicts_of_interest_policy">
+                        <img src="../../static/img/pdf-icon.png">
+                        <p>{% blocktrans %}Conflicts of Interest Policy{% endblocktrans %}</p>
+                    </a>
+                    </div>
+                </div>
+                <div class="row margin-70">
+                    <div class="col-lg-4" align="center">
+                    <a href="order_execution_policy">
+                        <img src="../../static/img/pdf-icon.png">
+                        <p>{% blocktrans %}Order Execution Policy{% endblocktrans %}</p>
+                    </a>
+                    </div>
+                    <div class="col-lg-4" align="center">
+                    </div>
+                    <div class="col-lg-4" align="center">
+                    <a href="risk_disclaimer">
+                        <img src="../../static/img/pdf-icon.png">
+                        <p>{% blocktrans %}Risk Disclaimer{% endblocktrans %}</p>
+                    </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+{% endblock %}
+</body>

@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}About Company{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}About Us{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}About Company{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+            <div class="col-md-12 col-sm-12 margin-50">
+			<ul class="questions">
+				<li><div class="question-dropdown dropdown1">{% blocktrans %}Question: How do I know my funds are safe?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle1" style="display:none;">
+					<p>{% blocktrans %}Please refer to the section regarding Fund Safety{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown2">{% blocktrans %}What is Forex?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle2" style="display:none;">
+					<p>{% blocktrans %}Forex or FX is an abbreviation of Foreign Exchange. It describes the process of exchanging one currency for another and includes hundreds of global currencies. The purpose of forex trading is to make gains and offset risks in order to profit from the  movement of certain currency pairs. With {{ COMPANY_NAME }}, forex trading can take place via your desktop, mobile or tablet. The Forex (FX) market is a global over the counter (OTC) market. This means that virtually anyone can participate if they have an internet connection and an electronic device.  The forex market has become the largest financial market with a daily turnover in excess of $5 trillion! In addition to currencies, participants can choose to trade metals, commodities, indices, stocks and bonds.{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown3">{% blocktrans %}What does {{ COMPANY_NAME }} provide?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle3" style="display:none;">
+                    <p>{% blocktrans %}With {{ COMPANY_NAME }}, clients can access the financial markets by using the Metatrader (MT4) platform. On the MT4 platform, traders can choose from a variety of assets including CFD's, Stock Indices, Metals and many more.{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown4">{% blocktrans %}When Can I Trade Forex with {{ COMPANY_NAME }}{% endblocktrans %} </div></li>
+				<div class="dropdown-toggle4" style="display:none;">
+					<p>{% blocktrans %}You can trade forex from 21:00 GMT on Sunday until 22:00 GMT on Friday. These times take you from the Sydney open to the New York close. For a full list of trading hours, please visit our Market Hours page.{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown5">{% blocktrans %}Where is {{ COMPANY_NAME }} licensed and registered?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle5" style="display:none;">
+					<p>{% blocktrans %}{{ COMPANY_NAME }} is licensed and registered by the International Financial Services Commission (IFSC) in Belize with license number IFSC/60/260/TS/17. License and Registration page.{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown6">{% blocktrans %}How do I open an account with {{ COMPANY_NAME }}?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle6" style="display:none;">
+                    <p>{% blocktrans %}To open an account with {{ COMPANY_NAME }}, simply click here to complete a few brief forms. You will become a valued member of the {{ COMPANY_NAME }} family in minutes!{% endblocktrans %}</p>
+                </div>
+                <li><div class="question-dropdown dropdown7">{% blocktrans %}Which documents should I provide?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle7" style="display:none;">
+					<p>{% blocktrans %}As part of our regulatory requirements and in an effort to protect clients, {{ COMPANY_NAME }} requires you to submit two documents. These are your proof of ID and your proof of residency (e.g a passport and utility bill). In accordance with regulatory requirements, {{ COMPANY_NAME }} may from time to time request further documentation however clients can be assured of a high level of data protection at all times.{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown9">{% blocktrans %}Does {{ COMPANY_NAME }} provide any assistance with my trading?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle9" style="display:none;">
+		              <p>{% blocktrans %}At {{ COMPANY_NAME }} we assist our traders wherever possible by providing useful tools such as an economic calendar. Our support team is also available 24/5 for help and assistance. We do not, however, provide investment advice to clients or execute trades on their behalf.{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown10">{% blocktrans %}What Leverage am I allowed at {{ COMPANY_NAME }}?{% endblocktrans %} </div></li>
+				<div class="dropdown-toggle10" style="display:none;">
+                      <p>{% blocktrans %}At {{ COMPANY_NAME }} traders are granted up to 1:500 leverage based on the account type they have selected. Flexible leverage is granted to larger accounts receiving bespoke solutions. Please check your eligibility with your Account Manager.{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown11">{% blocktrans %}How can I deposit/withdraw funds to my {{ COMPANY_NAME }} Account?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle11" style="display:none;">
+					<p>{% blocktrans %}See a full list of deposit and withdrawal methods  here{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown12">{% blocktrans %}Which currencies can I use to deposit to my {{ COMPANY_NAME }} account?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle12" style="display:none;">
+					<p> {% blocktrans %}{{ COMPANY_NAME }} accepts the following base currencies: GBP, USD, EUR, JPY{% endblocktrans %}</p>
+                </div>
+                <li><div class="question-dropdown dropdown13">{% blocktrans %}How long does the deposit process take?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle13" style="display:none;">
+					<p>{% blocktrans %}Please click here{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown14">{% blocktrans %}What is a spread?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle14" style="display:none;">
+					<p>{% blocktrans %}A spread is the difference between the Bid and Ask price in forex trading. It represents the price of an asset that you, as a client, can Sell and Buy for.{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown15">{% blocktrans %}What is a short/long position?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle15" style="display:none;">
+					<p>{% blocktrans %}When you sell a currency pair you have taken a short position on that pair. When you buy a currency pair you have taken a long position on that pair.{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown16">{% blocktrans %}Can I open more than one live/demo account?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle16" style="display:none;">
+					<p>{% blocktrans %}At {{ COMPANY_NAME }} you can open more than one live or demo trading account. In fact, you can open up to five live trading accounts.{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown17">{% blocktrans %}Can I keep my account open with no balance?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle17" style="display:none;">
+					<p>{% blocktrans %}Yes. At {{ COMPANY_NAME }} you can maintain a balance of zero for as long as you require.{% endblocktrans %}</p>
+				</div>
+				<li><div class="question-dropdown dropdown18">{% blocktrans %}What account types are offered by {{ COMPANY_NAME }}?{% endblocktrans %}</div></li>
+				<div class="dropdown-toggle18" style="display:none;">
+					<p>{% blocktrans %}To see a full list of our account types, please click here{% endblocktrans %}</p>
+                </div>
+            </ul>
+            </div>
+    </div>
+
+    {% endblock %}
+</body>

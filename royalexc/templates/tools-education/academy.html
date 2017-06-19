@@ -1,0 +1,91 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}{{ COMPANY_NAME }} Academy{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Tools-Education{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}ROYALEXC Academy{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt4-overview">
+        <div class="row margin-70">
+            <h2>{% blocktrans %}Learn Forex{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Learn to trade currencies, commodities, bonds and indices with our online forex trading tools.{% endblocktrans %}</p>
+            <div class="row margin-top-70">
+                <div class="col-lg-4 col-md-4">
+                    <img src="../../static/img/Learn-Forex.jpg">
+                    <b>{% blocktrans %}Learn Forex{% endblocktrans %}</b>
+                    <p>{% blocktrans %}All the tools you need to learn currency trading. Start your free forex lessons now.{% endblocktrans %}</p>
+                    <form action="">
+                        <button class="btn" style="background-color: #E5BC0A; font-weight: bold; color: white">{% blocktrans %}Read More{% endblocktrans %}</button>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <img src="../../static/img/Forex-Tips.jpg">
+                    <b>{% blocktrans %}Forex Insights{% endblocktrans %}</b>
+                    <p>{% blocktrans %}Get fx insights from our professional analysts to help you get ahead with your trading.{% endblocktrans %}</p>
+                    <form action="">
+                        <button class="btn" style="background-color: #E5BC0A; font-weight: bold; color: white">{% blocktrans %}Read More{% endblocktrans %}</button>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <img src="../../static/img/Forex-Dictionary.jpg">
+                    <b>{% blocktrans %}Forex Glossary{% endblocktrans %}</b>
+                    <p>{% blocktrans %}Get to know the industry terms with our complete forex dictionary.{% endblocktrans %}</p>
+                    <form action="">
+                        <button class="btn" style="background-color: #E5BC0A; font-weight: bold; color: white">{% blocktrans %}Read More{% endblocktrans %}</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row margin-70">
+                <div class="col-lg-4 col-md-4">
+                    <img src="../../static/img/Beginners.jpg">
+                    <b>{% blocktrans %}eBooks for Beginners{% endblocktrans %}</b>
+                    <p>{% blocktrans %}New to trading? All you need to know to get you started.{% endblocktrans %}</p>
+                    <form action="">
+                        <button class="btn" style="background-color: #E5BC0A; font-weight: bold; color: white">{% blocktrans %}Read More{% endblocktrans %}</button>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <img src="../../static/img/Demo.jpg">
+                    <b>{% blocktrans %}Improve Your Trading with Demo{% endblocktrans %}</b>
+                    <p>{% blocktrans %}Learn to trade without risking your own funds with a life-time, free demo account.{% endblocktrans %}</p>
+                    <form action="">
+                        <button class="btn" style="background-color: #E5BC0A; font-weight: bold; color: white">{% blocktrans %}Read More{% endblocktrans %}</button>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <img src="../../static/img/Online-Training.jpg">
+                    <b>{% blocktrans %}MT4 Video Guides{% endblocktrans %}</b>
+                    <p>{% blocktrans %}Get to know your way around the MT4 platform with these super easy video guides.{% endblocktrans %}</p>
+                    <form action="">
+                        <button class="btn" style="background-color: #E5BC0A; font-weight: bold; color: white">{% blocktrans %}Read More{% endblocktrans %}</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</body>

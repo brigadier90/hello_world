@@ -1,0 +1,58 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}White Label{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Partners{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}White Label{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-50">
+            <div class="col-md-12">
+                <p>{% blocktrans %}With a white label solution from {{COMPANY_NAME}}, you can create your own business with zero risk. Promote our company under your own brand and receive full technical and marketing support for both yourself and your clients. As a White Label partner, you can enjoy a full turnkey solution which leaves you free to market your website and social media channels. There is no financial obligation or technical knowledge required - simply place your own brand over {{COMPANY_NAME}} and start promoting your website.{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row margin-50">
+            <div class="col-md-4 col-sm-12">
+                <h2>{% blocktrans %}Turn your client portfolio into earnings with ROYALEXC{% endblocktrans %} {{COMPANY_NAME}} {% blocktrans %}clients{% endblocktrans %}</h2>
+                <p>{% blocktrans %}At {{COMPANY_NAME}}, our partner program features an impressive suite of marketing tools and dynamic technologies to boost your client acquisition. Our team of Account Managers will support and assist you every step of the way.{% endblocktrans %}</p>
+            </div>
+            <div class="col-md-4">
+                <h2>{% blocktrans %}Client Services{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Our multilingual team is dedicated to supporting you on your journey as a {{COMPANY_NAME}} partner. Your personal Account Manager will provide you with detailed sales reports, market analysis and full support whenever you need it. {% endblocktrans %}</p>
+            </div>
+            <div class="col-md-4">
+                <h2>{% blocktrans %}Affiliate Services{% endblocktrans %}</h2>
+                <p>{% blocktrans %}At {{COMPANY_NAME}}, we boast the best affiliate marketing tools in the business to enable you to increase your website traffic, improve your conversion and hit your targets. We are fully dedicated to your success and will always assist you via live chat, email or telephone. {% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row margin-bottom-70">
+            <h2>{% blocktrans %}Register For A White Label Solution And Get Started Now{% endblocktrans %}</h2>
+            <button>{% blocktrans %}Get Started{% endblocktrans %}</button>
+        </div>
+    </div>
+    {% endblock %}
+</body>

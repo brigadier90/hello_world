@@ -1,0 +1,75 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner t-central padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Trading Central{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Tools-Education{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Trading Central{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-70">
+            <p>{{ COMPANY_NAME }}{% blocktrans %}has teamed up with Trading Central, a leading provider of technical financial analysis. The company investigates and analyzes the Forex and other financial markets tools and provides the partner companies with forecasts and trading recommendations. Trading Central analysts combine the graphic analysis, the analysis of mathematical indicators and the candlestick analysis. Clients of the company are about one hundred financial institutions including leading Forex brokers.{% endblocktrans %}</p>
+            <b>{% blocktrans %}TRADING CENTRAL ANALYSIS OPINION INDICATOR{% endblocktrans %}</b><br>
+            <div class="row">
+                <div class="col-lg-3 col-md-2">
+                    <img src="../../static/img/t-c-icon.png" align="left">
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <b>{% blocktrans %}Coverage Following Assets:{% endblocktrans %}</b>
+                    <p>{% blocktrans %}Forex:{% endblocktrans %}</p>
+                    <p>EURUSD , USDJPY, GBPUSD, EURPLN</p>
+                    <p>USDPLN, USDJPY, AUDUSD, GBPJPY, NZDUSD, USDCHF</p>
+                    <b>{% blocktrans %}Commodities:{% endblocktrans %}</b>
+                    <p>XAUUSD, XAGUSD, USOil1000, BRTUSD</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <b>{% blocktrans %}Indices:{% endblocktrans %}</b>
+                    <p>DAX30 , DOW30, DXY, SPX500, VIXX</p>
+                    <b>{% blocktrans %}Shares:{% endblocktrans %}</b>
+                    <p>BOA</p>
+                </div>
+            </div>
+            <div class="row margin-70">
+                <div class="col-md-6 col-sm-12">
+<iframe src="https://www.youtube.com/embed/vt7-Z0uoebs?wmode=opaque" frameborder="0" allowfullscreen="" id="fitvid0"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-6">
+<b>{% blocktrans %}FUNCTIONS OF THE TRADING CENTRAL ANALYSIS OPINION INDICATOR{% endblocktrans %}</b>
+                    <b>{% blocktrans %}Online Technical Analysis Research{% endblocktrans %}</b>
+                    <p>{% blocktrans %}List of Assets covered per language: English, Polish and Vietnamese{% endblocktrans %}</p>
+                    <p>{% blocktrans %}Updated 24 hours a day in all markets{% endblocktrans %}</p>
+                    <p>{% blocktrans %}Live Chart Indicators & Signals{% endblocktrans %}</p>
+                    <p>{% blocktrans %}Analyst Opinion Indicator{% endblocktrans %}</p>
+                    <p>{% blocktrans %}Unlimited signals on every MT4 timeframe (1, 5, 15, 30 minutes etc.){% endblocktrans %}</p>
+                    <p>{% blocktrans %}Published in English, Polish and Vietnamese{% endblocktrans %}</p>
+                    <button>{% blocktrans %}Download Installation{% endblocktrans %}</button><button>{% blocktrans %}Download Instruction{% endblocktrans %}</button>
+                    <p>{% blocktrans %}*Available for VIP accounts only(or minimum $5,000 deposit){% endblocktrans %}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</body>

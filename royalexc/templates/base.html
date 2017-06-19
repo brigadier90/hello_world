@@ -1,0 +1,25 @@
+{% load i18n %}
+<html class="no-js" lang="">
+<!DOCTYPE html>
+<html>
+{% with COMPANY_NAME="4XCME" %}
+    {% with COMPANY_ADDRESS="No. 5 Cork Street, Belize City, Belize" %}
+        {% with COMPANY_EMAIL="support@belfx.com" %}
+            {% with COMPANY_PHONE="+501 223 0703" %}
+                {% with COMPANY_FAX="COMPANY_FAX" %}
+                    {% with COMPANY_URL="COMPANY_URL" %}
+                        <head>
+                            {% include "head.html" %}
+                        </head>
+                        <body>
+                        {% block content %}
+                        {% endblock %}
+                        {% include "footer.html" %}
+                        </body>
+                    {% endwith %}
+                {% endwith %}
+            {% endwith %}
+        {% endwith %}
+    {% endwith %}
+{% endwith %}
+</html>

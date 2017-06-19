@@ -1,0 +1,146 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Funding Options{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Accounts{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Funding Options{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+    <div class="row margin-70 funding-options-main">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../../static/img/about-funding-methods-1.png" alt="">
+            </div>
+            <div class="col-md-8 col-sm-12 pull-right">
+                <h1>{% blocktrans %}About Funding Methods{% endblocktrans %}</h1>
+                <p></p>
+                <P> {% blocktrans %}{{ COMPANY_NAME }} clients can deposit through credit card from any country around the world.{% endblocktrans %}</P>
+                <P>{% blocktrans %}Deposit with your credit card from anywhere in the world.{% endblocktrans %}</P>
+                <P>{% blocktrans %}Don't see a funding method that suits you? Just ask and we will see if we can accommodate your request.{% endblocktrans %}</P>
+                <P>{% blocktrans %}Email us at info@royalexc.com{% endblocktrans %}</P>
+            </div>
+        </div>
+        <div class="row margin-70">
+            <div class="col-md-4">
+                <img src="../../static/img/deposits-of-funds-1.png" alt="">
+            </div>
+            <div class="col-md-8">
+                <h1>{% blocktrans %}DEPOSITS{% endblocktrans %} <br> {% blocktrans %}Deposit of Funds{% endblocktrans %}</h1>
+                <p>{% blocktrans %}To deposit please log into your Members Area and go to 'deposit' in the menu. Select your payment method and you will get step-by-step instructions. As a verified client your deposits are immediately available for trading (excluding bank transfers which may take a few more days).{% endblocktrans %}</p>
+                <h2>{% blocktrans %}Terms{% endblocktrans %}</h2>
+                <p> {% blocktrans %}{{ COMPANY_NAME }} does not accept deposits from 3rd parties. Deposits must be made from bank accounts or credit cards from the same name as your trading account.{% endblocktrans %}</p>
+                <h2>{% blocktrans %}How to Deposit{% endblocktrans %}</h2>
+                <p>{% blocktrans %}* Log into your Members Area and select Deposit Funds.{% endblocktrans %}</p>
+                <p>{% blocktrans %}* Choose your payment method.{% endblocktrans %}</p>
+                <p>{% blocktrans %}* Enter the amount to deposit and click Continue{% endblocktrans %}</p>
+                <p>{% blocktrans %}* Fill in your credit card details or your eWallet account details and click Continue.{% endblocktrans %}</p>
+                <p>{% blocktrans %}* A confirmation message will appear on your screen if your payment is successful.{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row margin-bottom-70">
+            <div class="col-md-4">
+                <img src="../../static/img/withdrawal-1.png" alt="">
+            </div>
+            <div class="col-md-8">
+                <h1>{% blocktrans %}WITHDRAWAL{% endblocktrans %}</h1>
+                <p>{% blocktrans %}To withdraw please ensure you've uploaded your required documents to verify your account. Upload your documents directly in the Members Area. Once your account is verified you may withdraw from your account.{% endblocktrans %}</p>
+                <H2>{% blocktrans %}How to withdraw{% endblocktrans %}</H2>
+                <p>{% blocktrans %}* Log into your Members Area and select Make Withdrawal.{% endblocktrans %}</p>
+                <p>{% blocktrans %}* Choose the account to withdraw from, enter the amount and click Submit. You may only withdraw up to the free balance amount in your trading account at the time of request.{% endblocktrans %}
+                <p>{% blocktrans %}* Your request will be processed within one working day.{% endblocktrans %}</p>
+                <p>{% blocktrans %}* The requested amount is withdrawn from your trading account.{% endblocktrans %}
+                <p>{% blocktrans %}* It may take up to 48 hours to process your withdrawal and the time needed for the funds to reach your bank account may vary depending on your preferred payment method. Read more in Payment Method Information.{% endblocktrans %}
+                <h2>{% blocktrans %}Terms{% endblocktrans %}</h2>
+                <p>{% blocktrans %}As part of our regulatory obligation to minimise fraud and money laundering, we can only return funds back to the original source of your deposit.{% endblocktrans %}</p>
+                <p>{% blocktrans %}Any funds withdrawn that exceede your initial deposit will be refunded to the same payment method if your provider allows. Otherwise your funds will be sent to an alternative method as approved by {{ COMPANY_NAME }}.  In rare instances, {{ COMPANY_NAME }} may return your funds via bank transfer.{% endblocktrans %}</p>
+                <p>{% blocktrans %}Your withdrawn funds will be returned in the same currency as your original deposit. If your account currency varies from the withdrawn currency, the transferred amount will be converted at the current {{ COMPANY_NAME }} exchange rate.{% endblocktrans %}</p>
+                <p>{% blocktrans %}{{ COMPANY_NAME }} does not charge any commissions on your withdrawals. However your payment provider may do so. See table.{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+    <div class="row margin-70">
+        <div class="col-md-12">
+
+    <div class="table-responsive">
+<table class="table">
+<thead>
+<tr>
+<th>Method</th>
+<th>Currencies</th>
+<th class="hidden-sm">Countries</th>
+<th>Commission</th>
+<th>Processing Time</th>
+<th>Withdrawal Commission </th>
+<th>Withdrawal Processing Time</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="text-center"><img src="../../static/img/visa.png" class="img-responsive img-cell "></td>
+<td>EUR,USD,GBP,JPY,RUB,PLN</td>
+<td class="hidden-sm">All</td>
+<td>
+<div class="c-f-o-dropdown">
+  <button class="c-f-o-dropdown-btn">Choose Currency</button><p></p>
+<div class="c-f-o-dropdown-content"><a href="https://member.belfx.com/Deposit">EUR, USD, GBP 2.6%</a><br>
+<!--<a href="https://member.belfx.com/Deposit">PLN, EUR, GBP 2.2% </a><a href="https://member.belfx.com/Deposit">USD 2.8%</a></div>
+
+-->
+</div>
+</div>
+</td>
+<td>Instant</td>
+<td>
+<div class="c-f-o-dropdown">
+  <button class="c-f-o-dropdown-btn">Choose Currency</button><p></p>
+<div class="c-f-o-dropdown-content"><a href="https://member.belfx.com/Deposit">EUR, USD, GBP 2.6%</a><br>
+<!--<a href="https://member.belfx.com/Deposit">2 EUR, 2 GBP, 3 USD, 9 PLN</a>--></div>
+</div>
+</td>
+<td>Up to 48 Business Hours</td>
+<td><a class="c-btn c-btn-bg-dark-grey c-btn-sm" href="https://member.belfx.com/Deposit"> FUND HERE</a></td>
+</tr>
+<tr>
+<td class="text-center"><img src="../../static/img/neteller.png" class="img-responsive img-cell"></td>
+<td>EUR,USD,GBP,JPY,RUB,PLN</td>
+<td class="hidden-sm">All</td>
+<td>3.9% (min $1)</td>
+<td>Instant</td>
+<td>2% (min $1, max$30)</td>
+<td>Up to 48 Business Hours</td>
+<td><a class="c-btn c-btn-bg-dark-grey c-btn-sm" href="https://member.belfx.com/Account/Login?returnurl=/Deposit">FUND HERE</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+        </div>
+    </div>
+        </div>
+    </div>
+    {% endblock %}
+</body>

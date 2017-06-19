@@ -1,0 +1,86 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Rollover{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Tools-Education{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Rollover{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-50">
+            <p>{% blocktrans %}When traders open positions they have expiry dates and when the positions close automatically the profit or loss is released. In trading, a rollover is the process of keeping a position opened even if it has expired.{% endblocktrans %}</p>
+            <p>{% blocktrans %}A rollover fee is charged when you keep a position open overnight. CFD instruments will be rolled over on the expiration dates as per the table below.{% endblocktrans %}</p>
+            <b>{% blocktrans %}Rollover Expiration Dates{% endblocktrans %}</b>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>{% blocktrans %}Instrument{% endblocktrans %}</th>
+                    <th>{% blocktrans %}Rollover Date{% endblocktrans %}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Spain35</td>
+                    <td>12/05/2017</td>
+                </tr>
+                <tr>
+                    <td>Amsterdam25</td>
+                    <td>12/05/2017</td>
+                </tr>
+                <tr>
+                    <td>VIXX</td>
+                    <td>12/05/2017</td>
+                </tr>
+                <tr>
+                    <td>CAC40</td>
+                    <td>12/05/2017</td>
+                </tr>
+                <tr>
+                    <td>ChinaA50</td>
+                    <td>19/05/2017</td>
+                </tr>
+                <tr>
+                    <td>NGAS</td>
+                    <td>19/05/2017</td>
+                </tr>
+                <tr>
+                    <td>USOil1000</td>
+                    <td>19/05/2017</td>
+                </tr>
+                <tr>
+                    <td>BRTUSD</td>
+                    <td>26/05/2017</td>
+                </tr>
+                <tr>
+                    <td>XPDUSD</td>
+                    <td>26/05/2017</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}
+</body>

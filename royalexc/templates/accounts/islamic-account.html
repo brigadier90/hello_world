@@ -1,0 +1,56 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Islamic Account{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Accounts{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Islamic Account{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-50">
+            <div class="col-md-12 islamic-acc">
+                <h2> {% blocktrans %}{{ COMPANY_NAME }} offers Swap-free Islamic Accounts{% endblocktrans %}</h2>
+                <p>{% blocktrans %}{{ COMPANY_NAME }}’s Islamic account allows swap free trading in compliance with the Sharia Law, which means traders can trade on an Islamic account without being charged overnight fees. {{ COMPANY_NAME }}’s Islamic account is completely swap free for as long as the account is open and is only available for traders of the Muslim religion and should only be requested on the grounds of religious belief.{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row col-md-6 col-sm-12 margin-bottom-70 islamic-acc">
+          <h2>{% blocktrans %}To open a Muslim account please open a real account and send the Islamic Account Request Form to{% endblocktrans %} {{ COMPANY_EMAIL }}</h2>
+          <i class="fa fa-file-pdf-o gold"></i><a class="gold" href="/">Islamic Account Request Form</a><br>
+          <i class="fa fa-file-pdf-o gold"></i><a class="gold" href="/">Islamic Account Terms and Conditions</a>
+          <p class="note">{% blocktrans %}Note: In the event that we detect any form of abuse, fraud, manipulation, cash-back arbitrage, carry trades, or other forms of deceitful or fraudulent activity in regard to any Swap-free Account of any client, we reserve the right, at any time, to revoke the Swap-free status from any and all real trading Accounts of such client that have been converted to a Swap-free trading Account; (b) to correct and recover any unaccrued Swaps and any related un-accrued interest expenses and or costs pertaining to any and all of such client’s Swap-free trading Accounts during the period for which such Accounts were converted into Swap-free trading Accounts; and/or (c), with immediate effect, to close all trading Accounts of such client with us, nullify all trades carried out in such client’s trading Accounts with us and cancel and all profits or losses garnered in such client’s trading Accounts with us.{% endblocktrans %}</p>
+        </div>
+        <div class="row col-md-6 col-sm-12 margin-bottom-70 islamic-acc islamic-left">
+            <img src="../../static/img/islamic.jpg" alt="">
+            <h2>{% blocktrans %}Islamic Account Regulations{% endblocktrans %}</h2>
+            <p>{% blocktrans %}O Only Standard and VIP accounts can be used as Islamic accounts. Evidence of religion must be presented through the country of origin of the client through proof of identity.{% endblocktrans %}
+{% blocktrans %}O Islamic account holders cannot simultaneously open non-Islamic accounts.{% endblocktrans %}
+{% blocktrans %}{{ COMPANY_NAME }} maintains the right to limit trading if there is evidence of manipulation.{% endblocktrans %}</p>
+        </div>
+
+        </div>
+    </div>
+    {% endblock %}
+</body>

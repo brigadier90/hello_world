@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Advantages{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}About Us{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Advantages{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row advantages">
+            <div class="col-md-12 margin-top-70">
+                <h3>{% blocktrans %}Advantages of Trading Online With {{ COMPANY_NAME }}{% endblocktrans %} </h3>
+                <p>{% blocktrans %}Exceptional trading conditions, high security and privacy with full transparency and real-time market quotes.{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row advantages margin-70">
+            <div class="col-md-6 col-sm-12">
+                <p>{% blocktrans %}Safety{% endblocktrans %}</p>
+                <p>{% blocktrans %}As a regulated broker, {{ COMPANY_NAME }} is careful to provide fully monitored trading that eliminates the risk of frauduelent activity. {{ COMPANY_NAME }} also takes preventative measures to ensure the safety and security of client funds.{% endblocktrans %}</p>
+            <br>
+                <p>{% blocktrans %}Reliability{% endblocktrans %}</p>
+                <p>{% blocktrans %}{{ COMPANY_NAME }} is managed by industry professionals who possess many combined years of experience in the financial sector.{% endblocktrans %}</p>
+            <br>
+                <p>{% blocktrans %}Trading Conditions{% endblocktrans %}</p>
+                <p>{% blocktrans %}It is important that traders find the right account type to suit them. {{ COMPANY_NAME }} offers a wide variety of trading accounts to suit all client needs.{% endblocktrans %}</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <p>{% blocktrans %}{{ COMPANY_NAME }} provides superior trading conditions with added flexibility and services to ensure a positive trading experience for clients:{% endblocktrans %}</p>
+            <br>
+                <p><i class="fa fa-check" aria-hidden="true"></i>{% blocktrans %}0 Requotes, 0 Rejections{% endblocktrans %}</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>{% blocktrans %}Negative balance protection{% endblocktrans %}</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>{% blocktrans %}1:500 flexible leverage{% endblocktrans %}</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>{% blocktrans %}Scalping, hedging and news trading allowed{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}
+</body>

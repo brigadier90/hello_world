@@ -1,0 +1,156 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Market Hours{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Tools-Education{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Market Hours{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-50">
+            <img src="/" align="right">
+            <p>{% blocktrans %}{{ COMPANY_NAME }} gives you access to trade 24 hours a day, 5 days a week when the global markets are open. Choose your favourite trading session and optimise your trading potential.{% endblocktrans %}</p>
+            <p>{% blocktrans %}Note: EUR/RUB and USD/RUB pairs’ trading hours are Monday to Friday from 09:30 – 00:00 GMT+2.{% endblocktrans %}</p>
+            <br>
+            <b>{% blocktrans %}Commodity Market Hours{% endblocktrans %}</b>
+            <p>{% blocktrans %}Trading hours for gold, silver and oil vary from the currency market and should be noted ahead of trading.{% endblocktrans %}</p>
+            <br>
+            <b>{% blocktrans %}Full Market Trading Hours:{% endblocktrans %}</b>
+            <table class="table">
+                <tbody>
+                <tr class="">
+                    <th class="">{% blocktrans %}SYMBOL{% endblocktrans %}</th>
+                    <th class="">
+                        <p>{% blocktrans %}Market opens{% endblocktrans %}<br>
+                            (GMT+2)</p>
+                    </th>
+                    <th class="">
+                        <p>{% blocktrans %}Market closes{% endblocktrans %}<br>
+                            (GMT+2)</p>
+                    </th>
+                    <th class="">
+                        <p>{% blocktrans %}Daily Break{% endblocktrans %}<br>
+                            (GMT+2)</p>
+                    </th>
+                    <th class="">{% blocktrans %}Expiration{% endblocktrans %}</th>
+                </tr>
+                <tr>
+                    <td>FOREX</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 00:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 24:00</td>
+                    <td>00:00 to 00:05</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                </tr>
+                <tr>
+                    <td>GOLDUSD</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 01:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 24:00</td>
+                    <td>00:00 to 01:00</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                </tr>
+                <tr>
+                    <td>SILVERUSD</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 01:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 24:00</td>
+                    <td>00:00 to 01:00</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                </tr>
+                <tr>
+                    <td height="45">USOIL</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 01:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 23:45</td>
+                    <td>00:00 to 01:00</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                </tr>
+                <tr>
+                    <td>BRENTUSD</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 03:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 24:00</td>
+                    <td>00:00 to 03:00</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>{% blocktrans %}SOYBEAN{% endblocktrans %}</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 03:05&nbsp;</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 21:00</td>
+                    <td>15:40 to 16:35/ 21:10 to 03:05</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>DOW30</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 00:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 24:00</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                </tr>
+                <tr>
+                    <td>NAS100</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 00:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 24:00</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                </tr>
+                <tr>
+                    <td>SPX500</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 00:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 24:00</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                </tr>
+                <tr>
+                    <td>CAC40</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 00:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 24:00</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                </tr>
+                <tr>
+                    <td>FTSE100</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 00:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 24:00&nbsp;</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                </tr>
+                <tr>
+                    <td>EURSTOXX50</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 00:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 24:00</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                </tr>
+                <tr>
+                    <td>NIKKEI225</td>
+                    <td>{% blocktrans %}Monday{% endblocktrans %} 00:00</td>
+                    <td>{% blocktrans %}Friday{% endblocktrans %} 24:00</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                    <td>{% blocktrans %}None{% endblocktrans %}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}
+</body>

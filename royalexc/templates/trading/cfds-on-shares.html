@@ -1,0 +1,792 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}CFDs on Shares{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Trading{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}CFDs on Shares{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container fx-currencies">
+        <div class="row margin-50">
+            <div class="col-md-12">
+                <h2>{% blocktrans %}Access more than 70 shares from around the world{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Trade CFDs shares and stocks with {{ COMPANY_NAME }}{% endblocktrans %}.</p>
+                <h2>{% blocktrans %}Trade Commodities Online with{% endblocktrans %} {{ COMPANY_NAME }}</h2>
+            </div>
+        </div>
+        <div class="row margin-50 fx-currencies-borders">
+            <div class="col-md-6 col-sm-12">
+                <p>{% blocktrans %}Access the global markets from a single account{% endblocktrans %}</p>
+                <p>{% blocktrans %}Ultra fast execution on low latency environment{% endblocktrans %}</p>
+                <p>{% blocktrans %}Leverage up to 1:500{% endblocktrans %}</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <p>{% blocktrans %}Expand your trading with leveraged instruments{% endblocktrans %}</p>
+                <p>{% blocktrans %}Wide range of global shares, no commissions{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>{% blocktrans %}Get access to the largest corporations around the globe with CFD share trading. CFDs allow you fast and easy access to the world's exchanges to take advantage of price movements of shares.{% endblocktrans %}</p>
+                <p>{% blocktrans %}Please note: Spreads are variable and may change due to market volatility.{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row margin-70">
+            <p>{% blocktrans %}For detailed information, view our CFD table:{% endblocktrans %}</p>
+
+        <div class="table-responsive margin-70">
+<table class="table">
+<thead>
+<tr class="c-c-bg-blue">
+<th class="c-c-light">Symbol</th>
+<th class="c-c-light">Description</th>
+<th class="c-c-light">Exchange</th>
+<th class="c-c-light">Currency</th>
+<th class="c-c-light">Min / Max Trade Size</th>
+<th class="c-c-light">Lot Size</th>
+<th class="c-c-light">Margin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3M</td>
+<td>3M</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>150</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>ADIDAS</td>
+<td>Adidas AG</td>
+<td>NASDAQ</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>AGRICOLE</td>
+<td>Agricole</td>
+<td>EPA</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>AIRBUS</td>
+<td>Airbus</td>
+<td>EPA</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>ALCOA</td>
+<td>Alcoa</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>00.1/20</td>
+<td>100</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>ALIBABA</td>
+<td>Alibaba</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>AMAZON</td>
+<td>Amazon.com Inc.</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>150</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>APPLE</td>
+<td>Apple Inc.</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>ATNT</td>
+<td>AT&amp;T Inc.</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>1000</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>AXP</td>
+<td>American Express Co</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>BAYER</td>
+<td>Bayer AG</td>
+<td>Börse Frankfurt</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>BBRY</td>
+<td>BlackBerry Ltd</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>1000</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>BMW</td>
+<td>Bayerische Motoren Werke AG</td>
+<td>Börse Frankfurt</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>BOA</td>
+<td>Bank of America</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>2000</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>BOEING</td>
+<td>Boeing</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>250</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>CEZ</td>
+<td>CEZ – CESKE ENERGETICKE ZAVODY</td>
+<td>PSE</td>
+<td>CZK</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>CISCO</td>
+<td>Cisco Systems</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>1000</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>CITI</td>
+<td>Citigroup Inc</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>COKE</td>
+<td>Coca Cola</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>250</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>DAIMLER</td>
+<td>Daimler</td>
+<td>ETR</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>DEUTSCHBANK</td>
+<td>Deutsche Bank AG</td>
+<td>FSE</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>DISNEY</td>
+<td>Walt Disney Co Inc</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>EBAY</td>
+<td>eBay</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>FACEBOOK</td>
+<td>Facebook Inc.</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>250</td>
+<td>1%</td>
+</tr>
+<tr>
+<td>FSOLAR</td>
+<td>First Solar</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>1%</td>
+</tr>
+<tr>
+<td>GAZPROM</td>
+<td>Gazprom</td>
+<td>MCX</td>
+<td>RUB</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>GE</td>
+<td>General Electric</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>1000</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>GLENCORE</td>
+<td>Glencore Xstrata PLC (UK)</td>
+<td>LSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>GM</td>
+<td>General Motors</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>GOOGLE</td>
+<td>Google Inc.</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>250</td>
+<td>1%</td>
+</tr>
+<tr>
+<td>GOPRO</td>
+<td>GoPro Inc.</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>GS</td>
+<td>Goldman Sachs Group Inc.</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>150</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>HARLEY</td>
+<td>Harley-Davidson Inc.</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>HEINEKEN</td>
+<td>HEINEKEN</td>
+<td>Euronext</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>IBM</td>
+<td>IBM</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>150</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>INTEL</td>
+<td>Intel Corporation</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>JPM</td>
+<td>JPMorgan Chase &amp; Co.</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>KGHM</td>
+<td>KGHM Polska Miedz SA</td>
+<td>PLN</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>KOMERCNI</td>
+<td>Komercni Banka A.S</td>
+<td>PSE</td>
+<td>CZK</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>KRC</td>
+<td>Kyushu Railway Co.</td>
+<td>TSE</td>
+<td>JPY</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>Line Corp</td>
+<td>NYSE, TSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>LOCKHEED</td>
+<td>Lockheed Martin Corporation</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>1%</td>
+</tr>
+<tr>
+<td>LUKOILUSD</td>
+<td>Lukoil (UK)</td>
+<td>LSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>MATCH</td>
+<td>Match Group Inc</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>MCARD</td>
+<td>Master Card Inc</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>150</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>MCDON</td>
+<td>McDonalds Corporation</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>150</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>MOL</td>
+<td>MOL Hungary</td>
+<td>BSE</td>
+<td>HUF</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>MONETA</td>
+<td>Moneta</td>
+<td>PSE</td>
+<td>CZK</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>MSFT</td>
+<td>Microsoft Corporation</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>MTELEKOM</td>
+<td>MTELEKOM Hungary</td>
+<td>BSE</td>
+<td>HUF</td>
+<td>0.01/20</td>
+<td>1000</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>NESTLE</td>
+<td>Nestle</td>
+<td>VTX</td>
+<td>CHF</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>NETFLIX</td>
+<td>Netflix Inc</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>NIKE</td>
+<td>Nike Inc.</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>150</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>NOKIA</td>
+<td>Nokia</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>2000</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>NITENDO</td>
+<td>Nitendo</td>
+<td>Börse Frankfurt</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>NVIDIA</td>
+<td>Nvidia</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>OTP</td>
+<td>OTP Bank Hungary</td>
+<td>BSE</td>
+<td>HUF</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>PAYPAL</td>
+<td>PayPal</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>150</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>PEKAO</td>
+<td>Bank Pekao SA</td>
+<td>WSE</td>
+<td>PLN</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>PEPSI</td>
+<td>PepsiCO, Inc.</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>250</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>PFIZER</td>
+<td>Pfizer</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>1000</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>PKNORLEN</td>
+<td>PKN Orlen</td>
+<td>WSE</td>
+<td>PLN</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>PSBC</td>
+<td>Postal Savings Bank of China</td>
+<td>HKEX</td>
+<td>HKD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>PZU</td>
+<td>Powszechny Zak3ad Uberzpicczep S.A.</td>
+<td>WSE</td>
+<td>PLN</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>RACE</td>
+<td>Ferrari N.V.</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>ROLLS TOYCE</td>
+<td>Rolls Royce</td>
+<td>LSE</td>
+<td>PNC</td>
+<td>0.01/20</td>
+<td>500</td>
+<td>%</td>
+</tr>
+<tr>
+<td>SAMSUNG</td>
+<td>Samsung Electronics Co. LTD</td>
+<td>LSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>SANOFI</td>
+<td>Sanofi S.A</td>
+<td>PAR</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>SONY</td>
+<td>Sony Corp US</td>
+<td>TYO</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>1000</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>STARBUCKS</td>
+<td>Starbucks Corp.</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>TOTAL</td>
+<td>TOTAL</td>
+<td>Euronext</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>TSLA</td>
+<td>Tesla Motors Inc</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>50</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>TWITTER</td>
+<td>Twitter</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>750</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>VISA</td>
+<td>Visa Inc.</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>50</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>VOLKSWAGEN</td>
+<td>VolksWagen AG</td>
+<td>XETRA</td>
+<td>EUR</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>WIZZ</td>
+<td>Wizz Air Holdings PLC</td>
+<td>LSE</td>
+<td>GBP</td>
+<td>0.01/20</td>
+<td>10</td>
+<td>1%</td>
+</tr>
+<tr>
+<td>YAHOO</td>
+<td>Yahoo Inc.</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>YANDEX</td>
+<td>Yandex N.V.</td>
+<td>NASDAQ</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>ZTO</td>
+<td>ZTO Express</td>
+<td>NYSE</td>
+<td>USD</td>
+<td>0.01/20</td>
+<td>100</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+        </div>
+    </div>
+    {% endblock %}
+</body>

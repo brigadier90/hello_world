@@ -1,0 +1,71 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}MetaTrader 4 for iPhone/iPad{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Platforms{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}MetaTrader 4 for iPhone/iPad{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-50">
+            <div class="row">
+                <div class="col-lg-8">
+                    <b>{% blocktrans %}Fast, convenient mobile trading{% endblocktrans %}</b>
+                    <b>{% blocktrans %}Open & close deals, manage your account, view the markets{% endblocktrans %}</b>
+                    <p>{% blocktrans %}The world's most popular platform, MT4, now gives you access to a full range of financial markets on your mobile device. Trading currencies, commodities and indices is easy enough for first-time traders and sophisticated enough for the pros. {% endblocktrans %}</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="/">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="/">
+                </div>
+                <div class="col-lg-6">
+                    <b>{% blocktrans %}Download MetaTrader 4 App for iPhone/iPad{% endblocktrans %}</b>
+                    <p>{% blocktrans %}Requirements: Requires iOS 5.1.1 or later.{% endblocktrans %}</p>
+                    <p>{% blocktrans %}Compatible with iPhone, iPad, and iPodtouch.{% endblocktrans %}</p>
+                    <button>{% blocktrans %}DOWNLOAD.EXE{% endblocktrans %}</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <b>{% blocktrans %}Trade on your Apple device{% endblocktrans %}</b>
+                    <p>{% blocktrans %}Download the MT4 app and trade your {{ COMPANY_NAME }} account on your iPhone / iPad / iPod.{% endblocktrans %}</p>
+                    <br>
+                    <b>{% blocktrans %}Take advantage of market action on the go{% endblocktrans %}</b>
+                    <p>{% blocktrans %}Convenient, instant access to FX, CFDs, Indices{% endblocktrans %}</p>
+                </div>
+                <div class="col-lg-6">
+                    <b>{% blocktrans %}All trading functions enabled{% endblocktrans %}</b>
+                    <p>{% blocktrans %}Open & close deals, check market news, conduct technical analysis and manage your account{% endblocktrans %}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+</body>

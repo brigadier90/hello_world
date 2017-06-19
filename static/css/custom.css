@@ -1,0 +1,445 @@
+body {
+  font-family: "Aller";
+  overflow-x: hidden; }
+
+@font-face {
+  font-family: "Aller";
+  src: url("../fonts/Aller_Rg.ttf") format("truetype"); }
+@font-face {
+  font-family: "Aller";
+  font-weight: bold;
+  src: url("../fonts/Aller_Bd.ttf") format("truetype"); }
+@font-face {
+  font-family: "Aller";
+  font-weight: 400;
+  src: url("../fonts/Aller_Lt.ttf") format("truetype"); }
+@font-face {
+  font-family: "Aller";
+  font-style: italic;
+  src: url("../fonts/Aller_It.ttf") format("truetype"); }
+@font-face {
+  font-family: "Aller";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/Aller_BdIt.ttf") format("truetype"); }
+@font-face {
+  font-family: "Aller";
+  font-weight: lighter;
+  font-style: italic;
+  src: url("../fonts/Aller_LtIt.ttf") format("truetype");
+  @font-face;
+  font-family: "SuiGeneris";
+  src: url("../fonts/SuiGenerisRg-Regular.ttf") format("truetype"); }
+.header-top {
+  background-color: #E5BC0A; }
+
+.page-banner {
+  background: url(../img/160-Instruments.jpg) no-repeat center center; }
+
+.account, .currency {
+  padding: 15px 0px; }
+  .account img, .currency img {
+    height: 30px; }
+  .account a, .currency a {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 10px; }
+
+.small-box {
+  width: 100%;
+  height: 35px;
+  background: #E5BC0A;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.35); }
+
+.small-box-content {
+  font-size: 20px;
+  background: #efefef;
+  position: relative;
+  padding: 0px 20px; }
+  .small-box-content .small-box-header {
+    padding: 30px 0px; }
+  .small-box-content .small-box-pic {
+    display: flex;
+    justify-content: space-between; }
+    .small-box-content .small-box-pic .small-box-left {
+      margin: auto 0px; }
+    .small-box-content .small-box-pic svg path {
+      fill: #E5BC0A; }
+  .small-box-content .small-box-button {
+    padding: 30px 0px; }
+    .small-box-content .small-box-button button {
+      background-color: #E5BC0A;
+      border-radius: 10px;
+      font-size: 17px; }
+
+.phone {
+  padding: 15px 0px; }
+  .phone img {
+    height: 40px; }
+  .phone a {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 10px; }
+
+.brokers-overview .brokers-program {
+  margin-bottom: 30px; }
+.brokers-overview .brokers li {
+  margin-bottom: 20px;
+  list-style: none; }
+
+.join-parnter-btn {
+  height: 60px;
+  background-color: #E5BC0A;
+  border-radius: 10px;
+  width: 80%;
+  font-size: 18px; }
+
+.currency {
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+  padding: 0px 30px; }
+
+.container-topbar {
+  width: 90%; }
+
+.register-menu {
+  background-color: #E5BC0A;
+  color: #fff;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  font-size: 18px;
+  margin-top: -10px; }
+
+.mobile-menu {
+  margin-top: 10px; }
+
+.owl-carousel img {
+  margin: 0 auto; }
+.owl-carousel p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center; }
+
+.register-buttons {
+  padding-bottom: 20px;
+  text-align: center; }
+  .register-buttons ul {
+    list-style: none; }
+    .register-buttons ul li {
+      display: inline; }
+      .register-buttons ul li .btn-live {
+        background-color: #E5BC0A;
+        color: white;
+        font-weight: bold; }
+      .register-buttons ul li .btn-demo {
+        background-color: #666666;
+        color: white;
+        font-weight: bold; }
+  .register-buttons p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 47px; }
+
+@media (max-width: 768px) {
+  .btn-demo, .btn-live {
+    width: 180px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 19px; }
+
+  .conditions-image {
+    display: inline; }
+    .conditions-image .col-sm-6 {
+      display: inline; } }
+@media (min-width: 768px) {
+  .btn-demo, .btn-live {
+    height: 70px;
+    width: 250px;
+    border-radius: 25px;
+    font-size: 22px; }
+
+  .btn-demo {
+    margin-right: 100px; } }
+.footer-logo {
+  text-align: center; }
+
+.footer-text {
+  padding: 20px 0px; }
+  .footer-text p {
+    color: #e4e4e4;
+    font-weight: bold;
+    font-size: 17px; }
+
+.footer-first {
+  border-bottom: 2px solid #E5BC0A; }
+
+.conditions {
+  text-align: center; }
+  .conditions .header-superior p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+    width: 60%;
+    margin: auto; }
+
+.header-wrapper {
+  background-color: #E5BC0A;
+  padding: 10px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 120px; }
+
+.conditions-image {
+  text-align: center; }
+  .conditions-image img {
+    height: 100px; }
+
+.multiple-platform {
+  margin-right: 0;
+  text-align: center;
+  background-color: #666666;
+  padding-bottom: 0px; }
+  .multiple-platform h3 {
+    color: #E5BC0A; }
+  .multiple-platform p {
+    color: white;
+    font-size: 20px;
+    padding: 0px 0px; }
+
+.table-wrapper {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+  .table-wrapper .table-platforms {
+    background-color: white;
+    width: 100%;
+    height: 400px; }
+
+.select-platform .col-md-4 {
+  padding: 15px; }
+  .select-platform .col-md-4 svg {
+    cursor: pointer; }
+  .select-platform .col-md-4 p {
+    font-size: 21px;
+    font-weight: bold;
+    color: #4D4D4D;
+    margin-top: 15px; }
+.select-platform .col-md-4:hover {
+  background-color: #E5BC0A; }
+  .select-platform .col-md-4:hover svg path {
+    fill: white; }
+  .select-platform .col-md-4:hover p {
+    color: white; }
+
+.standard-account-wraper {
+  background-color: #eee; }
+  .standard-account-wraper .standard-account-topbar {
+    background-color: #444;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px; }
+  .standard-account-wraper .standard-account-content {
+    padding: 40px;
+    text-align: center; }
+    .standard-account-wraper .standard-account-content span {
+      padding-top: 30px;
+      font-family: SuiGeneris;
+      font-size: 180px;
+      color: #E5BC0A; }
+    .standard-account-wraper .standard-account-content .standard-account-spec {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: white;
+      margin-top: 30px; }
+      .standard-account-wraper .standard-account-content .standard-account-spec h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        color: #E5BC0A; }
+      .standard-account-wraper .standard-account-content .standard-account-spec p {
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: -10px; }
+      .standard-account-wraper .standard-account-content .standard-account-spec ul {
+        list-style: none; }
+        .standard-account-wraper .standard-account-content .standard-account-spec ul li {
+          padding: 20px 0px;
+          border-bottom: 1px solid #eeeeee;
+          font-size: 20px;
+          font-weight: bold;
+          color: #888; }
+
+.page-breadcrumb {
+  background: #f2f2f2SS; }
+  .page-breadcrumb li a {
+    color: #E4BB2C; }
+
+.banner-about-company {
+  background: url("../img/About-Us.jpg"); }
+
+.aboutcompany, .advantages, .founds {
+  color: #666; }
+  .aboutcompany h2, .advantages h2, .founds h2 {
+    color: #333;
+    font-size: 19px; }
+  .aboutcompany h1, .advantages h1, .founds h1 {
+    color: #E5BC0A; }
+  .aboutcompany p, .advantages p, .founds p {
+    font-size: 17px; }
+
+.aboutcompany-main h2 {
+  color: #E5BC0A;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+.aboutcompany-main p {
+  font-size: 17px; }
+
+.islamic-acc h2 {
+  color: #E5BC0A;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 18px; }
+.islamic-acc i, .islamic-acc a {
+  font-size: 17px;
+  margin-bottom: 20px; }
+.islamic-acc i {
+  margin-right: 15px; }
+.islamic-acc p {
+  font-size: 17px; }
+.islamic-acc .note {
+  font-size: 12px;
+  color: #666666;
+  padding-right: 10px; }
+
+.islamic-left {
+  padding: 20px; }
+
+.mt4-overview {
+  color: #E5BC0A;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .mt4-overview p, .mt4-overview b {
+    font-size: 17px; }
+
+.funds-main {
+  margin-bottom: 90px;
+  margin-top: 120px; }
+
+.gold {
+  color: #E5BC0A; }
+
+.legal img {
+  width: 50px;
+  margin-bottom: 15px; }
+.legal p {
+  font-size: 17px; }
+
+.fx-currencies p {
+  font-size: 17px;
+  margin-top: 15px; }
+
+.fx-currencies-borders {
+  border-bottom: 1px solid #E5BC0A;
+  border-top: 1px solid #E5BC0A;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .fx-currencies-borders p {
+    margin: 40px auto; }
+
+.ssl-image {
+  height: 100px;
+  margin-top: -80px;
+  margin-right: 10px; }
+
+.ssl-wrapper {
+  margin-top: 100px; }
+
+.under-main-wrapper {
+  display: inline-flex; }
+  .under-main-wrapper i {
+    margin-right: 10px;
+    font-size: 26px; }
+
+.learn-more {
+  background-color: #E5BC0A;
+  color: white;
+  font-weight: bold; }
+
+.under-main-wrapper-middle {
+  border-left: solid 1px;
+  border-right: solid 1px; }
+
+.content-regulations img {
+  width: 100%; }
+.content-regulations p {
+  font-size: 17px; }
+
+.advantages h3 {
+  color: #E5BC0A; }
+.advantages p {
+  font-size: 17px; }
+.advantages i {
+  margin-right: 5px;
+  color: #E5BC0A; }
+
+.careers-header {
+  display: inline; }
+  .careers-header i {
+    float: left;
+    font-size: 70px;
+    margin-top: -20px;
+    margin-right: 20px; }
+
+.careers-content p {
+  font-size: 17px; }
+
+.funding-options-main h2 {
+  color: #E5BC0A; }
+.funding-options-main h1 {
+  padding: 5px 10px;
+  background-color: #E5BC0A;
+  color: white; }
+.funding-options-main p {
+  font-size: 17px; }
+
+.contactus h3 {
+  font-weight: 400;
+  color: #E5BC0A; }
+.contactus i {
+  color: #E5BC0A;
+  margin-right: 10px; }
+
+.question-dropdown {
+  background-color: #e2e2e2;
+  padding: 10px;
+  cursor: pointer; }
+
+.questions p, .questions li {
+  margin-bottom: 15px; }
+
+.t-central {
+  background: url(../img/Trading-Central.jpg) no-repeat center center; }
+
+.h-day {
+  background: url(../img/Holiday-Calendar.jpg) no-repeat center center; }
+
+.e-calendar {
+  background: url(../img/Economic-Calendar.jpg) no-repeat center center; }
+
+.table-topbar li {
+  display: inline;
+  position: relative;
+  width: 20%;
+  text-align: center;
+  padding: 6px 20px;
+  font-size: 22px;
+  background-color: #E5BC0A;
+  cursor: pointer; }
+
+/*# sourceMappingURL=custom.css.map */

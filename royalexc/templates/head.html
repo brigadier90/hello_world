@@ -1,0 +1,465 @@
+{% load staticfiles %}
+{% load i18n %}
+
+<meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>RoyalExc</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../static/img/favicon-32x32.ico">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,300,600,700,800' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:700,400' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <!-- Mean Menu CSS -->
+    <link rel="stylesheet" href="../static/css/meanmenu.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+    <!-- simpleLens CSS -->
+    <link rel="stylesheet" href="../static/css/jquery.simpleLens.css">
+    <!-- Price Slider CSS -->
+    <link rel="stylesheet" href="../static/css/jquery-price-slider.css">
+    <!-- Nivo Slider CSS -->
+    <link rel="stylesheet" href="../static/css/nivo-slider.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="../static/css/animate.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../static/css/responsive.css">
+    <!-- Modernizer JS -->
+    
+    <script src="../static/js/modernizr-2.8.3.min.js"></script>
+</head>
+<!-- Header Area Start -->
+<div class="header">
+    <!-- Header Top Start -->
+    <div class="header-top">
+        <div class="container container-topbar">
+            <div class="row">
+                <div class="col-md-5 col-xs-12">
+                    <!-- Header Top Phone and Email -->
+                    <div class="header-top-left fix">
+                        <div class="phone">
+                            <img src="../static/img/contacttest1.png" alt="">
+                            <a href="#"> {% blocktrans %}Contact{% endblocktrans %}</a>
+                        </div>
+                        {#                        <div class="email">#}
+                        {#                            <i class="fa fa-envelope"></i>#}
+                        {#                            <a href="#">zackas@company.com</a>#}
+                        {#                        </div>#}
+                    </div>
+                </div>
+                {#                <div class="col-md-2 col-xs-12">#}
+                {#                    <!-- Header Top Social -->#}
+                {#                    <div class="header-social">#}
+                {#                        <a href="#"><i class="fa fa-facebook"></i></a>#}
+                {#                        <a href="#"><i class="fa fa-twitter"></i></a>#}
+                {#                        <a href="#"><i class="fa fa-linkedin"></i></a>#}
+                {#                        <a href="#"><i class="fa fa-google-plus"></i></a>#}
+                {#                    </div>#}
+                {#                </div>#}
+                {#                <div class="col-md-5 col-xs-12">#}
+                <div class="header-top-right">
+                    <!-- Header Top Account -->
+                    <ul class="account">
+                        <li><img src="../static/img/key.png" alt=""><a href="#"> {% blocktrans %}Login{% endblocktrans %}</a></li>
+                    </ul>
+                    <!-- Header Top Currency -->
+                    <ul class="currency">
+                        <li><img src="../static/img/partnership2.png" alt=""><a href="#"> {% blocktrans %}Partnership{% endblocktrans %}</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">URO</a></li>
+                                <li><a href="#">GBP</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Header Top Language -->
+                    <ul class="language">
+{#                        <li><a href="#" data-toggle="dropdown"><img src="../static/img/uk-flag.png" alt=""></a>#}
+{#                            <ul class="dropdown-menu">#}
+{#                                <li><a href="#">French</a></li>#}
+{#                            </ul>#}
+{#                        </li>#}
+                        <li class="dropdown">
+                        {% get_current_language as LANGUAGE_CODE %}
+                        {% get_available_languages as LANGUAGES %}
+                        {% get_language_info_list for LANGUAGES as languages %}
+                        <input name="next" type="hidden" value="/"/>
+                        {% if LANGUAGE_CODE == 'en' %}
+                            <input name="language" type="hidden" value="en"/>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false"><img src="../static/img/lang/en-flag.png"
+                                alt=""></a>
+                            </button>
+                        {% endif %}
+                        {% if LANGUAGE_CODE == 'ml' %}
+                            <input name="language" type="hidden" value="ml"/>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false"><img src="/static/img/lang/ml-flag.png"
+                                alt=""></a>
+                            </button>
+                        {% endif %}
+                        {% if LANGUAGE_CODE == 'id' %}
+                            <input name="language" type="hidden" value="id"/>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false"><img src="/static/img/lang/id-flag.png"
+                                alt=""></a>
+                            </button>
+                        {% endif %}
+                        {% if LANGUAGE_CODE == 'vi' %}
+                            <input name="language" type="hidden" value="vi"/>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false"><img src="/static/img/lang/vi-flag.png"
+                                alt=""></a>
+                            </button>
+                        {% endif %}
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                {% get_current_language as LANGUAGE_CODE %}
+                                {% get_available_languages as LANGUAGES %}
+                                {% get_language_info_list for LANGUAGES as languages %}
+                                {% for language in languages %}
+                                    {% if language.code != LANGUAGE_CODE %}
+                                        {% with 'img/lang/'|add:language.code|add:'-flag.png' as image_static %}
+                                            <a href="/{{ language.code }}{{ request.get_full_path|slice:'3:' }}"
+                                               class="{% if language.code == LANGUAGE_CODE %}selected{% endif %}"
+                                               lang="{{ language.code }}">
+                                                 <button class="btn-link" type="submit">
+                                                    <img src="{% static image_static %}" style="vertical-align:sub"
+                                                         alt="{{ language.code }}">
+
+                                                </button>
+                                            </a>
+                                        {% endwith %}
+                                    {% endif %}
+                                {% endfor %}
+                            </li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- Header Top End -->
+
+
+<div class="header-bottom">
+    <div class="container container-topbar">
+        <div class="row">
+            <div class="header-bottom-top col-sm-12">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 col-xs-12">
+                        <!-- Header Logo -->
+                        <div class="logo"><a href="/"><img src="../static/img/4xcmeLogo.png" alt="Logo"/></a>
+                        </div>
+                    </div>
+                    {#                        <div class="col-md-3 col-xs-12">#}
+                    {#                            <!-- Header Register Button -->#}
+                    {#                            <div class="header-log-reg">#}
+                    {#                                <a href="#">Login</a>#}
+                    {#                                <a href="#">Register</a>#}
+                    {#                            </div>#}
+                    {#                        </div>#}
+                    <div class="col-md-8 col-lg-8 col-xs-12">
+
+                            <!-- Main Menu Start -->
+                            <div class="main-menu hidden-sm hidden-xs">
+                                <nav>
+                                    <ul>
+                                        <!-- <li class="active"><a href="index.html">HOME</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="index.html">HOME 1</a></li>
+                                                <li><a href="index-2.html">HOME 2</a></li>
+                                                <li><a href="index-3.html">HOME 3</a></li>
+                                                <li><a href="index-4.html">HOME 4</a></li>
+                                            </ul>
+                                        </li> -->
+
+                                        <li><a href="#">{% blocktrans %}ABOUT US{% endblocktrans %}</a>
+                                            <div class="mega-menu">
+                                                <ul>
+                                                    <li><a href="#"> </a></li>
+                                                    <li><a href="/about_company">{% blocktrans %}About Company{% endblocktrans %}</a></li>
+                                                    <li><a href="/advantages">{% blocktrans %}Trading Advantages{% endblocktrans %}</a></li>
+                                                    <li><a href="/funds">{% blocktrans %}Fund Security{% endblocktrans %}</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"> </a></li>
+                                                    <li><a href="/regulations">{% blocktrans %}Licences and Regulations{% endblocktrans %}</a></li>
+                                                    <li><a href="/documents">{% blocktrans %}Legal Documents{% endblocktrans %}</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"> </a></li>
+                                                    <li><a href="/careers">{% blocktrans %}Careers{% endblocktrans %}</a></li>
+                                                    <li><a href="/contact_us">{% blocktrans %}Contact Us{% endblocktrans %}</a></li>
+                                                    <li><a href="/faq">{% blocktrans %}Frequently Asked Questions{% endblocktrans %}</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">{% blocktrans %}ACCOUNTS{% endblocktrans %}</a>
+                                            <div class="mega-menu">
+                                                <ul>
+                                                    <li><a href="#"> </a></li>
+                                                    <li><a href="/live-account">{% blocktrans %}Open Live Account{% endblocktrans %}</a></li>
+                                                    <li><a href="/demo-account">{% blocktrans %}Open Demo Account{% endblocktrans %}</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"> </a></li>
+                                                    <li><a href="/funding-options">{% blocktrans %}Funding Options{% endblocktrans %}</a></li>
+                                                    <li><a href="/compare-accounts">{% blocktrans %}Compare Account Types{% endblocktrans %}</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"> </a></li>
+                                                    <li><a href="/islamic-account">{% blocktrans %}Islamic Account{% endblocktrans %}</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">{% blocktrans %}TRADING{% endblocktrans %}</a>
+                                            <div class="mega-menu">
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/forex-currencies">{% blocktrans %}Forex Currencies{% endblocktrans %}</a></li>
+                                                    <li><a href="/commodities-trading">{% blocktrans %}Commodities Trading{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Evening</a></li>
+                                                    <li><a href="#">Sweaters</a></li> -->
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/cfds-on-shares">{% blocktrans %}CDFs on Shares{% endblocktrans %}</a></li>
+                                                    <li><a href="/cfds-on-bonds">{% blocktrans %}CDFs on Bonds{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Bras</a></li>
+                                                    <li><a href="#">Scarves</a></li>
+                                                    <li><a href="#">Small Leathers</a></li> -->
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/equity-indices">{% blocktrans %}Equity Indices{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Shrot Sleeved</a></li>
+                                                    <li><a href="#">Sleeveless</a></li>
+                                                    <li><a href="#">Evening</a></li> -->
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">{% blocktrans %}PLATFORMS{% endblocktrans %}</a>
+                                            <div class="mega-menu" style="right: -50%">
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/mt4-overview">{% blocktrans %}MetaTrader 4{% endblocktrans %}</a></li>
+                                                    <li><a href="/mt4-desktop">{% blocktrans %}MetaTrader 4 for Desktop{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Evening</a></li>
+                                                    <li><a href="#">Sweaters</a></li> -->
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/mt4-iphone">{% blocktrans %}MetaTrader 4 for iPhone/iPad{% endblocktrans %}</a></li>
+                                                    <li><a href="/mt4-android">{% blocktrans %}MetaTrader 4 for Android{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Bras</a></li>
+                                                    <li><a href="#">Scarves</a></li>
+                                                    <li><a href="#">Small Leathers</a></li> -->
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/webtrader">{% blocktrans %}ROYALEXC MT4 WebTrader{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Shrot Sleeved</a></li>
+                                                    <li><a href="#">Sleeveless</a></li>
+                                                    <li><a href="#">Evening</a></li> -->
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">{% blocktrans %}PARTNERS{% endblocktrans %}</a>
+                                            <div class="mega-menu" style="right: 0;">
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/introducing-brokers">{% blocktrans %}Introducing Brokers{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Evening</a></li>
+                                                    <li><a href="#">Sweaters</a></li> -->
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/marketing-tools">{% blocktrans %}Marketing Tools{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Bras</a></li>
+                                                    <li><a href="#">Scarves</a></li>
+                                                    <li><a href="#">Small Leathers</a></li> -->
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/white-label">{% blocktrans %}White Label{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Shrot Sleeved</a></li>
+                                                    <li><a href="#">Sleeveless</a></li>
+                                                    <li><a href="#">Evening</a></li> -->
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">{% blocktrans %}TOOLS-EDUCATIONS{% endblocktrans %}</a>
+                                            <div class="mega-menu" style="right: 0;">
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/economic-calendar">{% blocktrans %}Economic Calendar{% endblocktrans %}</a></li>
+                                                    <li><a href="/holiday-calendar">{% blocktrans %}Holiday Calendar{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Evening</a></li>
+                                                    <li><a href="#">Sweaters</a></li> -->
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/market-hours">{% blocktrans %}Market Hours{% endblocktrans %}</a></li>
+                                                    <li><a href="/rollover">{% blocktrans %}Rollover{% endblocktrans %}</a></li>
+                                                    <!--<li><a href="#">Scarves</a></li>
+                                                    <li><a href="#">Small Leathers</a></li> -->
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="/academy">{{ COMPANY_NAME }} {% blocktrans %}Academy{% endblocktrans %}</a></li>
+                                                    <li><a href="/trading-central">{% blocktrans %}Trading Central{% endblocktrans %}</a></li>
+                                                    <!--<li><a href="#">Sleeveless</a></li>
+                                                    <li><a href="#">Evening</a></li> -->
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="/"><button class="register-menu btn">{% blocktrans %}Register{% endblocktrans %}</button></a></li>
+                                        <!-- <li><a href="blog.html">BLOG</a></li>
+                                        <li><a href="#">PAGES</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="about.html">ABOUT US</a></li>
+                                                <li><a href="checkout.html">CHECKOUT</a></li>
+                                                <li><a href="cart.html">CART</a></li>
+                                                <li><a href="contact.html">CONTACT</a></li>
+                                                <li><a href="#">SHOP</a></li>
+                                                <li><a href="shop-list.html">SHOP LIST</a></li>
+                                                <li><a href="shop-left-sidebar.html">SHOP LEFT SIDEBAR</a></li>
+                                                <li><a href="shop-right-sidebar.html">SHOP RIGHT SIDEBAR</a></li>
+                                                <li><a href="product-details.html">PRODUCT DETAILS</a></li>
+                                                <li><a href="blog.html">BLOG</a></li>
+                                                <li><a href="blog-left-sidebar.html">BLOG LEFT SIDEBAR</a></li>
+                                                <li><a href="blog-right-sidebar.html">BLOG RIGHT SIDEBAR</a></li>
+                                                <li><a href="blog-details.html">BLOG DETAILS</a></li>
+                                                <li><a href="404.html">404</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">CONTACT</a></li>-->
+                                    </ul>
+                                </nav>
+                            </div><!-- Main Menu End -->
+                                        <!-- Mobile Menu Start -->
+							<div class="mobile-menu">
+								<nav class="hidden">
+									<ul>
+										<li><a href="/">{% blocktrans %}HOME{% endblocktrans %}</a></li>
+                                        <li><a href="#">{% blocktrans %}ABOUT US{% endblocktrans %}</a>
+                                            <div class="mega-menu ">
+                                                <ul>
+                                                    <li><a href="/about_company">{% blocktrans %}About Company{% endblocktrans %}</a></li>
+                                                    <li><a href="/advantages">{% blocktrans %}Trading Advantages{% endblocktrans %}</a></li>
+                                                    <li><a href="/funds">{% blocktrans %}Fund Security{% endblocktrans %}</a></li>
+                                                    <li><a href="/regulations">{% blocktrans %}Licences and Regulations{% endblocktrans %}</a></li>
+                                                    <li><a href="/documents">{% blocktrans %}Legal Documents{% endblocktrans %}</a></li>
+                                                    <li><a href="/careers">{% blocktrans %}Careers{% endblocktrans %}</a></li>
+                                                    <li><a href="/contact_us">{% blocktrans %}Contact Us{% endblocktrans %}</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">{% blocktrans %}ACCOUNTS{% endblocktrans %}</a>
+                                            <div class="mega-menu">
+                                                <ul>
+                                                    <li><a href="/live-account">{% blocktrans %}Open Live Account{% endblocktrans %}</a></li>
+                                                    <li><a href="/demo-account">{% blocktrans %}Open Demo Account{% endblocktrans %}</a></li>
+                                                    <li><a href="/funding-options">{% blocktrans %}Funding Options{% endblocktrans %}</a></li>
+                                                    <li><a href="/compare-accounts">{% blocktrans %}Compare Account Types{% endblocktrans %}</a></li>
+                                                    <li><a href="/islamic-account">{% blocktrans %}Islamic Account{% endblocktrans %}</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">{% blocktrans %}TRADING{% endblocktrans %}</a>
+                                            <div class="mega-menu">
+                                                <ul>
+                                                    <li><a href="/forex-currencies">{% blocktrans %}Forex Currencies{% endblocktrans %}</a></li>
+                                                    <li><a href="/commodities-trading">{% blocktrans %}Commodities Trading{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Evening</a></li>
+                                                    <li><a href="#">Sweaters</a></li> -->
+                                                    <li><a href="/cfds-on-shares">{% blocktrans %}CDFs on Shares{% endblocktrans %}</a></li>
+                                                    <li><a href="/cfds-on-bonds">{% blocktrans %}CDFs on Bonds{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Bras</a></li>
+                                                    <li><a href="#">Scarves</a></li>
+                                                    <li><a href="/equity-indices">{% blocktrans %}Equity Indices{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Shrot Sleeved</a></li>
+                                                    <li><a href="#">Sleeveless</a></li>
+                                                    <li><a href="#">Evening</a></li> -->
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">{% blocktrans %}PLATFORMS{% endblocktrans %}</a>
+                                            <div class="mega-menu">
+                                                <ul>
+                                                    <li><a href="/mt4-overview">{% blocktrans %}MetaTrader 4{% endblocktrans %}</a></li>
+                                                    <li><a href="/mt4-desktop">{% blocktrans %}MetaTrader 4 for Desktop{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Evening</a></li>
+                                                    <li><a href="#">Sweaters</a></li> -->
+                                                    <li><a href="/mt4-iphone">{% blocktrans %}MetaTrader 4 for iPhone/iPad{% endblocktrans %}</a></li>
+                                                    <li><a href="/mt4-android">{% blocktrans %}MetaTrader 4 for Android{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Bras</a></li>
+                                                    <li><a href="#">Scarves</a></li>
+                                                    <li><a href="#">Small Leathers</a></li> -->
+                                                    <li><a href="/webtrader">{% blocktrans %}ROYALEXC MT4 WebTrader{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Shrot Sleeved</a></li>
+                                                    <li><a href="#">Sleeveless</a></li>
+                                                    <li><a href="#">Evening</a></li> -->
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">{% blocktrans %}PARTNERS{% endblocktrans %}</a>
+                                            <div class="mega-menu">
+                                                <ul>
+                                                    <li><a href="/introducing-brokers">{% blocktrans %}Introducing Brokers{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Evening</a></li>
+                                                    <li><a href="/marketing-tools">{% blocktrans %}Marketing Tools{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Bras</a></li>
+                                                    <li><a href="#">Scarves</a></li>
+                                                    <li><a href="#">Small Leathers</a></li> -->
+                                                    <li><a href="/white-label">{% blocktrans %}White Label{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Shrot Sleeved</a></li>
+                                                    <li><a href="#">Sleeveless</a></li>
+                                                    <li><a href="#">Evening</a></li> -->
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">{% blocktrans %}TOOLS-EDUCATIONS{% endblocktrans %}</a>
+                                            <div class="mega-menu">
+                                                <ul>
+                                                    <li><a href="/economic-calendar">{% blocktrans %}Economic Calendar{% endblocktrans %}</a></li>
+                                                    <li><a href="/holiday-calendar">{% blocktrans %}Holiday Calendar{% endblocktrans %}</a></li>
+                                                    <!-- <li><a href="#">Evening</a></li>
+                                                    <li><a href="#">Sweaters</a></li> -->
+                                                    <li><a href="/market-hours">{% blocktrans %}Market Hours{% endblocktrans %}</a></li>
+                                                    <li><a href="/rollover">{% blocktrans %}Rollover{% endblocktrans %}</a></li>
+                                                    <!--<li><a href="#">Scarves</a></li>
+                                                    <li><a href="#">Small Leathers</a></li> -->
+                                                    <li><a href="/academy">{{ COMPANY_NAME }} {% blocktrans %}Academy{% endblocktrans %}</a></li>
+                                                    <li><a href="/trading-central">{% blocktrans %}Trading Central{% endblocktrans %}</a></li>
+                                                    <!--<li><a href="#">Sleeveless</a></li>
+                                                    <li><a href="#">Evening</a></li> -->
+                                                </ul>
+                                            </div>
+                                        </li>
+									</ul>
+								</nav>
+							</div><!-- Mobile Menu End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Header Area End -->

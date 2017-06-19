@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Licence and Regulations{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}About Us{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Licence and Regulations{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-page page margin-70 fix">
+        <div class="container">
+            <div class="row content-regulations">
+                <div class="col-md-4">
+                    <img src="../../static/img/licence-and-regulations.jpg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="gold" style="margin-bottom: 20px;">{% blocktrans %}Trade with a Regulated Broker{% endblocktrans %}</h1>
+                    <p>{% blocktrans %}{{ COMPANY_NAME }} LIMITED is a limited liability company dully registered and existing under the laws of Belize with registration number 130266 and licensed by the International Financial Services Commission (“IFSC”) in Belize with license number IFSC/60/260/TS/17.{% endblocktrans %}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+</body>

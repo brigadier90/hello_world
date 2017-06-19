@@ -1,0 +1,347 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+    <link rel="stylesheet" href="../../static/css/forms.css">
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Demo Account{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Accounts{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Demo Account{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container margin-50">
+    <div class="splitform demoform">
+        <h2 class="c-form-title">Fill in the required fields</h2>
+        <form id="api-form" action="https://member.belfx.com/RegistrationApi/RegistrationSimplified" method="post" data-success="http://belfx.com/demo-success/">
+            <input class="form-control" id="IsFullRegistration" name="IsFullRegistration" type="hidden" value="true">
+            <p></p>
+            <p><input class="form-control" id="TradingPlatformTypeId" name="TradingPlatformTypeId" type="hidden" value="1"></p>
+            <p><label for="user-title-c">User Title *</label></p>
+            <p><select id="TitleId" class="form-control" name="TitleId" required="" data-val="true" data-val-number="The field TitleId must be a number." data-val-required="Title is Required">
+                <option value="1"></option>
+                <option value="1">Mr.</option>
+                <option value="2">Ms.</option>
+                <option value="3">Mrs.</option>
+            </select></p>
+            <p><label for="">Email *</label></p>
+            <p><input class="form-control" id="UserName" name="UserName" required="" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-length="The field Email must be a string with a maximum length of 50." data-val-length-max="50" data-val-required="Email is required." style="cursor: auto; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;"></p>
+            <p><label for="user-country-c">Choose Country *</label></p>
+            <p><select id="CountryCode" class="user-country form-control" name="CountryCode" required="" data-val="true" data-val-required="Country is Required">
+                <option selected="selected" value="" data-id=""></option>
+                <option value="AF" data-id="93">Afghanistan – [Country]</option>
+                <option value="AL" data-id="355">Albania – [Country]</option>
+                <option value="DZ" data-id="213">Algeria – [Country]</option>
+                <option value="AS" data-id="1-684">American Samoa – [Country]</option>
+                <option value="AD" data-id="376">Andorra – [Country]</option>
+                <option value="AO" data-id="244">Angola – [Country]</option>
+                <option value="AI" data-id="1-264">Anguilla – [Country]</option>
+                <option value="AQ" data-id="672">Antarctica – [Country]</option>
+                <option value="AG" data-id="1-268">Antigua and Barbuda – [Country]</option>
+                <option value="AR" data-id="54">Argentina – [Country]</option>
+                <option value="AM" data-id="374">Armenia – [Country]</option>
+                <option value="AW" data-id="297">Aruba – [Country]</option>
+                <option value="AU" data-id="61">Australia – [Country]</option>
+                <option value="AT" data-id="43">Austria – [Country]</option>
+                <option value="AZ" data-id="994">Azerbaijan – [Country]</option>
+                <option value="BS" data-id="1-242">Bahamas – [Country]</option>
+                <option value="BH" data-id="973">Bahrain – [Country]</option>
+                <option value="BD" data-id="880">Bangladesh – [Country]</option>
+                <option value="BB" data-id="1-246">Barbados – [Country]</option>
+                <option value="BY" data-id="375">Belarus – [Country]</option>
+                <option value="BE" data-id="32">Belgium – [Country]</option>
+                <option value="BZ" data-id="501">Belize – [Country]</option>
+                <option value="BJ" data-id="229">Benin – [Country]</option>
+                <option value="BM" data-id="1-441">Bermuda – [Country]</option>
+                <option value="BT" data-id="975">Bhutan – [Country]</option>
+                <option value="BO" data-id="591">Bolivia – [Country]</option>
+                <option value="BA" data-id="387">Bosnia and Herzegovina – [Country]</option>
+                <option value="BW" data-id="267">Botswana – [Country]</option>
+                <option value="BR" data-id="55">Brazil – [Country]</option>
+                <option value="IO" data-id="246">British Indian Ocean Territory – [Country]</option>
+                <option value="VG" data-id="1-284">British Virgin Islands – [Country]</option>
+                <option value="BN" data-id="673">Brunei – [Country]</option>
+                <option value="BG" data-id="359">Bulgaria – [Country]</option>
+                <option value="BF" data-id="226">Burkina Faso – [Country]</option>
+                <option value="MM" data-id="95">Myanmar – [Country]</option>
+                <option value="BI" data-id="257">Burundi – [Country]</option>
+                <option value="KH" data-id="855">Cambodia – [Country]</option>
+                <option value="CM" data-id="237">Cameroon – [Country]</option>
+                <option value="CA" data-id="1">Canada – [Country]</option>
+                <option value="CV" data-id="238">Cape Verde – [Country]</option>
+                <option value="KY" data-id="1-345">Cayman Islands – [Country]</option>
+                <option value="CF" data-id="236">Central African Republic – [Country]</option>
+                <option value="TD" data-id="235">Chad – [Country]</option>
+                <option value="CL" data-id="56">Chile – [Country]</option>
+                <option value="CN" data-id="86">China – [Country]</option>
+                <option value="CX" data-id="61">Christmas Island – [Country]</option>
+                <option value="CC" data-id="61">Cocos Islands – [Country]</option>
+                <option value="CO" data-id="57">Colombia – [Country]</option>
+                <option value="KM" data-id="269">Comoros – [Country]</option>
+                <option value="CG" data-id="242">Republic of the Congo – [Country]</option>
+                <option value="CD" data-id="243">Democratic Republic of the Congo – [Country]</option>
+                <option value="CK" data-id="682">Cook Islands – [Country]</option>
+                <option value="CR" data-id="506">Costa Rica – [Country]</option>
+                <option value="HR" data-id="385">Croatia – [Country]</option>
+                <option value="CU" data-id="53">Cuba – [Country]</option>
+                <option value="CW" data-id="599">Curacao – [Country]</option>
+                <option value="CY" data-id="357">Cyprus – [Country]</option>
+                <option value="CZ" data-id="420">Czech Republic – [Country]</option>
+                <option value="DK" data-id="45">Denmark – [Country]</option>
+                <option value="DJ" data-id="253">Djibouti – [Country]</option>
+                <option value="DM" data-id="1-767">Dominica – [Country]</option>
+                <option value="DO" data-id="1-809">Dominican Republic – [Country]</option>
+                <option value="TL" data-id="670">Timor-Leste – [Country]</option>
+                <option value="EC" data-id="593">Ecuador – [Country]</option>
+                <option value="EG" data-id="20">Egypt – [Country]</option>
+                <option value="SV" data-id="503">El Salvador – [Country]</option>
+                <option value="GQ" data-id="240">Equatorial Guinea – [Country]</option>
+                <option value="ER" data-id="291">Eritrea – [Country]</option>
+                <option value="EE" data-id="372">Estonia – [Country]</option>
+                <option value="ET" data-id="251">Ethiopia – [Country]</option>
+                <option value="FK" data-id="500">Falkland Islands – [Country]</option>
+                <option value="FO" data-id="298">Faroe Islands – [Country]</option>
+                <option value="FJ" data-id="679">Fiji – [Country]</option>
+                <option value="FI" data-id="358">Finland – [Country]</option>
+                <option value="FR" data-id="33">France – [Country]</option>
+                <option value="PF" data-id="689">French Polynesia – [Country]</option>
+                <option value="GA" data-id="241">Gabon – [Country]</option>
+                <option value="GM" data-id="220">Gambia – [Country]</option>
+                <option value="GE" data-id="995">Georgia – [Country]</option>
+                <option value="DE" data-id="49">Germany – [Country]</option>
+                <option value="GH" data-id="233">Ghana – [Country]</option>
+                <option value="GI" data-id="350">Gibraltar – [Country]</option>
+                <option value="GR" data-id="30">Greece – [Country]</option>
+                <option value="GL" data-id="299">Greenland – [Country]</option>
+                <option value="GD" data-id="1-473">Grenada – [Country]</option>
+                <option value="GU" data-id="1-671">Guam – [Country]</option>
+                <option value="GT" data-id="502">Guatemala – [Country]</option>
+                <option value="GG" data-id="44-1481">Guernsey – [Country]</option>
+                <option value="GN" data-id="224">Guinea – [Country]</option>
+                <option value="GW" data-id="245">Guinea-Bissau – [Country]</option>
+                <option value="GY" data-id="592">Guyana – [Country]</option>
+                <option value="HT" data-id="509">Haiti – [Country]</option>
+                <option value="HN" data-id="504">Honduras – [Country]</option>
+                <option value="HK" data-id="852">Hong Kong – [Country]</option>
+                <option value="HU" data-id="36">Hungary – [Country]</option>
+                <option value="IS" data-id="354">Iceland – [Country]</option>
+                <option value="IN" data-id="91">India – [Country]</option>
+                <option value="ID" data-id="62">Indonesia – [Country]</option>
+                <option value="IR" data-id="98">Iran – [Country]</option>
+                <option value="IQ" data-id="964">Iraq – [Country]</option>
+                <option value="IE" data-id="353">Ireland – [Country]</option>
+                <option value="IM" data-id="44-1624">Isle of Man – [Country]</option>
+                <option value="IL" data-id="972">Israel – [Country]</option>
+                <option value="IT" data-id="39">Italy – [Country]</option>
+                <option value="CI" data-id="225">Ivory Coast – [Country]</option>
+                <option value="JM" data-id="1-876">Jamaica – [Country]</option>
+                <option value="JP" data-id="81">Japan – [Country]</option>
+                <option value="JE" data-id="44-1534">Jersey – [Country]</option>
+                <option value="JO" data-id="962">Jordan – [Country]</option>
+                <option value="KZ" data-id="7">Kazakhstan – [Country]</option>
+                <option value="KE" data-id="254">Kenya – [Country]</option>
+                <option value="KI" data-id="686">Kiribati – [Country]</option>
+                <option value="XK" data-id="383">Kosovo – [Country]</option>
+                <option value="KW" data-id="965">Kuwait – [Country]</option>
+                <option value="KG" data-id="996">Kyrgyz Republic – [Country]</option>
+                <option value="LA" data-id="856">Laos – [Country]</option>
+                <option value="LV" data-id="371">Latvia – [Country]</option>
+                <option value="LB" data-id="961">Lebanon – [Country]</option>
+                <option value="LS" data-id="266">Lesotho – [Country]</option>
+                <option value="LR" data-id="231">Liberia – [Country]</option>
+                <option value="LY" data-id="218">Libya – [Country]</option>
+                <option value="LI" data-id="423">Liechtenstein – [Country]</option>
+                <option value="LT" data-id="370">Lithuania – [Country]</option>
+                <option value="LU" data-id="352">Luxembourg – [Country]</option>
+                <option value="MO" data-id="853">Macao – [Country]</option>
+                <option value="MK" data-id="389">Macedonia – [Country]</option>
+                <option value="MG" data-id="261">Madagascar – [Country]</option>
+                <option value="MW" data-id="265">Malawi – [Country]</option>
+                <option value="MY" data-id="60">Malaysia – [Country]</option>
+                <option value="MV" data-id="960">Maldives – [Country]</option>
+                <option value="ML" data-id="223">Mali – [Country]</option>
+                <option value="MT" data-id="356">Malta – [Country]</option>
+                <option value="MH" data-id="692">Marshall Islands – [Country]</option>
+                <option value="MR" data-id="222">Mauritania – [Country]</option>
+                <option value="MU" data-id="230">Mauritius – [Country]</option>
+                <option value="YT" data-id="262">Mayotte – [Country]</option>
+                <option value="MX" data-id="52">Mexico – [Country]</option>
+                <option value="FM" data-id="691">Micronesia – [Country]</option>
+                <option value="MD" data-id="373">Moldova – [Country]</option>
+                <option value="MC" data-id="377">Monaco – [Country]</option>
+                <option value="MN" data-id="976">Mongolia – [Country]</option>
+                <option value="ME" data-id="382">Montenegro – [Country]</option>
+                <option value="MS" data-id="1-664">Montserrat – [Country]</option>
+                <option value="MA" data-id="212">Morocco – [Country]</option>
+                <option value="MZ" data-id="258">Mozambique – [Country]</option>
+                <option value="NA" data-id="264">Namibia – [Country]</option>
+                <option value="NR" data-id="674">Nauru – [Country]</option>
+                <option value="NP" data-id="977">Nepal – [Country]</option>
+                <option value="NL" data-id="31">Netherlands – [Country]</option>
+                <option value="AN" data-id="599">Netherlands Antilles – [Country]</option>
+                <option value="NC" data-id="687">New Caledonia – [Country]</option>
+                <option value="NZ" data-id="64">New Zealand – [Country]</option>
+                <option value="NI" data-id="505">Nicaragua – [Country]</option>
+                <option value="NE" data-id="227">Niger – [Country]</option>
+                <option value="NG" data-id="234">Nigeria – [Country]</option>
+                <option value="NU" data-id="683">Niue – [Country]</option>
+                <option value="MP" data-id="1-670">Northern Mariana Islands – [Country]</option>
+                <option value="KP" data-id="850">North Korea – [Country]</option>
+                <option value="NO" data-id="47">Norway – [Country]</option>
+                <option value="OM" data-id="968">Oman – [Country]</option>
+                <option value="PK" data-id="92">Pakistan – [Country]</option>
+                <option value="PW" data-id="680">Palau – [Country]</option>
+                <option value="PS" data-id="970">Palestine – [Country]</option>
+                <option value="PA" data-id="507">Panama – [Country]</option>
+                <option value="PG" data-id="675">Papua New Guinea – [Country]</option>
+                <option value="PY" data-id="595">Paraguay – [Country]</option>
+                <option value="PE" data-id="51">Peru – [Country]</option>
+                <option value="PH" data-id="63">Philippines – [Country]</option>
+                <option value="PN" data-id="64">Pitcairn – [Country]</option>
+                <option value="PL" data-id="48">Poland – [Country]</option>
+                <option value="PT" data-id="351">Portugal – [Country]</option>
+                <option value="PR" data-id="1-787">Puerto Rico – [Country]</option>
+                <option value="QA" data-id="974">Qatar – [Country]</option>
+                <option value="RE" data-id="262">Reunion – [Country]</option>
+                <option value="RO" data-id="40">Romania – [Country]</option>
+                <option value="RU" data-id="7">Russia – [Country]</option>
+                <option value="RW" data-id="250">Rwanda – [Country]</option>
+                <option value="BL" data-id="590">Saint Barthelemy – [Country]</option>
+                <option value="WS" data-id="685">Samoa – [Country]</option>
+                <option value="SM" data-id="378">San Marino – [Country]</option>
+                <option value="ST" data-id="239">Sao Tome and Principe – [Country]</option>
+                <option value="SA" data-id="966">Saudi Arabia – [Country]</option>
+                <option value="SN" data-id="221">Senegal – [Country]</option>
+                <option value="RS" data-id="381">Serbia – [Country]</option>
+                <option value="SC" data-id="248">Seychelles – [Country]</option>
+                <option value="SL" data-id="232">Sierra Leone – [Country]</option>
+                <option value="SG" data-id="65">Singapore – [Country]</option>
+                <option value="SX" data-id="1-721">Sint Maarten – [Country]</option>
+                <option value="SK" data-id="421">Slovakia – [Country]</option>
+                <option value="SI" data-id="386">Slovenia – [Country]</option>
+                <option value="SB" data-id="677">Solomon Islands – [Country]</option>
+                <option value="SO" data-id="252">Somalia – [Country]</option>
+                <option value="ZA" data-id="27">South Africa – [Country]</option>
+                <option value="KR" data-id="82">South Korea – [Country]</option>
+                <option value="SS" data-id="211">South Sudan – [Country]</option>
+                <option value="ES" data-id="34">Spain – [Country]</option>
+                <option value="LK" data-id="94">Sri Lanka – [Country]</option>
+                <option value="SH" data-id="290">Saint Helena Ascension and Tristan da Cunha – [Country]
+                </option>
+                <option value="KN" data-id="1-869">Saint Kitts and Nevis – [Country]</option>
+                <option value="LC" data-id="1-758">Saint Lucia – [Country]</option>
+                <option value="MF" data-id="590">Martinique – [Country]</option>
+                <option value="PM" data-id="508">Saint Pierre and Miquelon – [Country]</option>
+                <option value="VC" data-id="1-784">Saint Vincent and the Grenadines – [Country]</option>
+                <option value="SD" data-id="249">Sudan – [Country]</option>
+                <option value="SR" data-id="597">Suriname – [Country]</option>
+                <option value="SJ" data-id="47">Svalbard and Jan Mayen – [Country]</option>
+                <option value="SZ" data-id="268">Swaziland – [Country]</option>
+                <option value="SE" data-id="46">Sweden – [Country]</option>
+                <option value="CH" data-id="41">Switzerland – [Country]</option>
+                <option value="SY" data-id="963">Syrian Arab Republic – [Country]</option>
+                <option value="TW" data-id="886">Taiwan – [Country]</option>
+                <option value="TJ" data-id="992">Tajikistan – [Country]</option>
+                <option value="TZ" data-id="255">Tanzania – [Country]</option>
+                <option value="TH" data-id="66">Thailand – [Country]</option>
+                <option value="TG" data-id="228">Togo – [Country]</option>
+                <option value="TK" data-id="690">Tokelau – [Country]</option>
+                <option value="TO" data-id="676">Tonga – [Country]</option>
+                <option value="TT" data-id="1-868">Trinidad and Tobago – [Country]</option>
+                <option value="TN" data-id="216">Tunisia – [Country]</option>
+                <option value="TR" data-id="90">Turkey – [Country]</option>
+                <option value="TM" data-id="993">Turkmenistan – [Country]</option>
+                <option value="TC" data-id="1-649">Turks and Caicos Islands – [Country]</option>
+                <option value="TV" data-id="688">Tuvalu – [Country]</option>
+                <option value="AE" data-id="971">United Arab Emirates – [Country]</option>
+                <option value="UG" data-id="256">Uganda – [Country]</option>
+                <option value="GB" data-id="44">United Kingdom – [Country]</option>
+                <option value="UA" data-id="380">Ukraine – [Country]</option>
+                <option value="UY" data-id="598">Uruguay – [Country]</option>
+                <option value="US" data-id="1">United States – [Country]</option>
+                <option value="UZ" data-id="998">Uzbekistan – [Country]</option>
+                <option value="VU" data-id="678">Vanuatu – [Country]</option>
+                <option value="VA" data-id="379">Vatican City – [Country]</option>
+                <option value="VE" data-id="58">Venezuela – [Country]</option>
+                <option value="VN" data-id="84">Vietnam – [Country]</option>
+                <option value="VI" data-id="1-340">U.S. Virgin Islands – [Country]</option>
+                <option value="WF" data-id="681">Wallis and Futuna – [Country]</option>
+                <option value="EH" data-id="212">Western Sahara – [Country]</option>
+                <option value="YE" data-id="967">Yemen – [Country]</option>
+                <option value="ZM" data-id="260">Zambia – [Country]</option>
+                <option value="ZW" data-id="263">Zimbabwe – [Country]</option>
+            </select></p>
+            <p><label class="c-user-phone-label">Phone *</label></p>
+            <div class="phoneform"><input class="form-control" style="width:35%;" id="PhoneCountryCode" name="PhoneCountryCode" required="" type="tel" value="" placeholder="+" data-val="true" data-val-length="The field PhoneCountryCode must be a string with a maximum length of 10." data-val-length-max="10" data-val-required=" "><br>
+                <input class="form-control" id="PhoneNumber" style="width:85%" name="PhoneNumber" placeholder="Phone" required="" type="tel" value="" data-val="true" data-val-length="The field PhoneNumber must be a string with a maximum length of 50." data-val-length-max="50" data-val-phone="The PhoneNumber field is not a valid phone number." data-val-required="Phone Number requires Country Code and Number."></div>
+            <p><label for="">First Name *</label></p>
+            <p><input class="form-control" id="FirstName" name="FirstName" required="" type="text" data-val="true" data-val-length="The field FirstName must be a string with a maximum length of 50." data-val-length-max="50" data-val-regex="Field contains invalid characters" data-val-regex-pattern="^[a-zA-Z0-9À-Ö ]*$" data-val-required="First Name is Required"></p>
+            <p><label for="">Last Name *</label></p>
+            <p><input class="form-control" id="LastName" name="LastName" required="" type="text" data-val="true" data-val-length="The field LastName must be a string with a maximum length of 50." data-val-length-max="50" data-val-regex="Field contains invalid characters" data-val-regex-pattern="^[a-zA-Z0-9À-Ö ]*$" data-val-required="Last Name is Required"><br>
+            <p><label for="">Currency<em class="required">*</em></label></p>
+            <p><select id="CurrencyId" class="form-control" name="CurrencyId" data-val="true" data-val-number="The field CurrencyId must be a number." data-val-required="Currency is required.">
+                <option value=""></option>
+                <option value="151">USD</option>
+                <option value="49">EUR</option>
+                <option value="52">GBP</option>
+                <option value="118">PLN</option>
+                <option value="73">JPY</option>
+                <option value="41">CZK</option>
+                <option value="123">RUB</option>
+            </select></p>
+            <p><label for="">Referrer (If applicable)</label><br>
+                <input class="form-control" id="Referrer" name="Referrer" type="text" value="" data-val="true" data-val-length="The field Referrer must be a string with a maximum length of 100." data-val-length-max="100"></p>
+                <div class="input">
+                    <label class="checkbox">
+                        <input style="margin-bottom:15px;" data-val="true" data-val-mandatory="Mandatory:You must accept the terms and conditions." required="" data-val-required="The AcceptTermsAndConditions field is required." id="AcceptTermsAndConditions" name="AcceptTermsAndConditions" type="checkbox" value="true">
+                        <i></i>* I declare that I have read and fully understood the entire text of the <a class="c-user-terms" href="https://belfx.com/wp-content/uploads/2017/03/Order_Execution_Policy_v2017.pdf" target="_blank">Order Execution Policy</a>,
+                        <a class="c-user-terms" href="https://belfx.com/wp-content/uploads/2017/03/Privacy_Policy_v2017.pdf" target="_blank">Privacy Policy</a>, <a class="c-user-terms" href="https://belfx.com/wp-content/uploads/2017/03/Conflict_of_Interest_Policy_v2017.pdf" target="_blank">Conflict of Interest Policy</a>,
+                        <a href="https://belfx.com/wp-content/uploads/2017/03/Risk_Disclosure_v2017.pdf" target="_blank">Risk Disclosure Policy</a> and <a class="c-user-terms" href="https://belfx.com/wp-content/uploads/2017/03/CFDs_Agreement_v2017.pdf" target="_blank">Terms and Conditions of Use</a>
+                        <p></p>
+                        <span class="field-validation-valid" data-valmsg-for="AcceptTermsAndConditions" data-valmsg-replace="true"></span>
+                    </label>
+                </div>
+            <p><!--
+
+
+    <div class="input class="form-control""><label class="checkbox"><input class="form-control" id="AcceptNewsletter" name="UserProfile.RegistrationDetails.ApproveReceiveCommercial" type="checkbox" value="true" data-val="true" data-val-required="The ApproveReceiveCommercial field is required."><input class="form-control" name="UserProfile.RegistrationDetails.ApproveReceiveCommercial" type="hidden" value="false"> <i></i>Opt-In for Newsletter?</label></label></div>
+
+
+    --></p>
+            <div class="hide">
+                <p><input class="form-control" id="LanguageCode" name="LanguageCode" type="text" value="EN">
+                    PortalId:<br>
+                    <input class="form-control" id="PortalId" name="PortalId" type="text" value="1"></p>
+            </div>
+            <p>
+                <button id="c-form-btn" class="btn register-btn">Open Demo Accoun</button>
+                 </p><p id="registrationMessage" style="color: red; font-weight:bold; display:none;"></p>
+            <p></p>
+            <div class="modal"></div>
+            <p id="ascii-alert" style="color: red; display:none;">Please use standard ASCII (Englsh) letters only.</p>
+            <p></p>
+            <p style="color: red;">
+            </p>
+        </form>
+    </div>
+    </div>
+    {% endblock %}
+</body>

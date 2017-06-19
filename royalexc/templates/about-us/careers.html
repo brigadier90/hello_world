@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 margin-50">
+                    <h1>{% blocktrans %}Careers{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}About Us{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Careers{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-50">
+            <div class="col-md-12 careers-header">
+                <i class="glyphicon glyphicon-briefcase glyphicon-align-left gold" aria-hidden="true"></i><h1 class="gold">{% blocktrans %}{{ COMPANY_NAME }} CAREERS{% endblocktrans %}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 margin-bottom-70 careers-content">
+                <p><b>{% blocktrans %}Start or continue your Forex career with us!{% endblocktrans %}</b></p>
+                <p>{% blocktrans %}If none of the current vacancies fit your experience, we’d be more than happy to receive your CV / resume. Simply email it to {{ COMPANY_EMAIL }} along with a cover letter, letting us know why we should consider your application.{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+</body>

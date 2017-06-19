@@ -1,0 +1,31 @@
+$('#platinum-button-fc').click(function(){
+  $('#platinum-table-fc').show();
+  $('#vip-table-fc').hide();
+  $('#standard-table-fc').hide();
+});
+$('#vip-button-fc').click(function(){
+  $('#platinum-table-fc').hide();
+  $('#vip-table-fc').show();
+  $('#standard-table-fc').hide();
+});
+$('#standard-button-fc').click(function(){
+  $('#platinum-table-fc').hide();
+  $('#vip-table-fc').hide();
+  $('#standard-table-fc').show();
+});
+
+$('#platinum-button-ct').click(function(){
+  $('#platinum-table-ct').show();
+  $('#vip-table-ct').hide();
+  $('#standard-table-ct').hide();
+});
+$('#vip-button-ct').click(function(){
+  $('#platinum-table-ct').hide();
+  $('#vip-table-ct').show();
+  $('#standard-table-ct').hide();
+});
+$('#standard-button-ct').click(function(){
+  $('#platinum-table-ct').hide();
+  $('#vip-table-ct').hide();
+  $('#standard-table-ct').show();
+});

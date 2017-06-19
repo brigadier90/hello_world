@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner banner-about-company padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}About Us{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}About Company{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row aboutcompany">
+            <div class="col-md-12 margin-top-70">
+                <h1>{% blocktrans %}About Us{% endblocktrans %}</h1>
+            </div>
+        </div>
+        <div class="row margin-70 aboutcompany">
+            <div class="col-md-6 col-sm-12 aboutcompany-main">
+              <h2>{% blocktrans %}{{ COMPANY_NAME }} is a Fully Regulated Forex Broker{% endblocktrans %}</h2>
+              <p>{% blocktrans %}{{ COMPANY_NAME }} is an international broker providing online forex trading to clients in 100+ countries around the world.{% endblocktrans %}</p>
+              <p>{% blocktrans %}{{ COMPANY_NAME }} is a fully licensed and regulated broker offering unrivalled trading conditions for advanced and novice traders. From its headquarters in Belize, {{ COMPANY_NAME }} has pioneered a trading network which boasts secure trading technology, prestigious partnerships and transparent support. All of these factors make {{ COMPANY_NAME }} the broker of choice for traders around the world.{% endblocktrans %}</p>
+            </div>
+            <div class="col-md-6 col-sm-12 aboutcompany-main">
+              <h2>{% blocktrans %}Mission & Vision{% endblocktrans %}</h2>
+              <p> {% blocktrans %}{{ COMPANY_NAME }} is managed by the industry's top professionals who possess many combined years of experience in the financial sector. These individuals understand that exceptional trading conditions combined with fast execution and unrivalled customer service are the characteristics of a winning and trust-worthy broker. {{ COMPANY_NAME }} continually strives to improve its services, increase its trading offering and satisfy even more international traders.{% endblocktrans %}</p>
+              <h2>{% blocktrans %}About {{ COMPANY_NAME }}{% endblocktrans %} </h2>
+              <p>{% blocktrans %}Learn more about the services offered by {{ COMPANY_NAME }} to its international traders.{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row margin-70 aboutcompany">
+            <div class="col-md-4 col-sm-12 under-main-wrapper">
+                <div class="under-main-img">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                </div>
+                <div class="under-main">
+                    <h2>{% blocktrans %}FOREX REGULATION{% endblocktrans %}</h2>
+                    <p>{% blocktrans %}Fully licensed and regulated by the International Financial Services Commission (IFSC) in Belize.{% endblocktrans %}</p>
+                    <button class="btn learn-more">LEARN MORE</button>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 under-main-wrapper under-main-wrapper-middle">
+                <div class="under-main-img">
+                    <i class="fa fa-shield" aria-hidden="true"></i>
+                </div>
+                <div class="under-main">
+                    <h2>{% blocktrans %}FUND SAFETY{% endblocktrans %}</h2>
+                    <p>{% blocktrans %}We keep client funds in segregated bank accounts to ensure maximum protection.{% endblocktrans %}</p>
+                    <br>
+                    <button class="btn learn-more">LEARN MORE</button>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 under-main-wrapper">
+                <div class="under-main-img">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </div>
+                <div class="under-main">
+                    <h2>{% blocktrans %}ADVANTAGES{% endblocktrans %}</h2>
+                    <p>{% blocktrans %}Discover why traders choose {{ COMPANY_NAME }} for their online trading needs.{% endblocktrans %}</p>
+                    <br>
+                <button class="btn learn-more">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}
+</body>

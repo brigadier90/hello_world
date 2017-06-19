@@ -1,0 +1,246 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Equity Indices{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Trading{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Equity Indices{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container fx-currencies">
+        <div class="row margin-50">
+            <div class="col-md-12">
+                <h2>{% blocktrans %}Trade Stock Indices with {{ COMPANY_NAME }}{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Access the global equities markets with indices.{% endblocktrans %}</p>
+                <h2>{% blocktrans %}Advantages of trading with {{ COMPANY_NAME }}{% endblocktrans %}</h2>
+            </div>
+        </div>
+        <div class="row fx-currencies-borders">
+            <div class="col-md-4 col-sm-12">
+                <p>{% blocktrans %}Round-the-clock trading and support{% endblocktrans %}</p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p>{% blocktrans %}Up to 1:500 leverage{% endblocktrans %}</p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p>{% blocktrans %}Transparent pricing, no hidden costs{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row margin-50">
+            <div class="col-md-12">
+                <p>{% blocktrans %}Trading indices with {{ COMPANY_NAME }} allows you to get access to a bundle of stocks, giving you the ability to spread your exposure and invest whether markets are rising or falling.{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row margin-70">
+    <div class="col-md-12">
+            <h2>{% blocktrans %}For detailed information, view our indices table:{% endblocktrans %}</h2>
+
+	<div class="table-responsive margin-70">
+<table class="table">
+<thead>
+<tr class="c-c-bg-blue">
+<th rowspan="2" class="c-c-light">Symbol</th>
+<th rowspan="2" class="c-c-light">Spread</th>
+<th rowspan="2" class="c-c-light">Min/Max Lot per Trade</th>
+<th rowspan="2" class="c-c-light">Lot size</th>
+<th rowspan="2" class="c-c-light">Tick Value per lot</th>
+<th rowspan="2" class="c-c-light">Margin Requirement Per lot</th>
+<th colspan="2" class="c-c-light">Swap Value (in Points)</th>
+<th rowspan="2" class="c-c-light"></th>
+</tr>
+<tr class="c-c-bg-blue">
+<th class="c-c-light">Buy</th>
+<th class="c-c-light">Sell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Amsterdam25</td>
+<td>25</td>
+<td>0.1/20</td>
+<td>25 CFDs</td>
+<td>0.25&nbsp;<span>EUR</span></td>
+<td>1%</td>
+<td>-0.1</td>
+<td>-0.2</td>
+</tr>
+<tr>
+<td>CAC40</td>
+<td>2</td>
+<td>0.1/20</td>
+<td>1 CFDs</td>
+<td>0.1 EUR</td>
+<td>1%</td>
+<td>-0.6</td>
+<td>-0.3</td>
+</tr>
+<tr>
+<td>ChinaA50</td>
+<td>2000</td>
+<td>0.1/20</td>
+<td>5&nbsp;<span>CFDs</span></td>
+<td>5 USD</td>
+<td>1%</td>
+<td>-0.8</td>
+<td>-0.5</td>
+</tr>
+<tr>
+<td>DAX30</td>
+<td>1.8</td>
+<td>0.1/20</td>
+<td>5&nbsp;<span>CFDs</span></td>
+<td>0.5 EUR</td>
+<td>1%</td>
+<td>-0.6</td>
+<td>-0.6</td>
+</tr>
+<tr>
+<td>DOW30</td>
+<td>5</td>
+<td>0.1/20</td>
+<td>1&nbsp;<span>CFDs</span></td>
+<td>1 USD</td>
+<td>1%</td>
+<td>-0.6</td>
+<td>-0.8</td>
+</tr>
+<tr>
+<td>DXY – Dollar Index</td>
+<td>15</td>
+<td>0.1/20</td>
+<td>1000 CFDs&nbsp;</td>
+<td>100 USD</td>
+<td>2%</td>
+<td>-0.1</td>
+<td>-0.2</td>
+</tr>
+<tr>
+<td>EURSTOXX50</td>
+<td>30</td>
+<td>0.1/20</td>
+<td>1&nbsp;<span>CFDs</span></td>
+<td>0.1 EUR</td>
+<td>2%</td>
+<td>-0.6</td>
+<td>-0.25</td>
+</tr>
+<tr>
+<td>FTSE100</td>
+<td>2</td>
+<td>0.1/20</td>
+<td>1&nbsp;<span>CFDs</span></td>
+<td>0.1 GBP</td>
+<td>1%</td>
+<td>-0.6</td>
+<td>-0.4</td>
+</tr>
+<tr>
+<td>Italy40</td>
+<td>1600</td>
+<td>0.1/20</td>
+<td>1&nbsp;<span>CFDs</span></td>
+<td><span>0.1 EUR</span></td>
+<td>2%</td>
+<td>-0.1</td>
+<td>-0.2</td>
+</tr>
+<tr>
+<td>MICEX50</td>
+<td>100</td>
+<td>0.1/20</td>
+<td>5&nbsp;<span>CFDs</span></td>
+<td>5 RUB</td>
+<td>1%</td>
+<td>-0.8</td>
+<td>-1.8</td>
+</tr>
+<tr>
+<td>NAS100</td>
+<td>7</td>
+<td>0.1/20</td>
+<td>10&nbsp;<span>CFDs</span></td>
+<td>1 USD</td>
+<td>1%</td>
+<td>-0.7</td>
+<td>-0.2</td>
+</tr>
+<tr>
+<td>NIKKEI225</td>
+<td>16</td>
+<td>0.1/20</td>
+<td>100&nbsp;<span>CFDs</span></td>
+<td>100 JPY</td>
+<td>2%</td>
+<td>-0.6</td>
+<td>-0.3</td>
+</tr>
+<tr>
+<td>Spain35</td>
+<td>700</td>
+<td>0.1/20</td>
+<td>1&nbsp;<span>CFDs</span></td>
+<td>0.10&nbsp;<span>EUR</span></td>
+<td>5%</td>
+<td>-0.1</td>
+<td>-0.2</td>
+</tr>
+<tr>
+<td>SPX500</td>
+<td>8</td>
+<td>0.1/20</td>
+<td>25&nbsp;<span>CFDs</span></td>
+<td>2.5 USD</td>
+<td>2%</td>
+<td>-0.6</td>
+<td>-0.2</td>
+</tr>
+<tr>
+<td>VIXX</td>
+<td>10</td>
+<td>0.1/20</td>
+<td>1000 CFDs</td>
+<td>100 USD</td>
+<td>2%</td>
+<td>-0.1</td>
+<td>-0.2</td>
+</tr>
+<tr>
+<td>WIG20</td>
+<td>4</td>
+<td>0.1/20</td>
+<td>100&nbsp;<span>CFDs</span></td>
+<td>100 PLN</td>
+<td>1%</td>
+<td>-0.6</td>
+<td>-1.8</td>
+</tr>
+</tbody>
+</table>
+</div>
+            </div>
+    </div>
+    </div>
+    {% endblock %}
+</body>

@@ -1,0 +1,321 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Compare Accounts{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Accounts{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Compare Accounts{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-topbar" style="margin: 0 auto">
+        <div class="row margin-50">
+            <div class="col-md-12">
+                <h2>{% blocktrans %}Select the account that suits your trading!{% endblocktrans %}</h2>
+                <p>{% blocktrans %}To give you the best trading experience, {{ COMPANY_NAME }} offers flexible account types to match your trading needs.{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row margin-50">
+ <div class="col-md-4 col-sm-12">
+             <div class="standard-account-wraper">
+                 <div class="standard-account-topbar"></div>
+                 <div class="standard-account-content">
+                     <span>S</span>
+                     <div class="standard-account-spec">
+                       <h3>{% blocktrans %}STANDARD ACCOUNT{% endblocktrans %}</h3>
+                       <p>{% blocktrans %}Start trading with just $50. No commissions charged!{% endblocktrans %}</p>
+                       <ul>
+                       <li></li>
+                       <li>
+                           <p>{% blocktrans %}Spreads{% endblocktrans %}</p>
+                           <p class="gold">{% blocktrans %}from 2.3 pips{% endblocktrans %}
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Minimum Deposit{% endblocktrans %}</p>
+                           <p class="gold">{% blocktrans %}50 USD *{% endblocktrans %}
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Leverage{% endblocktrans %}</p>
+                           <p class="gold">{% blocktrans %}1:1-1:500{% endblocktrans %}
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Order Execution{% endblocktrans %}</p>
+                           <p class="gold">{% blocktrans %}Market Execution{% endblocktrans %}
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Instrument{% endblocktrans %}s</p>
+                           <p class="gold">{% blocktrans %}FX, Commodities, Equity Indices{% endblocktrans %}
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Deposit Currencies{% endblocktrans %}</p>
+                           <p class="gold">GBP, USD, EUR, JPY, RUB, PLN CZK
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Swap Type{% endblocktrans %}</p>
+                           <p class="gold">{% blocktrans %}Points ***{% endblocktrans %}
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Minimum Order Size{% endblocktrans %}</p>
+                           <p class="gold">{% blocktrans %}0.01 ****{% endblocktrans %}
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Maximum Order Size{% endblocktrans %}</p>
+                           <p class="gold">{% blocktrans %}20{% endblocktrans %}
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Stop Out{% endblocktrans %}</p>
+                           <p class="gold">{% blocktrans %}50%{% endblocktrans %}
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Margin Call{% endblocktrans %}l</p>
+                           <p class="gold">{% blocktrans %}100%{% endblocktrans %}
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Trading Platform{% endblocktrans %}</p>
+                           <p class="gold">{% blocktrans %}MetaTrader 4{% endblocktrans %}
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Mobile Trading{% endblocktrans %}</p>
+                           <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Telephone Trading{% endblocktrans %}</p>
+                           <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Fifth Decimal{% endblocktrans %}</p>
+                           <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}24/5 Dealing Support{% endblocktrans %}</p>
+                           <p class="gold"><i class="fa fa-times"></i>
+                           </p></li>
+                       <li>
+                           <p>{% blocktrans %}Commission{% endblocktrans %}</p>
+                           <p class="gold"><i class="fa fa-times"></i>
+                           </p></li>
+                       </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-4 col-sm-12">
+             <div class="standard-account-wraper">
+                 <div class="standard-account-topbar"></div>
+                 <div class="standard-account-content">
+                     <span>V</span>
+                     <div class="standard-account-spec">
+                         <h3>{% blocktrans %}VIP ACCOUNT{% endblocktrans %}</h3>
+                         <p>{% blocktrans %}Dedicated 24 hour dealing support{% endblocktrans %}</p>
+                         <br>
+                         <ul>
+                         <li></li>
+                         <li><p>{% blocktrans %}Spreads{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}from 1.9 pips{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Minimum Deposit{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}5,000 USD *{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Leverage{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}1:1-1:500{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Order Execution{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}Market Execution{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Instruments{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}FX, Commodities, Equity Indices{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Deposit Currencies{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}USD, EUR, GBP, JPY, RUB, PLN CZK{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Swap Type{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}Points ***{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Minimum Order Size{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}0.01 ****{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Maximum Order Size{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}20{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Stop Out{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}50%{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Margin Call{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}100%{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Trading Platform{% endblocktrans %}</p>
+                         <p class="gold">{% blocktrans %}MetaTrader 4{% endblocktrans %}
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Mobile Trading{% endblocktrans %}</p>
+                         <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Telephone Trading{% endblocktrans %}</p>
+                         <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Fifth Decimal{% endblocktrans %}</p>
+                         <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}24h Dealing Support{% endblocktrans %}</p>
+                         <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                         </p></li>
+                         <li>
+                         <p>{% blocktrans %}Commission{% endblocktrans %}</p>
+                         <p class="gold"><i class="fa fa-times"></i>
+                         </p></li>
+                         <p></p></li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-4 col-sm-12">
+                             <div class="standard-account-wraper">
+                 <div class="standard-account-topbar"></div>
+                 <div class="standard-account-content">
+                     <span>P</span>
+                     <div class="standard-account-spec">
+                         <h3>{% blocktrans %}PLATINUM ACCOUNT{% endblocktrans %}</h3>
+                         <p>{% blocktrans %}Go pro with a ZERO spread account{% endblocktrans %}</p>
+                         <br>
+                         <ul>
+                         <li></li>
+                         <li>
+                             <p>{% blocktrans %}Spreads{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}from 0 pips{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Minimum Deposit{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}20,000 USD *{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Leverage{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}1:1-1:500{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Order Execution{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}Market Execution{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Instruments{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}FX, Commodities, Equity Indices{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Deposit Currencies{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}USD, EUR, GBP, JPY, RUB, PLN CZK{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Swap Type{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}Points ***{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Minimum Order Size{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}0.01 ****{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Maximum Order Size{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}20{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Stop Out{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}50%{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Margin Call{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}100%{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Trading Platform{% endblocktrans %}</p>
+                             <p class="gold">{% blocktrans %}MetaTrader 4{% endblocktrans %}
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Mobile Trading{% endblocktrans %}</p>
+                             <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Telephone Trading{% endblocktrans %}</p>
+                             <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Fifth Decimal{% endblocktrans %}</p>
+                             <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}24h Dealing Support{% endblocktrans %}</p>
+                             <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                             </p>
+                         </li>
+                         <li>
+                             <p>{% blocktrans %}Commission{% endblocktrans %}</p>
+                             <p class="gold"><i class="fa fa-check" aria-hidden="true"></i>
+                             </p>
+                         </li>
+                         <p></p>
+                         </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+        </div>
+        <div class="row margin-bottom-70">
+            <div class="col-md-12">
+            <p>{% blocktrans %}* Minimum deposits based on USD. Deposits in other currencies must be deposited based on the equivalent US dollar amounts based on the exchange rate.{% endblocktrans %}</p>
+            <p>{% blocktrans %}**Account balances over USD 10,000 have a maximum leverage of 1:200. Account balances over USD 100,000 maximum leverate at 1:100.{% endblocktrans %}</p>
+            <p>{% blocktrans %}***Swaps are calculated in points and subject to change, based on the difference in interest rate differential of the the overnight rate, of the two currencies.{% endblocktrans %}</p>
+            <p>{% blocktrans %}****Only valid for forex pairs. For commodities and stock indices minimum order sizes please visit the trading instruments pages.{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+</body>

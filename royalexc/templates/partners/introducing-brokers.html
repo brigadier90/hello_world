@@ -1,0 +1,66 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Introducing Brokers{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Partners{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Introducing Brokers{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt4-overview brokers-overview">
+        <div class="row margin-50">
+            <div class="col-md-12">
+                <p>{% blocktrans %}The {{ COMPANY_NAME }}Introducing Broker (IB) partnership is for individuals or organizations wishing to make revenue through the promotion of {{ COMPANY_NAME }}
+through any online/offline means. Our IB program is provided with the industry’s most competitive pip rebate rates and bespoke solutions are always available on demand to help you get the optimal return from your portfolio of clients.{% endblocktrans %}</p>
+
+            </div>
+        </div>
+        <div class="row margin-70">
+            <div class="col-md-6 col-sm-12">
+                <div class="brokers-program">
+                    <b>{% blocktrans %}Get more from your Introducing Broker program：{% endblocktrans %}</b>
+                </div>
+                <div class="margin-bottom-70 brokers">
+                    <li><p>{% blocktrans %}A convenient online application process{% endblocktrans %}</p></li>
+                    <li><p>{% blocktrans %}Comprehensive back-end administrative support{% endblocktrans %}</p></li>
+                    <li><p>{% blocktrans %}A competitive, customized revenue sharing plan{% endblocktrans %}</p></li>
+                    <li><p>{% blocktrans %}Professional and personalized service from a leading FX broker{% endblocktrans %}</p></li>
+                </div>
+                <button class="btn join-parnter-btn">{% blocktrans %}Join Our Partnership Program{% endblocktrans %}</button>
+            </div>
+            <div class="col-md-6">
+                <img src="../../static/img/handshake_img.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 margin-50">
+                <p>{% blocktrans %}As an IB you need to know that your forex trading partners can be relied upon. We provide fair commission rates, superior trading technology and, of course, exceptional client service. {{ COMPANY_NAME }}'s Introducing Broker program is designed to help partners build their client base whilst benefiting from a tailor-made commission strategy.{% endblocktrans %}</p>
+                <p>{% blocktrans %}We’ll work with you to develop the right commission structure for your business, where you’re compensated every time your clients trade on {{ COMPANY_NAME }}'s MT4 trading platform.{% endblocktrans %}</p>
+                <p>{% blocktrans %}In addition to the most advanced MT4 technology, you’ll be assigned your own dedicated IB account manager, who is there to ensure the highest level of service so you can grow your venture with minimum hassle and maximum benefits.{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+</body>

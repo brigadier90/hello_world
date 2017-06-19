@@ -1,0 +1,58 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Marketing Tools{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Partners{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Marketing Tools{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-50">
+            <div class="col-md-12">
+                <p> {% blocktrans %}{{ COMPANY_NAME }} partners are granted access to marketing tools to help drive their promotional engine, expand clientele networks and reach more optimal and lucrative results. Below is the list of various creatives and marketing tools {{ COMPANY_NAME }} offers affiliates to build a more successful and effective campaign.{% endblocktrans %}</p>
+            </div>
+        </div>
+        <div class="row margin-50">
+            <div class="col-md-4 col-sm-12 pull-left">
+                <h2>{% blocktrans %}Banners{% endblocktrans %}</h2>
+                <p>{% blocktrans %}We have comprised a vast variety of banners to accommodate all the interests within the forex industry. Partners can get banners to promote low spreads, forex bonuses, high leveraged products or any aspect of the company; we have them in a range of sizes and languages for more options as we are also flexible in providing you with tailored solutions.{% endblocktrans %}</p>
+            </div>
+            <div class="col-md-4 col-sm-12 pull-left">
+                <h2>{% blocktrans %}Landing Pages{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Landing pages are pages onto which a potential client may arrive following a click on one of the banners we have provided. It is a single page that captivates a summary of what our company has to offer. We can provide a variety of appealing and customized landing pages, built with the aim of increasing introduced client’s conversion rates.{% endblocktrans %}</p>
+            </div>
+            <div class="col-md-4 col-sm-12 pull-left">
+                <h2>{% blocktrans %}Widgets{% endblocktrans %}</h2>
+                <p>{% blocktrans %}We have a variety of forex widgets, providing information on forex related products, such as the latest financial figures and the {{ COMPANY_NAME }} market sentiment. It is of great benefit and value as it allows partners to add value to a site as well as be rewarded through high turnover.{% endblocktrans %}</p>
+            </div>
+            <div class="col-md-4 col-sm-12 pull-left">
+                <h2>{% blocktrans %}Customized Requests{% endblocktrans %}</h2>
+                <p>{% blocktrans %}At {{ COMPANY_NAME }} we are always happy to receive requests from every individual partner and are open to discussing the possibility of making that request available in a mutually beneficial manner.{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+</body>

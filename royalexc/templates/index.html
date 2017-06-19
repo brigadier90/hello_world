@@ -1,0 +1,292 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container-topbar" style="margin: 0 auto">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 style="float: left; text-align: left; font-weight: 400">
+                    <p class="onslidertext" style="display: inline-block; margin-top: 50px; margin-bottom: 20px; color: #333; font-size: .8em; background: #FFCF01; padding: 10px">160+ TRADING INSTRUMENTS</p>
+                    <br> <p class="onslidertext"
+                        style="display: inline-block; margin-bottom: 40px; color: #333; background: none; font-size: .65em;">Forex, Gold, Energies, Commodities, Indices, Shares, Bonds</p>
+
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+     <!-- Brands Area Start -->
+    <div class="brands-area padding-20 fix">
+        <div class="container">
+            <div class="row">
+                <!-- Brands Area Title -->
+{#                <div class="col-xs-12">#}
+{#                    <div class="section-title fix">#}
+{#                        <h2>Our Brands</h2>#}
+{#                    </div>#}
+{#                </div>#}
+                <div class="col-xs-12">
+                    <!-- Brands Slider -->
+                    <div class="brand-slider owl-carousel">
+                        <!-- Single Brand -->
+                        <div class="single-brand">
+                            <img src="../static/img/0pips.png" alt=""/><br>
+                            <p class="gold">Spreads Starting From 0 pips</p>
+                        </div>
+                        <!-- Single Brand -->
+                        <div class="single-brand">
+                            <img src="../static/img/NoCommission.png" alt=""/><br>
+                            <p class="gold">No Commissions</p>
+                        </div>
+                        <!-- Single Brand -->
+                        <div class="single-brand">
+                            <img src="../static/img/Leverage2.png" alt=""/><br>
+                            <p class="gold">Leverage up to 1:500</p>
+                        </div>
+                        <!-- Single Brand -->
+                        <div class="single-brand">
+                            <img src="../static/img/Funding-Options1.png" alt=""/><br>
+                            <p class="gold">Funding Options</p>
+                        </div>
+                        <!-- Single Brand -->
+                        <div class="single-brand">
+                            <img src="../static/img/160-Instruments.png" alt=""/><br>
+                            <p class="gold">More Than 160 Trading Instruments</p>
+                        </div>
+{#                        <!-- Single Brand -->#}
+{#                        <div class="single-brand">#}
+{#                            <img src="../static/img/brands/6.png" alt=""/>#}
+{#                        </div>#}
+{#                        <!-- Single Brand -->#}
+{#                        <div class="single-brand">#}
+{#                            <img src="../static/img/brands/7.png" alt=""/>#}
+{#                        </div>#}
+{#                        <!-- Single Brand -->#}
+{#                        <div class="single-brand">#}
+{#                            <img src="../static/img/brands/8.png" alt=""/>#}
+{#                        </div>#}
+{#                        <!-- Single Brand -->#}
+{#                        <div class="single-brand">#}
+{#                            <img src="../static/img/brands/9.png" alt=""/>#}
+{#                        </div>#}
+{#                        <!-- Single Brand -->#}
+{#                        <div class="single-brand">#}
+{#                            <img src="../static/img/brands/10.png" alt=""/>#}
+{#                        </div>#}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Brands Area End -->
+    <!-- About Page Start -->
+    <div class="about-page page margin-bottom-70 fix">
+
+            <div class=" buttons-row row padding-top-70" style="background-color: #f5f5f6;">
+                <div class="col-md-12">
+                    <div class="register-buttons margin-bottom-70">
+                        <ul>
+                            <li><button class="btn btn-demo btb-lg">{% blocktrans %}DEMO ACCOUNT{% endblocktrans %}</button></li>
+                            <li><button class="btn btn-live btb-lg">{% blocktrans %}LIVE ACCOUNT{% endblocktrans %}</button></li>
+                        </ul>
+                        <p>{% blocktrans %}Trading involves a high level of risk{% endblocktrans %}</p>
+                    </div>
+                </div>
+            </div>
+        <div class="container">
+            <div class="row conditions">
+                <div class="col-md-12 header-superior margin-bottom-70">
+                    <div class="header-wrapper"><h2>{% blocktrans %}SUPERIOR TRADING CONDITIONS{% endblocktrans %}</h2></div>
+                    <br>
+                    <br>
+                    <br>
+                    <p>{% blocktrans %}As a global, fully licensed STP broker {{ COMPANY_NAME }} offers unparalleled trading conditions designed to meet all realistic expectations of both professional and new traders.{% endblocktrans %}</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="row conditions-image margin-bottom-70">
+                <div class="col-md-4 col-sm-6"><img src="../static/img/licence2.svg" alt=""></div>
+                <div class="col-md-4 col-sm-6"><img src="../static/img/spreads.svg" alt=""></div>
+                <div class="col-md-4 col-sm-6"><img src="../static/img/introducing.svg" alt=""></div>
+            </div>
+            <div class="row conditions-image margin-bottom-70">
+                <div class="col-md-4 col-sm-6"><img src="../static/img/security.svg" alt=""></div>
+                <div class="col-md-4 col-sm-6"><img src="../static/img/specifications.svg" alt=""></div>
+                <div class="col-md-4 col-sm-6"><img src="../static/img/contact.svg" alt=""></div>
+            </div>
+
+        </div>
+    </div><!-- About Page End -->
+
+    <div class="row multiple-platform">
+        <div class="container-topbar" style="margin: 0 auto;">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h3 class="margin-70"><b>{% blocktrans %}Multiple trading platforms under one Trading Account{% endblocktrans %}</b></h3>
+                <p><b>{{ COMPANY_NAME }} {% blocktrans %}provides its clients with the industry’s most reputable, award winning and sought after forex and CFDs platforms – Metatrader 4 (MT4). Access all the dynamic {{ COMPANY_NAME }} trading instruments under the same account from multiple platforms.{% endblocktrans %}</b></p>
+                <img src="../static/img/home_platforms_bundle.png" alt="">
+            </div>
+            <div class="col-md-6 col-sm-12 table-wrapper">
+                <div class="table-platforms">
+
+                </div>
+            </div>
+        </div>
+        </div>
+    <div class="row" style="background-color: #f5f5f6">
+        <div class="container-topbar" style="margin: 0 auto;">
+        <div class="col-md-6 select-platform" style="margin: 0 auto;">
+            <div class="col-md-4"><svg height="80px" viewBox="0 0 50.27 49.67"><defs><style>.cls-1{fill:#4d4d4d;}</style></defs><title>Zasób 2</title><g id="Warstwa_2" data-name="Warstwa 2"><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M22.95,26.22c.83-.26,26.36-.26,27.32,0V49.47l-.11.13a.18.18,0,0,1-.08,0,1.53,1.53,0,0,1-.37,0L23.26,46C23.09,39.4,23,32.8,22.95,26.22Z"/><path class="cls-1" d="M23,23.46c0-6.55,0-13,0-19.46.73-.34,26.4-4.13,27.3-4V23.46Z"/><path class="cls-1" d="M20.37,26.06V45.7L0,42.91V26.06C6.78,26,13.51,26,20.37,26.06Z"/><path class="cls-1" d="M0,7l20.33-2.8c.14,2.24.06,4.4.07,6.55s0,4.29,0,6.43,0,4.35,0,6.44l-.15.14s0,.06-.07.06a2.71,2.71,0,0,1-.46.07H.34a1.49,1.49,0,0,1-.34-.1Z"/></g></g></svg>
+            <p>Windows</p></div>
+            <div class="col-md-4"><svg height="80px" viewBox="0 0 46.64 56.78"><defs><style>.cls-1{fill:#fff;}</style></defs><title>apple</title><g id="Warstwa_2" data-name="Warstwa 2"><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M23.36,13C22.18,8,27.48.12,34.64,0a6.65,6.65,0,0,1,0,2.89,12.64,12.64,0,0,1-6.12,8.91A7.76,7.76,0,0,1,23.36,13Z"/><path class="cls-1" d="M46.64,41.64c-.1.3-.16.58-.26.83A38.64,38.64,0,0,1,40.49,52.9,12.11,12.11,0,0,1,36.92,56a6.16,6.16,0,0,1-4.77.53c-1.36-.39-2.71-.84-4-1.33A10.45,10.45,0,0,0,21.24,55q-2.08.65-4.13,1.39c-2.33.84-4.35.14-6.21-1.25a20.7,20.7,0,0,1-5-5.62A37.46,37.46,0,0,1,.34,35.06,23.6,23.6,0,0,1,1.2,23.48a14.53,14.53,0,0,1,6.63-8.2,11.7,11.7,0,0,1,8.79-1.21c1.37.34,2.7.87,4,1.31.21.07.41.15.62.24a5.86,5.86,0,0,0,5-.09,22.81,22.81,0,0,1,3.92-1.4A13.73,13.73,0,0,1,42.89,16.7a7.69,7.69,0,0,1,2.2,2.55C40.9,22,38.71,25.85,39,30.9S42.18,39.39,46.64,41.64Z"/></g></g></svg>
+            <p>Apple</p></div>
+            <div class="col-md-4"><svg height="80px" viewBox="0 0 52.9 62.24"><defs><style>.cls-1{fill:#4d4d4d;}</style></defs><title>andrioid</title><g id="Warstwa_2" data-name="Warstwa 2"><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M29,50H23.82c0,.93,0,1.8,0,2.67,0,1.86,0,3.72,0,5.59a3.85,3.85,0,1,1-7.71,0c0-2.53,0-5.05,0-7.58,0-.21,0-.43,0-.77-.79,0-1.54,0-2.29,0a6.49,6.49,0,0,1-1.85-.31,4,4,0,0,1-2.66-4c0-1.39,0-2.78,0-4.17q0-9.33,0-18.65c0-.56,0-1.13,0-1.83,5.79-.07,11.48,0,17.18,0H43.55c0,.47.07.84.07,1.2q0,11.6,0,23.2a4.71,4.71,0,0,1-.52,2.47,4.08,4.08,0,0,1-3.58,2.12c-.63,0-1.26,0-1.89,0-.28,0-.55,0-1,.07,0,1,0,2,0,3,0,1.86,0,3.72,0,5.58A3.67,3.67,0,0,1,34,62.06a3.81,3.81,0,0,1-5-3.56C29,56.73,29,55,29,53.2,29,52.16,29,51.12,29,50Z"/><path class="cls-1" d="M18.92,5.09a19.19,19.19,0,0,1,15,.07c.3-.48.6-.95.88-1.43.58-1,1.13-2,1.7-3.06l.2-.32a.5.5,0,0,1,.73-.19.49.49,0,0,1,.17.74l-1,1.82L35,5.52l.9.56a15.52,15.52,0,0,1,7.78,11.39c.09.58.08,1.18.12,1.91-11.61,0-23.1,0-34.71,0a14.75,14.75,0,0,1,2.45-8.23,17.42,17.42,0,0,1,6.34-5.64L16.64,3.14,15.4.9c-.17-.3-.25-.62.1-.82s.62,0,.78.3c.7,1.24,1.38,2.48,2.06,3.72C18.51,4.41,18.69,4.7,18.92,5.09Zm-.33,5.18a1.5,1.5,0,0,0-1.45,1.44,1.44,1.44,0,1,0,2.88,0A1.46,1.46,0,0,0,18.58,10.27Zm17.25,1.44a1.51,1.51,0,0,0-1.35-1.45A1.45,1.45,0,0,0,33,11.62a1.48,1.48,0,0,0,1.37,1.52A1.57,1.57,0,0,0,35.84,11.71Z"/><path class="cls-1" d="M7.71,32c0,2.65,0,5.3,0,7.94a3.79,3.79,0,0,1-4.06,3.9A3.79,3.79,0,0,1,0,40.08C0,37.65,0,35.22,0,32.79q0-4.16,0-8.33a4.39,4.39,0,0,1,.72-2.69,3.73,3.73,0,0,1,4-1.48A3.74,3.74,0,0,1,7.66,23.6c.08,1,.06,2,.07,2.93,0,1.83,0,3.66,0,5.48Z"/><path class="cls-1" d="M52.89,32c0,2.65,0,5.3,0,8a3.62,3.62,0,0,1-2.24,3.54A3.82,3.82,0,0,1,45.22,40c0-2,0-4,0-6.06,0-3.22,0-6.44,0-9.66A3.77,3.77,0,0,1,47,20.77a3.71,3.71,0,0,1,3.88-.1,3.53,3.53,0,0,1,2,3.21c0,2.71,0,5.43,0,8.14Z"/></g></g></svg>
+            <p>Android</p></div>
+        </div>
+            </div>
+    </div>
+    </div>
+    <div class="container-topbar" style="margin: 0 auto;">
+        <div class="row" style="margin-top: 200px; margin-bottom: 100px;">
+            <div class="col-md-4 col-sm-12">
+                <div class="standard-account-wraper">
+                    <div class="standard-account-topbar"></div>
+                    <div class="standard-account-content">
+                        <span>S</span>
+                        <div class="standard-account-spec">
+                            <h3>{% blocktrans %}STANDARD ACCOUNT{% endblocktrans %}</h3>
+                            <p id = "accounts-bad-paragraph">{% blocktrans %}Start trading with just $50. No commissions charged!{% endblocktrans %}</p>
+                            <br>
+                            <ul>
+                            <li></li>
+                                <li>{% blocktrans %}from 2.3 pips{% endblocktrans %}</li>
+                                <li>{% blocktrans %}Min Deposit $50{% endblocktrans %}</li>
+                                <li>{% blocktrans %}Market Execution{% endblocktrans %}</li>
+                                <li>{% blocktrans %}FX,Commodities, Equity Indices{% endblocktrans %}</li>
+                                <li>{% blocktrans %}1:1 - 1:500 Leverage{% endblocktrans %}</li>
+                                <li>{% blocktrans %}MetaTrader 4{% endblocktrans %}</li>
+                                <li>{% blocktrans %}Mobile Trading{% endblocktrans %}</li>
+                                <li>{% blocktrans %}No Comission{% endblocktrans %}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="standard-account-wraper">
+                    <div class="standard-account-topbar"></div>
+                    <div class="standard-account-content">
+                        <span>V</span>
+                        <div class="standard-account-spec">
+                            <h3 style="height:80px">{% blocktrans %}VIP ACCOUNT {% endblocktrans %}</h3>
+                            <p>{% blocktrans %}Dedicated 24 hour dealing support{% endblocktrans %}</p>
+                            <br>
+                            <ul>
+                            <li></li>
+                                <li>{% blocktrans %}from 1.9 pips{% endblocktrans %}</li>
+                                <li>{% blocktrans %}Min Deposit $2,000{% endblocktrans %}</li>
+                                <li>{% blocktrans %}Market Execution{% endblocktrans %}</li>
+                                <li>{% blocktrans %}FX,Commodities, Equity Indices{% endblocktrans %}</li>
+                                <li>{% blocktrans %}1:1 - 1:500 Leverage{% endblocktrans %}</li>
+                                <li>{% blocktrans %}MetaTrader 4{% endblocktrans %}</li>
+                                <li>{% blocktrans %}Telephone Trading{% endblocktrans %}</li>
+                                <li>{% blocktrans %}24 Hours Dealing Support{% endblocktrans %}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                                <div class="standard-account-wraper">
+                    <div class="standard-account-topbar"></div>
+                    <div class="standard-account-content">
+                        <span>P</span>
+                        <div class="standard-account-spec">
+                            <h3>{% blocktrans %}PLATINUM ACCOUNT{% endblocktrans %}</h3>
+                            <p>{% blocktrans %}Go pro with a ZERO spread account{% endblocktrans %}</p>
+                            <br>
+                            <ul>
+                            <li></li>
+                                <li>{% blocktrans %}from 0 pips{% endblocktrans %}</li>
+                                <li>{% blocktrans %}Min Deposit $5,000{% endblocktrans %}</li>
+                                <li>{% blocktrans %}Market Execution{% endblocktrans %}</li>
+                                <li>{% blocktrans %}FX,Commodities, Equity Indices{% endblocktrans %}</li>
+                                <li>{% blocktrans %}1:1 - 1:500 Leverag{% endblocktrans %}e</li>
+                                <li>{% blocktrans %}MetaTrader 4{% endblocktrans %}</li>
+                                <li>{% blocktrans %}Telephone Trading{% endblocktrans %}</li>
+                                <li>{% blocktrans %}24 Hours Dealing Support{% endblocktrans %}</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service Area Start -->
+    <div class="service-area">
+            <div class=" buttons-row row padding-top-70" style="background-color: #f5f5f6;">
+                <div class="col-md-12">
+                    <div class="register-buttons margin-bottom-70">
+                        <ul>
+                            <li><button class="btn btn-demo btb-lg">{% blocktrans %}DEMO ACCOUNT{% endblocktrans %}</button></li>
+                            <li><button class="btn btn-live btb-lg">{% blocktrans %}LIVE ACCOUNT{% endblocktrans %}</button></li>
+                        </ul>
+                        <p>{% blocktrans %}Trading involves a high level of risk{% endblocktrans %}</p>
+                    </div>
+                </div>
+            </div>
+    </div><!-- Service Area End -->
+
+    <div class="container bank-logos">
+
+        <div class="row">
+            <div class="col-sm-3"> <img src="../static/img/visa-final.png"></div>
+            <div class="col-sm-3"> <img src="../static/img/master-card-logo-final.png"></div>
+            <div class="col-sm-3"> <img src="../static/img/visa-verified-final.png"></div>
+            <div class="col-md-3"> <img src="../static/img/master-card-secure-final.png"></div>
+
+        </div>
+        
+    </div>
+    <!-- Subscribe Area Start -->
+{#    <div class="subscribe-social">#}
+{#        <div class="container">#}
+{#            <div class="row">#}
+{#                <div class="col-md-6 col-xs-12">#}
+{#                    <div class="footer-subscribe">#}
+{#                        <form action="#" method="post">#}
+{#                            <div class="input-box">#}
+{#                                <input type="text" placeholder="Your Email" name="email">#}
+{#                            </div>#}
+{#                            <div class="actions">#}
+{#                                <input type="submit" value="Subscribe"/>#}
+{#                            </div>#}
+{#                        </form>#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class="col-md-6 col-xs-12">#}
+{#                    <div class="social-footer">#}
+{#                        <ul class="link-follow">#}
+{#                            <li><a class="twitter fa fa-twitter" href="#"></a></li>#}
+{#                            <li><a class="google fa fa-google-plus" href="#"></a></li>#}
+{#                            <li><a class="facebook fa fa-facebook" href="#"></a></li>#}
+{#                            <li><a class="linkedin fa fa-linkedin" href="#"></a></li>#}
+{#                            <li><a class="youtube fa fa-youtube" href="#"></a></li>#}
+{#                            <li><a class="vimeo-square fa fa-vimeo-square" href="#"></a></li>#}
+{#                        </ul>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+    <!-- Subscribe Area End -->
+
+    {% endblock %}
+</body>

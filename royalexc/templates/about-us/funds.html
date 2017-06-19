@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Funds Security{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}About Us{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Funds Security{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-page founds page margin-bottom-70 fix">
+        <div class="container funds">
+            <div class="row ">
+                <div class="col-md-12">
+                    <h1 style="margin-bottom: 20px;"> {% blocktrans %}{{ COMPANY_NAME }} ensures maximum security of your funds!{% endblocktrans %}</h1>
+                    <p><b>{% blocktrans %}As a financial institution {{ COMPANY_NAME }} takes every preventative measure to ensure client investments are highly secure and safe under all circumstances. This level of security is achieved through the following:{% endblocktrans %}</b></p>
+                </div>
+            </div>
+            <div class="row funds-main">
+                <div class="col-md-6 under-main-wrapper">
+                <div class="">
+                    <i class="fa fa-shield gold" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <h4><b>{% blocktrans %}Segregation of client funds{% endblocktrans %}</b></h4>
+                    <p>{% blocktrans %}Client funds are held in separate accounts within secure banking institutions, thereby protecting their use for any other purpose. This segregation from the company’s own accounts ensures that traders’ funds cannot be used by the company under any circumstances.{% endblocktrans %}</p>
+                </div>
+                </div>
+                <div class="col-md-6 under-main-wrapper">
+                <div class="">
+                    <i class="fa fa-institution gold" aria-hidden="true"></i>
+                </div>
+                <div class="">
+                    <h4><b>{% blocktrans %}Full Regulation{% endblocktrans %}</b></h4>
+                    <p>{% blocktrans %}{{ COMPANY_NAME }} is licensed by the International Financial Services Commission (“IFSC”) in Belize which means the company is monitored and has to comply to governing rules and regulations.{% endblocktrans %}</p>
+                </div>
+                </div>
+            </div>
+            <div class="row ssl-wrapper">
+                <div class="col-md-12 margin-top-70" style="margin-top: 20px">
+                    <h4><img class="ssl-image" src="../../static/img/SSL-Secure-Connection.jpg" alt=""><b>{% blocktrans %}SSL Security with 256 Bit Encryption{% endblocktrans %}</b></h4>
+                    <p>{% blocktrans %}Clients financial transactions are all protected by the Secure Sockets Layer (SSL), which is a security technology for establishing an encrypted link between a web server and a web browser ensuring all data passed between the web server and browser remains private.{% endblocktrans %}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+</body>

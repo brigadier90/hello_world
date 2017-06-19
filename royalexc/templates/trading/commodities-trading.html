@@ -1,0 +1,575 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}Commodities Trading{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Trading{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Commodities Trading{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container fx-currencies">
+        <div class="row margin-50">
+            <div class="col-md-12">
+                <h2>{% blocktrans %}Online Commodity Trading with {{ COMPANY_NAME }}.{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Diversify your portfolio and trade commodities.{% endblocktrans %}</p>
+                <h2>{% blocktrans %}Why trade commodities?{% endblocktrans %}</h2>
+            </div>
+        </div>
+        <div class="row fx-currencies-borders">
+            <div class="col-md-4 col-sm-12">
+                <p><b>{% blocktrans %}Up to 1:500 leverage{% endblocktrans %}</b></p>
+                <p><b>{% blocktrans %}A selection of trading platforms{% endblocktrans %}</b></p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p><b>{% blocktrans %}Excellent hedging potential{% endblocktrans %}</b></p>
+                <p><b>{% blocktrans %}Highly liquid assets{% endblocktrans %}</b></p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p><b>{% blocktrans %}Fully transparent, no hidden fees{% endblocktrans %}</b></p>
+            </div>
+        </div>
+        <div class="row margin-70">
+            <p>{% blocktrans %}Trade a range of energy and agricultural commodities including oil, gold, natural gas and silver. See our table for full list of commodities available for trading.{% endblocktrans %}</p>
+
+    <ul class="table-topbar margin-top-70">
+        <li id="platinum-button-ct">Platinum</li>
+        <li id="vip-button-ct">VIP</li>
+        <li id="standard-button-ct">Standard</li>
+    </ul>
+
+    <div class="table-responsive" id="platinum-table-ct" style="display: block">
+<table class="table">
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Spread</th>
+<th>Min/Max Lot Contract Size</th>
+<th>Lot Contract Size</th>
+<th>Pip Value Per Lot</th>
+<th>Margin Used Per 1 Lot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aluminium</td>
+<td>1005</td>
+<td>0.1/20</td>
+<td>25</td>
+<td>0.25</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>Copper</td>
+<td>65</td>
+<td>0.1/20</td>
+<td>25000</td>
+<td>2.5</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>XAGUSD*</td>
+<td>3.7</td>
+<td>0.1/20</td>
+<td>5000 Troy Ounce</td>
+<td>50 USD</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>XAUUSD*</td>
+<td>41</td>
+<td>0.1/20</td>
+<td>100 Troy Ounce</td>
+<td>1 USD</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>XPDUSD*</td>
+<td>36</td>
+<td>0.1/20</td>
+<td>10 oz</td>
+<td>0,10 USD</td>
+<td>lot x contract size x market price x 20%</td>
+</tr>
+<tr>
+<td>XPTUSD*</td>
+<td>41</td>
+<td>0.1/20</td>
+<td>5 oz</td>
+<td>0,05 USD</td>
+<td>lot x contract size x market price x 20%</td>
+</tr>
+<tr>
+<td>Zinc</td>
+<td>1005</td>
+<td>0.1/20</td>
+<td>25</td>
+<td>0.25</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>BRTUSD</td>
+<td>12</td>
+<td>0.1/20</td>
+<td>1000 Barrels</td>
+<td>1 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>NGAS</td>
+<td>10</td>
+<td>0.1/20</td>
+<td>1000 CFDs</td>
+<td>1 USD</td>
+<td><span>lot x contract size x market price x 10%</span></td>
+</tr>
+<tr>
+<td>ORANGE</td>
+<td>105</td>
+<td>0.1/20</td>
+<td>150</td>
+<td>1.50</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>USOil1000</td>
+<td>5</td>
+<td>0.1/20</td>
+<td>1000 Barrels</td>
+<td>10 USD</td>
+<td>1000xPricex1%</td>
+</tr>
+<tr>
+<td>Cocoa</td>
+<td>1007</td>
+<td>0.1/20</td>
+<td>10</td>
+<td>0.10</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>CORN (spot)</td>
+<td>55</td>
+<td>0.1/20</td>
+<td>50 bushels</td>
+<td>0.5 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>Cotton</td>
+<td>105</td>
+<td>0.1/20</td>
+<td>50</td>
+<td>0.5</td>
+<td><span>lot x contract size x market price x 10%</span></td>
+</tr>
+<tr>
+<td>Rice</td>
+<td>13</td>
+<td>0.1/20</td>
+<td>2000</td>
+<td>20</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>SOYBEAN</td>
+<td>205</td>
+<td>0.1/20</td>
+<td>50 Bushels</td>
+<td>0.50 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>SUGAR</td>
+<td>9</td>
+<td>0.1/20</td>
+<td>1120 LB</td>
+<td>11.20 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>USCOFFEE</td>
+<td>90</td>
+<td>0.1/20</td>
+<td>37, 500 pounds</td>
+<td>3.75 USD</td>
+<td>lot x contract size x market price x 1%</td>
+</tr>
+<tr>
+<td>WHEAT</td>
+<td>55</td>
+<td>0.1/20</td>
+<td>50 bushels</td>
+<td>5 USD</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+ <div class="table-responsive" id="vip-table-ct" style="display: none">
+<table class="table">
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Spread</th>
+<th>Min/Max Lot Contract Size</th>
+<th>Lot Contract Size</th>
+<th>Pip Value Per Lot</th>
+<th>Margin Used Per 1 Lot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aluminium</td>
+<td>1007</td>
+<td>0.1/20</td>
+<td>25</td>
+<td>0.25</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>Copper</td>
+<td>67</td>
+<td>0.1/20</td>
+<td>25000</td>
+<td>2.5</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>XAGUSD*</td>
+<td>3.9</td>
+<td>0.1/20</td>
+<td>5000 Troy Ounce</td>
+<td>50 USD</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>XAUUSD*</td>
+<td>50</td>
+<td>0.1/20</td>
+<td>100 Troy Ounce</td>
+<td>1 USD</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>XPDUSD*</td>
+<td>41</td>
+<td>0.1/20</td>
+<td>10 oz</td>
+<td>0,10 USD</td>
+<td>lot x contract size x market price x 20%</td>
+</tr>
+<tr>
+<td>XPTUSD*</td>
+<td>47</td>
+<td>0.1/20</td>
+<td>5 oz</td>
+<td>0,05 USD</td>
+<td>lot x contract size x market price x 20%</td>
+</tr>
+<tr>
+<td>Zinc</td>
+<td>1007</td>
+<td>0.1/20</td>
+<td>25</td>
+<td>0.25</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>BRTUSD</td>
+<td>13</td>
+<td>0.1/20</td>
+<td>1000 Barrels</td>
+<td>1 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>NGAS</td>
+<td>12</td>
+<td>0.1/20</td>
+<td>1000 CFDs</td>
+<td>1 USD</td>
+<td><span>lot x contract size x market price x 10%</span></td>
+</tr>
+<tr>
+<td>ORANGE</td>
+<td>107</td>
+<td>0.1/20</td>
+<td>150</td>
+<td>1.50</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>USOil1000</td>
+<td>9</td>
+<td>0.1/20</td>
+<td>1000 Barrels</td>
+<td>10 USD</td>
+<td>1000xPricex1%</td>
+</tr>
+<tr>
+<td>Cocoa</td>
+<td>1007</td>
+<td>0.1/20</td>
+<td>10</td>
+<td>0.10</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>CORN (spot)</td>
+<td>57</td>
+<td>0.1/20</td>
+<td>50 bushels</td>
+<td>0.5 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>Cotton</td>
+<td>107</td>
+<td>0.1/20</td>
+<td>50</td>
+<td>0.5</td>
+<td><span>lot x contract size x market price x 10%</span></td>
+</tr>
+<tr>
+<td>Rice</td>
+<td>14</td>
+<td>0.1/20</td>
+<td>2000</td>
+<td>20</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>SOYBEAN</td>
+<td>207</td>
+<td>0.1/20</td>
+<td>50 Bushels</td>
+<td>0.50 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>SUGAR</td>
+<td>10</td>
+<td>0.1/20</td>
+<td>1120 LB</td>
+<td>11.20 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>USCOFFEE</td>
+<td>90</td>
+<td>0.1/20</td>
+<td>37, 500 pounds</td>
+<td>3.75 USD</td>
+<td>lot x contract size x market price x 1%</td>
+</tr>
+<tr>
+<td>WHEAT</td>
+<td>57</td>
+<td>0.1/20</td>
+<td>50 bushels</td>
+<td>5 USD</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+ <div class="table-responsive" id="standard-table-ct" style="display: none">
+<table class="table">
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Spread</th>
+<th>Min/Max Lot Contract Size</th>
+<th>Lot Contract Size</th>
+<th>Pip Value Per Lot</th>
+<th>Margin Used Per 1 Lot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aluminium</td>
+<td>1010</td>
+<td>0.1/20</td>
+<td>25</td>
+<td>0.25</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>Copper</td>
+<td>70</td>
+<td>0.1/20</td>
+<td>25000</td>
+<td>2.5</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>XAGUSD*</td>
+<td>4.1</td>
+<td>0.1/20</td>
+<td>5000 Troy Ounce</td>
+<td>50 USD</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>XAUUSD*</td>
+<td>55</td>
+<td>0.1/20</td>
+<td>100 Troy Ounce</td>
+<td>1 USD</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>XPDUSD*</td>
+<td>50</td>
+<td>0.1/20</td>
+<td>10 oz</td>
+<td>0,10 USD</td>
+<td>lot x contract size x market price x 20%</td>
+</tr>
+<tr>
+<td>XPTUSD*</td>
+<td>52</td>
+<td>0.1/20</td>
+<td>5 oz</td>
+<td>0,05 USD</td>
+<td>lot x contract size x market price x 20%</td>
+</tr>
+<tr>
+<td>Zinc</td>
+<td>1010</td>
+<td>0.1/20</td>
+<td>25</td>
+<td>0.25</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>BRTUSD</td>
+<td>14</td>
+<td>0.1/20</td>
+<td>1000 Barrels</td>
+<td>1 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>NGAS</td>
+<td>15</td>
+<td>0.1/20</td>
+<td>1000 CFDs</td>
+<td>1 USD</td>
+<td><span>lot x contract size x market price x 10%</span></td>
+</tr>
+<tr>
+<td>ORANGE</td>
+<td>110</td>
+<td>0.1/20</td>
+<td>150</td>
+<td>1.50</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>USOil1000</td>
+<td>10</td>
+<td>0.1/20</td>
+<td>1000 Barrels</td>
+<td>10 USD</td>
+<td>1000xPricex1%</td>
+</tr>
+<tr>
+<td>Cocoa</td>
+<td>1010</td>
+<td>0.1/20</td>
+<td>10</td>
+<td>0.10</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>CORN (spot)</td>
+<td>60</td>
+<td>0.1/20</td>
+<td>50 bushels</td>
+<td>0.5 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>Cotton</td>
+<td>110</td>
+<td>0.1/20</td>
+<td>50</td>
+<td>0.5</td>
+<td><span>lot x contract size x market price x 10%</span></td>
+</tr>
+<tr>
+<td>Rice</td>
+<td>16</td>
+<td>0.1/20</td>
+<td>2000</td>
+<td>20</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+<tr>
+<td>SOYBEAN</td>
+<td>210</td>
+<td>0.1/20</td>
+<td>50 Bushels</td>
+<td>0.50 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td>SUGAR</td>
+<td>14</td>
+<td>0.1/20</td>
+<td>1120 LB</td>
+<td>11.20 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr></tr>
+<tr>
+<td>USCOFFEE</td>
+<td>90</td>
+<td>0.1/20</td>
+<td>37, 500 pounds</td>
+<td>3.75 USD</td>
+<td>lot x contract size x market price x 1%</td>
+</tr>
+<tr>
+<td>WHEAT</td>
+<td>60</td>
+<td>0.1/20</td>
+<td>50 bushels</td>
+<td>5 USD</td>
+<td><span>lot x contract size x market price x 2%</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+        </div>
+    </div>
+
+
+    {% endblock %}
+</body>

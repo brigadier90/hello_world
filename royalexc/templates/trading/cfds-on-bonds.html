@@ -1,0 +1,111 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}CFDs on Bonds{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Trading{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}CFDs on Bonds{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container fx-currencies">
+        <div class="row margin-50">
+            <div class="col-md-12">
+                <h2>{% blocktrans %} Trade CFDs Bonds with {{ COMPANY_NAME }}{% endblocktrans %}</h2>
+                <p>{% blocktrans %}As a {{ COMPANY_NAME }} client you have exclusive access to the bond markets through contracts for difference{% endblocktrans %}</p>
+            </div>
+        </div>
+
+    <div class="row margin-50 fx-currencies-borders">
+        <div class="col-md-6 col-sm-12 ">
+            <p>{% blocktrans %}Trade on global bonds from your {{ COMPANY_NAME }} Account{% endblocktrans %}</p>
+            <p>{% blocktrans %}Low latency, super fast execution{% endblocktrans %}</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <p>{% blocktrans %}Full trading access, hedging and scalping welcome{% endblocktrans %}</p>
+            <p>{% blocktrans %}Up to 1:500 leverage{% endblocktrans %}</p>
+        </div>
+
+    </div>
+
+    <div class="row margin-bottom-70">
+       <div class="col-md-12">
+		<p>{% blocktrans %}NOTE: All Spreads are variable and can change based on market volatility.{% endblocktrans %}</p>
+
+       <div class="table-responsive margin-70">
+<table class="table">
+<thead>
+<tr class="c-c-bg-blue">
+<th class="c-c-light">Symbol</th>
+<th class="c-c-light">Spread</th>
+<th class="c-c-light">Min/Max Lot Contract Size</th>
+<th class="c-c-light">Lot Size</th>
+<th class="c-c-light">Pip Value Per Lot</th>
+<th class="c-c-light">Margin Used Per 1 Lot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>US30YBond</span></td>
+<td>0.14</td>
+<td>0.1/20</td>
+<td><span>1000</span></td>
+<td>100 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td><span>US10YNote</span></td>
+<td>0.14</td>
+<td><span>0.1</span>/20</td>
+<td><span>1000</span></td>
+<td>100 USD</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td><span>JPN10YBond</span></td>
+<td>0.16</td>
+<td><span>0.1</span>/20</td>
+<td><span>10000</span></td>
+<td>100,000 JPY</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr>
+<td><span>GER10YBond</span></td>
+<td>0.14</td>
+<td><span>0.1</span>/20</td>
+<td><span>1000</span></td>
+<td>100 EUR</td>
+<td><span>lot x contract size x market price x 1%</span></td>
+</tr>
+<tr></tr>
+</tbody>
+</table>
+</div>
+
+       </div>
+
+	   </div>
+    </div>
+    {% endblock %}
+</body>

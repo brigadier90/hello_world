@@ -1,0 +1,67 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+<body>
+{% block content %}
+
+    <!-- Page Banner Start -->
+    <div class="page-banner padding-120 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>{% blocktrans %}WebTrader{% endblocktrans %}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner End -->
+    <div class="page-breadcrumb fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="#">{% blocktrans %}Home{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}Platforms{% endblocktrans %}</a></li>
+                        <li><a href="#">{% blocktrans %}WebTrader{% endblocktrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container fx-currencies">
+        <div class="row margin-50">
+            <p><b>{% blocktrans %}Web-Based MT4 Platform{% endblocktrans %}</b></p>
+            <p>{% blocktrans %}Start trading on MT4 in seconds with{% endblocktrans %} {{ COMPANY_NAME }} {% blocktrans %}WebTrader!{% endblocktrans %}</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="../../static/img/rxc-webtrader.png">
+                </div>
+                <div class="col-lg-6">
+                    <p>{% blocktrans %}Access the world’s leading trading platform, MetaTrader 4 (MT4) on Chrome, Firefox, Microsoft Edge, Internet Explorer and Safari!{% endblocktrans %}</p>
+                    <p>{% blocktrans %}To get started with{% endblocktrans %} {{ COMPANY_NAME }} {% blocktrans %}WebTrader, all you need is an internet connection and an{% endblocktrans %} {{ COMPANY_NAME }} {% blocktrans %}trading account! As{% endblocktrans %} {{ COMPANY_NAME }} {% blocktrans %}WebTrader is a web-based trading platform, you don’t need to download any software either. Simply launch{% endblocktrans %} {{ COMPANY_NAME }} {% blocktrans %}WebTrader from here or register an account with us and get started. It’s that easy!{% endblocktrans %}</p>
+                <p><b>{{ COMPANY_NAME }} {% blocktrans %}WebTrader is supported by the following browsers:{% endblocktrans %}</b></p>
+                    <p>{% blocktrans %}Google Chrome 51* Microsoft Edge 12* Internet Explorer 11* Mozilla Firefox 34* Safari 8* Opera 32*{% endblocktrans %}</p>
+                    <p>{% blocktrans %}* and higher{% endblocktrans %}</p>
+                    <button>{% blocktrans %}Run WebTrader{% endblocktrans %}</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p><b>{% blocktrans %}Key{% endblocktrans %} {{ COMPANY_NAME }} {% blocktrans %}WebTrader Benefits{% endblocktrans %}</b></p>
+                    <p>{{ COMPANY_NAME }} {% blocktrans %}WebTrader requires no download. Use your existing MT4 credentials to login and trade from your browser.{% endblocktrans %}</p>
+                    <p>{% blocktrans %}It works on any web browser and supports all operating systems, which makes it so much easier to get started!{% endblocktrans %}</p>
+                    <p>{{ COMPANY_NAME }} {% blocktrans %}WebTrader’s user interface is super easy to use, plus it’s available in loads of languages{% endblocktrans %}</p>
+                    <p>{% blocktrans %}Our “One-Click-Execution” allows you to place trades in a mouse click!{% endblocktrans %} {{ COMPANY_NAME }} {% blocktrans %}WebTrader comes fully equipped with 9 chart time frames.{% endblocktrans %}</p>
+                    <p>{% blocktrans %}You can easily trade from charts and also monitor all your active orders directly on the chart.{% endblocktrans %}</p>
+                    <p>{{ COMPANY_NAME }} {% blocktrans %}WebTrader also has in-built advanced analysis tools, which are there to help you trade better.{% endblocktrans %}</p>
+                    <p>{% blocktrans %}With{% endblocktrans %} {{ COMPANY_NAME }} {% blocktrans %}WebTrader, you can view your account history in just a couple of clicks.{% endblocktrans %}</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../../static/img/rxc-webtrader.png">
+                    </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+</body>
